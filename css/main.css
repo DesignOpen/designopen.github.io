@@ -1,7 +1,7 @@
 body {
   padding: 20px 0;
 }
-#content {
+#manifesto {
   font: source-sans-pro, sans;
   width: 300px;
   height: 534px;
@@ -13,7 +13,7 @@ body {
   border: 1px solid #999;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  #content {
+  #manifesto {
     background-image: url("../img/manifesto@2X.jpg");
     background-size: cover;
   }
