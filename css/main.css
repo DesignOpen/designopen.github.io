@@ -1,12 +1,13 @@
 body {
-  padding-top: 40px;
+  padding: 20px 0;
 }
 #content {
   font: source-sans-pro, sans;
-  width: 400px;
+  width: 300px;
   height: 534px;
   background-image: url("../img/manifesto.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   position: relative;
   margin: 0 auto;
   border: 1px solid #999;
