@@ -1,8 +1,23 @@
 body {
-  padding: 20px 0;
+  font-family: 'source_sans_pro', sans;
 }
+.site {
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+  margin: 0 auto;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 #manifesto {
-  font: source-sans-pro, sans;
   width: 300px;
   height: 534px;
   background-image: url("../img/manifesto.jpg");
