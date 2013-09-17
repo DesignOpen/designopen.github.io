@@ -5,7 +5,7 @@ category: blogging_about
 tags: design, design update
 ---
 
-The catalyst for this site was a number of conversations I've had with some smart designers and developers and a my personal interest in Free and Open Source software. I think the design community could benefit from the lessons learned by the F/OSS development community.
+The catalyst for this site was a number of conversations I've had with some smart designers and developers and my personal interest in Free and Open Source software (F/OSS). I think the design community could benefit from the lessons learned by F/OSS development.
 
 The topic then turned into a session I gave at BlendConf 2013.  The session was recorded and I'll post the video when it is available (which will be in about 60 days).
 
