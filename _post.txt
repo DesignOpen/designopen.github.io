@@ -1,0 +1,6 @@
+---
+title:
+layout: post
+category: blogging_about
+tags:
+---

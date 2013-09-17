@@ -1,5 +1,11 @@
 permalink: /:categories/:title/
 pygments: true
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
 authors:
   garthdb:
     display_name: Garth Braithwaite
