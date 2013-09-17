@@ -1,1 +1,10 @@
+permalink: /:categories/:title/
 pygments: true
+authors:
+  garthdb:
+    display_name: Garth Braithwaite
+    gravatar: b5cf6e112eeee572d722743dea924487
+    email: garthdb@gmail.com
+    web: http://www.garthdb.com/
+    twitter: garthdb
+    github: garthdb
