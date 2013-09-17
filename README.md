@@ -1,3 +1,5 @@
 # opensourcedesignis.github.com
 
-Homepage
+Blog for the site.
+
+I'm taking screenshots of the design as it progresses - sizing the window to 1024x900 px.
