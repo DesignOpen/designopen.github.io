@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign author = site.authors[page.author] %}
 <div id="content" class="site">
   <article>
     <header>
@@ -9,9 +10,9 @@ layout: default
     {{ content }}
     <footer>
       <div class="author">
-        <a href="{{site.authors[page.author].web}}"><img src="http://www.gravatar.com/avatar/{{site.authors[page.author].gravatar}}" alt="{{site.authors[page.author].display_name}}" width="30" height="30"></a>
-<h3>About the author: <a href="{{site.authors[page.author].web}}">{{site.authors[page.author].display_name}}</a></h3>
-<p class="author_bio">{{site.authors[page.author].bio}}</p>
+        <a href="{{author.web}}"><img src="http://www.gravatar.com/avatar/{{author.gravatar}}" alt="{{author.display_name}}" width="30" height="30"></a>
+<h3>About the author: <a href="{{site.authors[page.author].web}}">{{author.display_name}}</a></h3>
+<p class="author_bio">{{author.bio}}</p>
       </div>
     </footer>
   </article>
