@@ -3,8 +3,18 @@ layout: default
 ---
 <div id="content" class="site">
   <article>
-    <header><h3>{{ page.title }}</h3></header>
+    <header>
+      <h3>{{ page.title }}</h3>
+    </header>
     {{ content }}
+    <footer>
+      <div class="author">
+        <a href="{{site.authors[page.author].web}}"><img src="http://www.gravatar.com/avatar/{{site.authors[page.author].gravatar}}" alt="{{site.authors[page.author].display_name}}" width="30" height="30"></a>
+        <div>About the author: <a href="{{site.authors[page.author].web}}">{{site.authors[page.author].display_name}}</a><div>
+        <div class="author_bio">{{site.authors[page.author].bio}}</div>
+      </div>
+    </footer>
   </article>
 </div>
+<br>
 <footer class="site">{% include comments.html %}</footer>
