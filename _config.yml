@@ -1,5 +1,6 @@
 permalink: /:categories/:title/
 pygments: true
+url: http://opensourcedesign.is
 post:
   template: _post.txt
   extension: md
@@ -14,3 +15,4 @@ authors:
     web: http://www.garthdb.com/
     twitter: garthdb
     github: garthdb
+    bio: 'Engineer at Adobe working on <a href="http://www.topcoat.io">Topcoat</a>.'
