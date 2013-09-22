@@ -4,6 +4,7 @@ require 'rake'
 require 'yaml'
 require 'fileutils'
 require 'rbconfig'
+require 'sass'
 
 # == Configuration =============================================================
 
@@ -19,6 +20,7 @@ DATE = Time.now.strftime("%Y-%m-%d")
 # Directories
 POSTS = "_posts"
 DRAFTS = "_drafts"
+STYLES = "css"
 
 # == Helpers ===================================================================
 
