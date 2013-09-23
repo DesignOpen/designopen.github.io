@@ -1,8 +1,6 @@
 ---
 title: How Designers Can Contribute to Open Source Projects
 layout: post
-category: blogging_about
-tags:
 author: garthdb
 ---
 
