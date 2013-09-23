@@ -17,6 +17,10 @@ a:hover {
   text-decoration: underline;
 }
 
+strong, h1, h2, h3, h4, h5, h6 {
+  font-family: 'source_sans_probold', sans;
+}
+
 #manifesto {
   width: 300px;
   height: 534px;
