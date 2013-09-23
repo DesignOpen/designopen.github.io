@@ -25,3 +25,15 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('sourcesanspro-bold-webfont.eot');
+    src: url('sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sourcesanspro-bold-webfont.woff') format('woff'),
+         url('sourcesanspro-bold-webfont.ttf') format('truetype'),
+         url('sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
