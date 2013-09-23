@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Building this Site
-category: blogging_about
 tags: design, design update
 author: garthdb
 ---
