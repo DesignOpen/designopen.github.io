@@ -5,6 +5,9 @@ name: Open Source Design
 post:
   template: _post.txt
   extension: md
+resource:
+  template: _resource.txt
+  extension: md
 page:
   template: _page.txt
   extension: md
