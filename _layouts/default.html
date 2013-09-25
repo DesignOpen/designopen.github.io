@@ -14,8 +14,21 @@
   </head>
   <!-- <body id="{{ page.title | downcase | replace:' ','-' }}-page"> -->
   <body>
-    <header class="site"><h2><a href="/">Open Source Design</a></h2></header>
+    <header class="site"><h2><a href="/">Open Source Design</a></h2>
+      <nav id="mainnav">
+        <ul>
+          <li><a href="/resourced">Resources</a></li>
+        </ul>
+      </nav>
+    </header>
     {{ content }}
     {% include analytics.html %}
   </body>
+  <footer class="site">
+    <nav id="mainnav">
+      <ul>
+        <li><a href="/atom.xml">Atom Feed</a></li>
+      </ul>
+    </nav>
+  </footer>
 </html>
