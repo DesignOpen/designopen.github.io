@@ -2,7 +2,7 @@
 layout: default
 ---
 <div id="content" class="site">
-  <article>
+  <section>
     <h3 class="title">Blog Posts</h3>
     <section>
       <ul>
@@ -11,5 +11,15 @@ layout: default
       {% endfor %}
       </ul>
     </section>
-  </article>
+  </section>
+  <section>
+    <h3 class="title">Resources</h3>
+    <section>
+      <ul>
+      {% for post in site.categories.resourced %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </section>
+  </section>
 </div>
