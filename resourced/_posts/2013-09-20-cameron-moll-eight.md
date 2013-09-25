@@ -1,8 +1,8 @@
 ---
-layout: link
-title: Download EIGHT.psd
-url: http://cameronmoll.tumblr.com/post/61590854809/download-eight-psd
-tags: source
+title: EIGHT.psd
+layout: resource
+source_url: http://cameronmoll.tumblr.com/post/61590854809/download-eight-psd
+tags: source,example
 contributor: mrondina
 posted_date: 2013-09-18
 ---
