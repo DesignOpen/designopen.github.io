@@ -14,8 +14,8 @@ layout: default
 <h3>About the author: <a href="{{site.authors[page.author].web}}">{{author.display_name}}</a></h3>
 <p class="author_bio">{{author.bio}}</p>
       </div>
+      {% include comments.html %}
     </footer>
   </article>
 </div>
 <br>
-<footer class="site">{% include comments.html %}</footer>
