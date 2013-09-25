@@ -17,7 +17,8 @@ CONFIG = YAML.load_file("_config.yml")
 DATE = Time.now.strftime("%Y-%m-%d")
 
 # Directories
-POSTS = "_posts"
+POSTS = "blogging_about/_posts/"
+RESOURCES = "resourced/_posts/"
 DRAFTS = "_drafts"
 
 # == Helpers ===================================================================
@@ -27,7 +28,7 @@ def execute(command)
   system "#{command}"
 end
 
-# Chech the title
+# Check the title
 def check_title(title)
   if title.nil? or title.empty?
     raise "Please add a title to your file."
@@ -80,7 +81,7 @@ end
 # == Tasks =====================================================================
 
 # rake post["Title"]
-desc "Create a post in _posts"
+desc "Create a post in blogging_about/_posts/"
 task :post, :title do |t, args|
   title = args[:title]
   template = CONFIG["post"]["template"]
@@ -122,6 +123,19 @@ task :publish do
   else
     puts "Please choose a draft by the assigned number."
   end
+end
+
+# rake resource["Title"]
+desc "Create a resource in resourced/_posts/"
+task :resource, :title do |t, args|
+  title = args[:title]
+  template = CONFIG["resource"]["template"]
+  extension = CONFIG["resource"]["extension"]
+  editor = CONFIG["editor"]
+  check_title(title)
+  filename = "#{DATE}-#{transform_to_slug(title, extension)}"
+  content = read_file(template)
+  create_file(RESOURCES, filename, content, title, editor)
 end
 
 # rake page["Title"]
