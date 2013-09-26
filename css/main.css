@@ -17,6 +17,15 @@ a:hover {
   text-decoration: underline;
 }
 
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
 #manifesto {
   width: 300px;
   height: 534px;
