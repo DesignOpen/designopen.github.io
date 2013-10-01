@@ -4,6 +4,7 @@ layout: post
 category: blogging_about
 tags:
 author: garthdb
+priority: 1.0
 ---
 
 Using the term Open Source Design gets interesting reactions from different people. I want to clarify a little of what I think it means. It isn't about working for free, doing design by committee, or dealing with trolls (although I can't promise those things won't happen).  It is about challenging ourselves, our design process, and the way we work together in the design community.
