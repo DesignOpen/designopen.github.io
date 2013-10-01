@@ -13,7 +13,7 @@ At [BlendConf](http://blendconf.com/) I wrote a humble manifesto for Open Source
 
 Here's the original manifesto:
 
-<a href="/img/manifesto@2X.jpg"><img src="/img/manifesto@2X.jpg" style="width:100%; height:auto;"></a>
+[![The Manifesto](/img/manifesto@2X.jpg)](/img/manifesto@2X.jpg)
 
 Here's a text-based version for all the bots out there (with some slight modifications for clarity):
 
