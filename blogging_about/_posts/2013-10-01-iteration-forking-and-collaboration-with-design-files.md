@@ -12,6 +12,8 @@ The first designs posted should be considered proposals, feel free, as always, t
 
 We would also be curious what you think of this process for open design, or if you have any other workflows you'd recommend for public collaboration.
 
+[![Branding Postcards](/img/branding_postcards@2X.png)][layervault]
+
 [github-issues]: https://github.com/opensourcedesignis/opensourcedesignis.github.io/issues
 [ia]: https://github.com/opensourcedesignis/opensourcedesignis.github.io/issues/18
 [ui]: https://github.com/opensourcedesignis/opensourcedesignis.github.io/issues/14
