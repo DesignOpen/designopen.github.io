@@ -1,5 +1,5 @@
 ---
-title: Iterating, Forking, and Collaborating on Design
+title: Designing a Brand in the Open
 layout: post
 category: blogging_about
 tags:
