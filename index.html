@@ -2,22 +2,23 @@
 layout: default
 ---
 <div id="content" class="site">
-  <section>
-    <h3 class="title">Blog Posts</h3>
+  <section itemscope itemtype=http://schema.org/Blog>
+    <h3 class="title" itemprop="name">Articles</h3>
     <section>
       <ul>
       {% for post in site.categories.blogging_about %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a> <time datetime="{{post.date | date: "%Y-%m-%d" }}">{{post.date | date: "%b %e" }}</time></li>
+        <li itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"><a href="{{ post.url }}" itemprop="url"><span itemprop="name">{{ post.title }}</span></a> <time datetime="{{post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{post.date | date: "%b %e" }}</time></li>
       {% endfor %}
       </ul>
     </section>
   </section>
-  <section>
-    <h3 class="title">Resources</h3>
+  <section itemscope itemtype=http://schema.org/ItemList>
+    <h3 class="title" itemprop="name">Resources</h3>
+    <meta itemprop="itemListOrder" content="Unordered" />
     <section>
       <ul>
       {% for post in site.categories.resourced %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        <li itemprop="itemListElement"><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
       </ul>
     </section>
