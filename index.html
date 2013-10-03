@@ -7,7 +7,7 @@ layout: default
     <section>
       <ul>
       {% for post in site.categories.blogging_about %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a> <time>{{post.date | date: "%A %e" }}</time></li>
+        <li><a href="{{ post.url }}">{{ post.title }}</a> <time datetime="{{post.date | date: "%Y-%m-%d" }}">{{post.date | date: "%b %e" }}</time></li>
       {% endfor %}
       </ul>
     </section>
