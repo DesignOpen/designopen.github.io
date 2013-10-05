@@ -3,6 +3,7 @@ title: How Designers Can Contribute to Open Source Projects
 layout: post
 author: garthdb
 priority: 0.9
+excerpt: How can designers get involved in Open Source Projects on GitHub?
 ---
 
 A great question popped up on [designer news](https://news.layervault.com/stories/7779-ask-dn-as-a-designer-how-can-i-get-involved-in-open-source-projects-on-github):
