@@ -8,9 +8,6 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/fonts/fonts.css">
     <script src="js/app.js"></script>
-    {% if page.title %}
-      <meta itemscope itemprop="name" content="{{ page.title }}">
-    {% endif %}
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -18,7 +15,9 @@
   <!-- <body id="{{ page.title | downcase | replace:' ','-' }}-page"> -->
   <body itemscope itemtype="http://schema.org/WebPage">
     <meta itemscope itemprop="url" content="{{ site.url }}{{ page.url }}">
-    
+    {% if page.title %}
+      <meta itemscope itemprop="name" content="{{ page.title }}">
+    {% endif %}
     <header class="site"><h2><a href="/">Open Source Design</a></h2></header>
     {{ content }}
     <footer class="site">
