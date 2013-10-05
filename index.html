@@ -5,9 +5,18 @@ layout: default
   <section itemscope itemtype=http://schema.org/Blog>
     <h3 class="title" itemprop="name">Articles</h3>
     <section>
-      <ul>
+      <ul class="bloglist">
       {% for post in site.categories.blogging_about %}
-        <li itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"><a href="{{ post.url }}" itemprop="url"><span itemprop="name">{{ post.title }}</span></a> <time datetime="{{post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{post.date | date: "%b %e" }}</time></li>
+        {% assign author = site.authors[post.author] %}
+        <li itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          <a href="{{ post.url }}" itemprop="url">
+            <span itemprop="name">{{ post.title }}</span>
+          </a> 
+          <time datetime="{{post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{post.date | date: "%b %e" }}</time>
+          <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            by <a href="{{site.authors[page.author].web}}" itemprop="url"><span itemprop="name">{{author.display_name}}</span></a>
+          </span>
+        </li>
       {% endfor %}
       </ul>
     </section>

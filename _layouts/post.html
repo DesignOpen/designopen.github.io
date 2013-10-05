@@ -8,7 +8,9 @@ layout: default
     <header>
       <h3 itemprop="name">{{ page.title }}</h3>
     </header>
-    <time itemprop="datePublished" datetime="{{page.date | date: "%Y-%m-%d" }}">{{page.date | date: "%b %e" }}</time>
+    <div>
+      Published on <time itemprop="datePublished" datetime="{{page.date | date: "%Y-%m-%d" }}">{{page.date | date: "%b %e, %Y" }}</time>
+    <div>
     <section itemprop="articleBody">
       {{ content }}
     </section>
