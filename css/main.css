@@ -24,10 +24,17 @@ nav ul {
 
 nav li {
   display: inline-block;
+  margin-right: 10px;
 }
 
 article img {
   max-width: 100%;
   height: auto;
 
+}
+.bloglist .author {
+  display: none;
+}
+.bloglist li:hover .author {
+  display: inline;
 }
