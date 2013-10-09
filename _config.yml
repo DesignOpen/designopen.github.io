@@ -3,6 +3,7 @@ pygments: true
 url: http://opensourcedesign.is
 name: Open Source Design
 excerpt_separator: <!--more-->
+markdown: kramdown
 post:
   template: _post.txt
   extension: md
