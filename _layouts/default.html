@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
     <meta name="viewport" content="user-scalable=no,width=device-width" />
-    <title>Open Source Design | {{ page.title }}</title>
+    <title>Open Source Design{% if page.title %} | {{ page.title }}{% endif %}</title>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/fonts/fonts.css">
     <script src="js/app.js"></script>
@@ -13,9 +13,22 @@
     <![endif]-->
   </head>
   <!-- <body id="{{ page.title | downcase | replace:' ','-' }}-page"> -->
-  <body>
+  <body itemscope itemtype="http://schema.org/WebPage">
+    <meta itemscope itemprop="url" content="{{ site.url }}{{ page.url }}">
+    {% if page.title %}
+      <meta itemscope itemprop="name" content="{{ page.title }}">
+    {% endif %}
     <header class="site"><h2><a href="/">Open Source Design</a></h2></header>
     {{ content }}
+    <footer class="site">
+      <nav id="mainnav">
+        <ul>
+          <li><a href="/atom.xml">Atom Feed</a></li>
+          <li><a href="https://plus.google.com/116336973990953325499" rel="publisher">Google+</a></li>
+          <li><a href="http://twitter.com/designopen">Twitter</a></li>
+        </ul>
+      </nav>
+    </footer>
     {% include analytics.html %}
   </body>
 </html>

@@ -2,8 +2,12 @@ permalink: /:categories/:title/
 pygments: true
 url: http://opensourcedesign.is
 name: Open Source Design
+excerpt_separator: <!--more-->
 post:
   template: _post.txt
+  extension: md
+resource:
+  template: _resource.txt
   extension: md
 page:
   template: _page.txt
