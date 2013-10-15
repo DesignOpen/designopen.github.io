@@ -1,6 +1,7 @@
 permalink: /:categories/:title/
 pygments: true
-url: http://opensourcedesign.is
+# url: http://opensourcedesign.is
+url: http://localhost:4000
 name: Open Source Design
 excerpt_separator: <!--more-->
 markdown: kramdown
