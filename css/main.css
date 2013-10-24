@@ -4,6 +4,7 @@ body {
 .site {
   width: 100%;
   max-width: 600px;
+  max-width: 1200px;
   position: relative;
   margin: 0 auto;
 }
