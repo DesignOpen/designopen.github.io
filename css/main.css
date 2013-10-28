@@ -2,10 +2,11 @@ body {
   font-family: 'source_sans_pro', sans;
   font-size: 1em;
   margin: 0;
+  line-height:  1.5em;
   transition: all 0.3s ease-in-out;
 }
 .site {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -56,6 +57,7 @@ article img {
 @media only screen and (max-width: 500px) {
     body {
         font-size: 80%;
+        line-height: 1.4em;
     }
 }
 
