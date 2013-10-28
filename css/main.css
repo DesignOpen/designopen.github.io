@@ -1,8 +1,11 @@
+html {
+  font-size: 90%;
+}
 body {
   font-family: 'source_sans_pro', sans;
-  font-size: 1em;
   margin: 0;
-  line-height:  1.5em;
+  line-height:  1.5rem;
+  font-size: 1rem;
   transition: all 0.3s ease-in-out;
 }
 .site {
@@ -43,26 +46,18 @@ article img {
   display: inline;
 }
 
+@media only screen and (min-width: 500px) {
+  html {
+    font-size: 100%;
+  }
+}
+
 @media only screen and (min-width: 800px) {
-    body {
-        font-size: 120%;
-    }
-}
-@media only screen and (max-width: 650px) {
-    body {
-        font-size: 100%;
-    }
+  html {
+    font-size: 120%;
+  }
 }
 
-@media only screen and (max-width: 500px) {
-    body {
-        font-size: 80%;
-        line-height: 1.4em;
-    }
-}
 
-@media only screen and (max-width: 300px) {
-    body {
-        font-size: 70%;
-    }
-}
+
+
