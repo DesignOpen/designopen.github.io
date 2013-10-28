@@ -1,5 +1,5 @@
 ---
-title: "Desigining In The Open"
+title: "Designing In The Open"
 layout: resource
 source_url: http://bradfrostweb.com/blog/post/designing-in-the-open/
 tags: blog,benefits,challenges
