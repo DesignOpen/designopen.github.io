@@ -1,11 +1,15 @@
 body {
   font-family: 'source_sans_pro', sans;
+  font-size: 1em;
+  margin: 0;
+  line-height:  1.5em;
+  transition: all 0.3s ease-in-out;
 }
 .site {
-  width: 100%;
   max-width: 600px;
-  position: relative;
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 a {
@@ -37,4 +41,28 @@ article img {
 }
 .bloglist li:hover .author {
   display: inline;
+}
+
+@media only screen and (min-width: 800px) {
+    body {
+        font-size: 120%;
+    }
+}
+@media only screen and (max-width: 650px) {
+    body {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        font-size: 80%;
+        line-height: 1.4em;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    body {
+        font-size: 70%;
+    }
 }
