@@ -24,6 +24,10 @@ a:hover {
   text-decoration: underline;
 }
 
+ul {
+  padding-left: 2.1rem;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
