@@ -13,7 +13,7 @@ For those who are unfamiliar with the term Design By Committee, it is a special 
 
 ##Misunderstanding of the Term Open Source
 
-I think some designers have the mistaken idea that open source projects are lawless anarchies, where random contributors haphazardly throw bits and pieces together; forming a version of Frankenstein's monster that hopefully came perform basic tasks. In reality a healthy open source project needs to have an owner, or small group of owners[^1], with a strong sense of where the project is heading. With a core team in place, outside contributors can file issues, submit contributions, and just complain about things they don't like. The core team of owners can then accept or reject the contributions from the community (hopefully in a way that encourages growth and future contributions).
+I think some designers have the mistaken idea that open source projects are lawless anarchies, where random contributors haphazardly throw bits and pieces together; forming a version of Frankenstein's monster that hopefully can perform basic tasks. In reality a healthy open source project needs to have an owner, or small group of owners[^1], with a strong sense of where the project is heading. With a core team in place, outside contributors can file issues, submit contributions, and just complain about things they don't like. The core team of owners can then accept or reject the contributions from the community (hopefully in a way that encourages growth and future contributions).
 
 ##Ownership is key
 
