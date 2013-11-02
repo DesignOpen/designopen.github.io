@@ -36,7 +36,7 @@ Now that you're running a copy of the site on your computer, you want to make su
 2. Type in `git remote add upstream https://github.com/opensourcedesignis/opensourcedesignis.github.io` and press enter. We've essentially told our repo to look at the official Opensourcedesign.is repo for changes.
 3. Then enter `git fetch upstream`. This will get all the changes from the main repo that haven't been updated on your computer. Chances are nothing will happen when you do this since you just finished cloning the most up to date version, but in the future this is incredibly helpful. If there are changes, Git will show a few lines saying that it updated, and which files were updated.
 4. If/When you 'fetch' updates from the main repo, we need to merge them with the code on your computer before you can see those new changes.
-5. Type in 'git merge upstream/master'. You've got a perfect clone of what is online at opensourcedesign.is!
+5. Type in `git merge upstream/master`. You've got a perfect clone of what is online at opensourcedesign.is!
 
 ### The Final bits
 - When developing locally, you have to edit the URL in `_config.yml` from http://opensourcedesign.is to http://localhost:4000. If you don't do this, all the links you click will put you on the live site instead of the version you have on your computer.
