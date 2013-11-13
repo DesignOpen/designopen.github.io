@@ -1,5 +1,5 @@
 ---
-title: "How To Contribute to Opensourcedesign.is"
+title: "How To Contribute to a Jekyll Blog on Github"
 layout: post
 category: blogging_about
 tags: ["GitHub", "collaboration"]
