@@ -9,8 +9,8 @@ date: '2013-11-2 02:10:02'
 ## Installing dependencies
 The [opensourcedesign.is](http://opensourcedesign.is) website is on GitHub pages, which runs atop of [Jekyll](http://jekyllrb.com). Lets install it so we can get this cloned and running locally.
 
-### Installing Rails
-- Follow the guide over at [InstallRails](http://installrails.com/) to get rails installed on your machine.
+### Installing Ruby
+- Follow the guide over at [InstallRails](http://installrails.com/) to get rails installed on your machine.  Technically this guide will step you through installing Ruby and Rails, but all you really need for Jekyll is Ruby.
 
 ### Installing Git:
 - Download the installer for your system on the [git-scm website](http://git-scm.com/downloads).
