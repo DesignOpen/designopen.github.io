@@ -1,6 +1,6 @@
 ---
 title: "Using GitHub for Design Collaboration"
-layout: post
+layout: using-github-for-design-collaboration
 category: blogging_about
 tags: ["GitHub", "collaboration"]
 author: ttimsmith
