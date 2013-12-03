@@ -5,44 +5,88 @@ layout: null
 <html>
   <head>
     <meta charset="utf-8">
-    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <meta name="viewport" content="initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Open Source Design{% if page.title %} | {{ page.title }}{% endif %}</title>
-    <link rel="stylesheet" type="text/css" href="/css/{{ page.css }}">
+    <style>
+      #sitebar{background:#000;padding-top:5px;height:36px;text-align:center;-moz-box-sizing:border-box;box-sizing:border-box;position:fixed;width:100%;top:0;z-index:10;}
+#sitebar a:hover{background:transparent;}
+#sitebar a:hover path{fill:#f5f58f}
+html,body{height:100%}
+body{font-family:'source_sans_pro',sans-serif;padding:0;margin:0;background:#f0f0f0;color:#000;padding-top:36px}
+a{color:#4a87ff;text-decoration:none;}
+a:hover{background:#f5f58f}
+#site{height:100%}
+#image{background-image:url("/img/haymarket-metro-station-escalator-shaft.jpg");background-repeat:none;background-size:cover}
+#article{-moz-box-sizing:border-box;box-sizing:border-box}
+h1,h2{font-family:'league_gothic',sans-serif;text-transform:uppercase;font-weight:normal}
+h1{font-style:italic}
+#author{margin:60px 0;}
+#author section{-moz-box-sizing:border-box;border-box:box-sizing;padding:0 0 0 95px;position:relative}
+#author h3{margin:15px 0 2px 0}
+#author p{margin-top:0}
+#avatar{position:absolute;left:0;top:0;}
+#avatar a:hover{background:transparent;}
+#avatar a:hover img{box-shadow:0 0 0 5px #f5f58f}
+#avatar img{border-radius:40px;box-shadow:0 0 0 5px #fff}
+@media screen and (max-width: 700px){#image{width:100%;height:0;padding-bottom:62%;position:relative;}
+#image:after{content:'';position:absolute;width:100%;height:100%;top:0;left:0;background:rgba(0,0,0,0.25)}
+#article{max-width:500px;position:relative;margin:-290px auto 0;padding:0 20px 30px 20px}
+h1{font-size:80px;line-height:72px;max-width:390px;color:#f0f0f0;text-shadow:2px 4px 0 #000}
+h2{font-size:40px}
+#publishDate,#author header{border-bottom:1px solid #000;font-weight:700}
+}@media screen and (max-width: 420px){#image{padding-bottom:80%}
+h1{font-size:58px;line-height:53px;max-width:286px}
+#article{margin:-230px auto 0}
+}@media screen and (min-width: 700px){#article{display:block;max-width:calc(30% + 500px);width:100%;min-height:100%;padding:30px 30px 0 calc(30% + 30px);height:100%}
+#image{width:30%;height:100%;position:fixed;background-position:top center}
+h1,h2{padding:0;opacity:.85;color:#1a1a1a;-webkit-text-fill-color:transparent;background:-webkit-linear-gradient(transparent,transparent),url("/img/dark_leather.jpg") repeat;background:-o-linear-gradient(transparent,transparent);-webkit-background-clip:text;background-clip:text;background-size:360px 360px}
+h1{font-size:96px;line-height:82px;margin-top:0;margin-bottom:50px;padding-top:1px}
+h2{font-size:72px;line-height:72px;margin-bottom:30px}
+#publishDate,#author header{display:inline-block;background:#000;color:#fff;padding:3px 32px 0 30px;position:relative;left:-30px;top:0;height:26px;-moz-box-sizing:border-box;box-sizing:border-box;margin-bottom:10px;background-image:url("/img/dark_leather.jpg");background-size:360px 360px;opacity:.85;}
+#publishDate:after,#author header:after{position:absolute;content:'';top:0;right:0;width:0;height:0;border-style:solid;border-width:13px 22.5px 13px 0;border-color:transparent #f0f0f0 transparent transparent}
+#publishDate{position:relative;top:-30px}
+}@media screen and (min-width: 820px){#article{max-width:calc(40% + 500px);padding:30px 30px 0 calc(40% + 30px)}
+#image{width:40%;background-position:top left}
+}
+      @font-face{font-family:'league_gothic_condensed';src:url('/css/fonts/leaguegothic-condenseditalic-webfont.eot');src:url('/css/fonts/leaguegothic-condenseditalic-webfont.eot?#iefix') format('embedded-opentype'),url('/css/fonts/leaguegothic-condenseditalic-webfont.woff') format('woff'),url('/css/fonts/leaguegothic-condenseditalic-webfont.ttf') format('truetype'),url('/css/fonts/leaguegothic-condenseditalic-webfont.svg#league_gothiccondensed_italic') format('svg');font-weight:normal;font-style:italic}@font-face{font-family:'league_gothic_condensed';src:url('/css/fonts/leaguegothic-condensedregular-webfont.eot');src:url('/css/fonts/leaguegothic-condensedregular-webfont.eot?#iefix') format('embedded-opentype'),url('/css/fonts/leaguegothic-condensedregular-webfont.woff') format('woff'),url('/css/fonts/leaguegothic-condensedregular-webfont.ttf') format('truetype'),url('/css/fonts/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg') format('svg');font-weight:normal;font-style:normal}@font-face{font-family:'league_gothic';src:url('/css/fonts/leaguegothic-italic-webfont.eot');src:url('/css/fonts/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),url('/css/fonts/leaguegothic-italic-webfont.woff') format('woff'),url('/css/fonts/leaguegothic-italic-webfont.ttf') format('truetype'),url('/css/fonts/leaguegothic-italic-webfont.svg#league_gothicitalic') format('svg');font-weight:normal;font-style:italic}@font-face{font-family:'league_gothic';src:url('/css/fonts/leaguegothic-regular-webfont.eot');src:url('/css/fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),url('/css/fonts/leaguegothic-regular-webfont.woff') format('woff'),url('/css/fonts/leaguegothic-regular-webfont.ttf') format('truetype'),url('/css/fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');font-weight:normal;font-style:normal}
+      @font-face{font-family:'source_sans_pro';src:url('/css/fonts/sourcesanspro-light-webfont.eot');src:url('/css/fonts/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'),url('/css/fonts/sourcesanspro-light-webfont.woff') format('woff'),url('/css/fonts/sourcesanspro-light-webfont.ttf') format('truetype'),url('/css/fonts/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');font-weight:300;font-style:normal}@font-face{font-family:'source_sans_pro';src:url('/css/fonts/sourcesanspro-regular-webfont.eot');src:url('/css/fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),url('/css/fonts/sourcesanspro-regular-webfont.woff') format('woff'),url('/css/fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),url('/css/fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');font-weight:normal;font-style:normal}@font-face{font-family:'source_sans_pro';src:url('/css/fonts/sourcesanspro-semibold-webfont.eot');src:url('/css/fonts/sourcesanspro-semibold-webfont.eot?#iefix') format('embedded-opentype'),url('/css/fonts/sourcesanspro-semibold-webfont.woff') format('woff'),url('/css/fonts/sourcesanspro-semibold-webfont.ttf') format('truetype'),url('/css/fonts/sourcesanspro-semibold-webfont.svg#source_sans_prosemibold') format('svg');font-weight:600;font-style:normal}
+    </style>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
-  <!-- <body id="{{ page.title | downcase | replace:' ','-' }}-page"> -->
   <body itemscope itemtype="http://schema.org/WebPage">
     <meta itemscope itemprop="url" content="{{ site.url }}{{ page.url }}">
     {% if page.title %}<meta itemscope itemprop="name" content="{{ page.title }}">{% endif %}
-    {% include header-bar.html %}
-    <article itemscope itemtype=http://schema.org/BlogPosting>
-      <meta itemprop="description" content="{{ page.excerpt | strip_html}}">
-      <div>
-        Published on <time itemprop="datePublished" datetime="{{page.date | date: "%Y-%m-%d" }}">{{page.date | date: "%b %e, %Y" }}</time>
-      <div>
-      {{ content }}
-      <footer>
-        {% assign author = site.authors[page.author] %}
-        <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <a href="{{author.web}}"><img itemprop="image" src="http://www.gravatar.com/avatar/{{author.gravatar}}" alt="{{author.display_name}}" width="30" height="30"></a>
-          <h3>About the author: <a href="{{site.authors[page.author].web}}" itemprop="url"><span itemprop="name">{{author.display_name}}</span></a></h3>
-          <p class="author_bio">{{author.bio}}</p>
+    <div id="sitebar"><a href="http://www.opensourcedesign.is">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="25px" height="25px" viewBox="0 0 25 25" xml:space="preserve">
+          <path fill="#FFF" d="M12.5,10.521c-1.093,0-1.979,0.886-1.979,1.979c0,0.953,0.673,1.747,1.57,1.936V24.99C12.227,24.994,12.363,25,12.5,25 s0.273-0.006,0.409-0.01V14.436c0.896-0.189,1.57-0.984,1.57-1.936C14.479,11.407,13.593,10.521,12.5,10.521z M25,12.5 C25,5.596,19.403,0,12.5,0S0,5.596,0,12.5c0,6.489,4.944,11.821,11.271,12.439l0,0l0-0.002l0,0 c-0.031-5.08-3.094-9.005-4.364-10.415v0c0,0-0.522-0.626-0.226-1.376l2.314-5.869c0,0,0.428-1.085,1.379-1.085H12.5h2.127 c0.951,0,1.379,1.085,1.379,1.085l2.314,5.869c0.296,0.75-0.226,1.376-0.226,1.376v0c-1.271,1.411-4.333,5.335-4.364,10.415l0,0.002 C20.056,24.321,25,18.989,25,12.5z"></path>
+        </svg></a></div>
+    <div id="site">
+      <div id="image"></div>
+      <article id="article" itemscope itemtype=http://schema.org/BlogPosting>
+        <meta itemprop="description" content="{{ page.excerpt | strip_html}}">
+        <h1 itemprop="name">Using GitHub for Design Collaboration</h1>
+        <div id="publishDate">Published <time itemprop="datePublished" datetime="{{page.date | date: "%Y-%m-%d" }}">{{page.date | date: "%b %e, %Y" }}</time>
+        </div>
+        <section itemprop="articleBody">
+          {{ content }}
+        </section>
+        <div id="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          {% assign author = site.authors[page.author] %}
+          <header>About the author</header>
+          <section>
+            <div id="avatar"><a href="{{author.web}}"><img itemprop="image" src="http://www.gravatar.com/avatar/{{author.gravatar}}?s=160.jpg" alt="{{author.display_name}}" width="80" height="80"></a></div>
+            <h3><a href="{{author.web}}" itemprop="url"><span itemprop="name">{{author.display_name}}</span></a></h3>
+            <p class="author_bio">{{author.bio}}</p>
+          </section>
         </div>
         {% include comments.html %}
-        <nav id="mainnav">
-          <ul>
-            <li><a href="/atom.xml">Atom Feed</a></li>
-            <li><a href="https://plus.google.com/116336973990953325499" rel="publisher">Google+</a></li>
-            <li><a href="http://twitter.com/designopen">Twitter</a></li>
-            <li><a href="https://github.com/opensourcedesignis/opensourcedesignis.github.io">Github Repo</a></li>
-          </ul>
-        </nav>
-      </footer>
-    </article>
-    {% include analytics.html %}
+      </article>
+    </div>
+    <footer></footer>
   </body>
+  {% include analytics.html %}
 </html>
   
