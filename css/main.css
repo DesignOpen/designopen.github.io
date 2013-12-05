@@ -3,6 +3,7 @@ body {
   margin: 0;
   line-height:  1.5rem;
   font-size: 1rem;
+  font-weight: 300;
 }
 .site {
   max-width: 600px;
