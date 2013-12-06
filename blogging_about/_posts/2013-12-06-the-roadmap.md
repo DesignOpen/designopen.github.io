@@ -6,7 +6,7 @@ tags: design, design update
 author: garthdb
 date: '2013-12-06 10:15:00'
 ---
-Someone in the IRC[^1] asked how they could contribute and what our roadmap was.  I thought I would lay out a few places where anyone could jump in if they wanted to help out.
+Someone in the IRC[^1] asked how they could contribute and what our roadmap is.  I thought I would lay out a few places where anyone could jump in if they wanted to help out.
 
 ##Authors Wanted
 
@@ -54,7 +54,7 @@ If you need a place to start we have a running list of topics in the [github iss
 
 ##Designers Wanted
 
-This is a site about open source design, and has a definite lack of design going on here.  The easiest way to jump in is to contribute to the [design discussions](https://github.com/opensourcedesignis/opensourcedesignis.github.io/issues?direction=desc&labels=design+discussion&page=1&sort=updated&state=open):
+This is a site about open source design, and has a definite lack of design going on here.  The easiest way to jump in is to comment in the [design discussions](https://github.com/opensourcedesignis/opensourcedesignis.github.io/issues?direction=desc&labels=design+discussion&page=1&sort=updated&state=open):
 
 <ul id="design-discussions"></ul>
 
@@ -63,6 +63,8 @@ If you want to do some actual design, you could create a custom design for any p
 <ul id="post-designs"></ul>
 
 You can do any part of it: just visual design, or actual coding.  [One post](http://opensourcedesign.is/blogging_about/using-github-for-design-collaboration/) at least has been done and I plan to put together a tutorial on how to create a custom layout, but until then feel free to take a look at the [source code](https://github.com/opensourcedesignis/opensourcedesignis.github.io/blob/master/_layouts/using-github-for-design-collaboration.html) as an example.
+
+The idea is each post should be unique, so there is no style guide to follow; make your own.
 
 ##Resource Seekers Wanted
 
