@@ -70,4 +70,4 @@ The idea is each post should be unique, so there is no style guide to follow; ma
 
 Sorry, resource seeker sounds lame, but I couldn't think of a more elegant want to put it.  We have a running list of resources and examples of open source design.  Feel free to tweet [@designopen](http://www.twitter.com/designopen) if you have anything you'd like to add.
 
-[^1]: #opensourcedesign on Freenode
+[^1]: Our IRC channel is #opensourcedesign on Freenode
