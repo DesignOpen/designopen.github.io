@@ -15,6 +15,7 @@ Feel free to write about anything related to open source and design and how desi
 If you need a place to start we have a running list of topics in the [github issues](https://github.com/opensourcedesignis/opensourcedesignis.github.io/issues?direction=desc&labels=editorial+idea%2C1+-+Ready&page=1&sort=updated&state=open).  You can [add any new ideas](https://github.com/opensourcedesignis/opensourcedesignis.github.io/issues/new), or pick one of the following:
 
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
+
 <script>
   Zepto(function($){
     $.ajax({
