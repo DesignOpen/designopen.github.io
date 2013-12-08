@@ -4,9 +4,11 @@ layout: post
 category: blogging_about
 tags: design, design update
 author: garthdb
-date: '2013-12-06 10:15:00'
+date: '2013-12-06 10:15:00' 
 ---
 Someone in the IRC[^1] asked how they could contribute and what our roadmap is.  I thought I would lay out a few places where anyone could jump in if they wanted to help out.
+
+<!--more-->
 
 ##Authors Wanted
 
