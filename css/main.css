@@ -1,53 +1,74 @@
 body {
-  font-family: 'source_sans_pro', sans;
+  font: normal normal normal 1em/1.5 'source_sans_pro', sans;
   margin: 0;
-  line-height:  1.5rem;
-  font-size: 1rem;
+  background: rgb(248,248,248);
 }
 h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-}
-.site {
-  max-width: 600px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  font-weight: 600;
 }
 
-a {
-  color: blue;
-  text-decoration: none;
+a{
+  color: rgb(49,107,158);
+  text-decoration: inherit;
 }
-
 a:hover {
   text-decoration: underline;
 }
-
-ul {
-  padding-left: 2.1rem;
+.site {
+  max-width: 36em;
+  margin: 0 auto;
+  padding: 0 1em;
 }
-
 nav ul {
   list-style: none;
   padding: 0;
 }
-
 nav li {
   display: inline-block;
   margin-right: 10px;
 }
-
 article img {
   max-width: 100%;
   height: auto;
 
 }
-.bloglist .author {
-  display: none;
+section{
+  padding: 1px 0;
+  margin: 0 0 2em;
 }
-.bloglist li:hover .author {
-  display: inline;
+section>.title{
+  line-height: 1;
+  border-bottom: 1px solid rgb(205,205,205);
+  margin: 0;
 }
+
+
+/*Bloglist styles for Home Page*/
+.bloglist{
+  list-style: none;
+  margin: 1em 0;
+  padding: 0;
+}
+.bloglist .post{
+  margin: 1em 0 0;
+}
+.bloglist .title{
+  font-size: 1.2em;
+  margin: 0;
+  line-height: 1.2;
+}
+.bloglist .meta{
+  color: rgb(150,150,150);
+}
+
+/*Resource List styles for Home Page*/
+.reslist{
+  list-style: none;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*Media Queries for Text Size Changes*/
 @media only screen and (max-width: 500px) {
   :root {
     font-size: 90%;
@@ -58,13 +79,9 @@ article img {
     font-size: 100%;
   }
 }
-
 @media only screen and (min-width: 800px) {
   :root {
     font-size: 120%;
-  }
-  body {
-    font-weight: 300;
   }
 }
 
