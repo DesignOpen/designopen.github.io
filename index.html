@@ -13,7 +13,7 @@ title: Home
         <div class="meta">
           <time datetime="{{post.date | date: "%Y-%m-%d" }}" itemscope itemprop="datePublished">posted {{post.date | date: "%b %e" }}</time>
           <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            by <a href="{{site.authors[page.author].web}}" itemprop="url"><span itemprop="name">{{author.display_name}}</span></a>
+            by <a href="{{author.web}}" itemprop="url"><span itemprop="name">{{author.display_name}}</span></a>
           </span>
         </div>
       </li>
