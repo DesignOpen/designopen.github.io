@@ -41,7 +41,7 @@ If you need a place to start we have a running list of topics in the [github iss
     });
 
     $.ajax({
-      url: "https://api.github.com/repos/opensourcedesignis/opensourcedesignis.github.io/issues?labels=post+design&state=open",
+      url: "https://api.github.com/repos/opensourcedesignis/opensourcedesignis.github.io/issues?labels=post+design,1+-+Ready&state=open",
       success: function(data){
         for (var i=0;i<data.length;i++) {
           var listItem = '<li><a href="'+data[i].html_url+'">'+data[i].title+'</a></li>';
