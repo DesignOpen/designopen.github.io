@@ -3,41 +3,36 @@ layout: default
 title: Home
 ---
 <div id="content" class="site">
-  <section itemscope itemtype=http://schema.org/Blog>
-    <h3 class="title" itemscope itemprop="name">Articles</h3>
-    <section>
-      <ul class="bloglist">
-      {% for post in site.categories.blogging_about %}
-        {% assign author = site.authors[post.author] %}
-        <li itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-          <a href="{{ post.url }}" itemprop="url">
-            <span itemscope itemprop="name">{{ post.title }}</span>
-          </a> 
-          <time datetime="{{post.date | date: "%Y-%m-%d" }}" itemscope itemprop="datePublished">{{post.date | date: "%b %e" }}</time>
+  <section itemscope itemtype="http://schema.org/Blog">
+    <h2 class="title" itemscope itemprop="name">Articles</h2>
+    <ul class="bloglist">
+    {% for post in site.categories.blogging_about %}
+      {% assign author = site.authors[post.author] %}
+      <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+        <h3 class="title" itemscope itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h3>
+        <div class="meta">
+          <time datetime="{{post.date | date: "%Y-%m-%d" }}" itemscope itemprop="datePublished">posted {{post.date | date: "%b %e" }}</time>
           <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            by <a href="{{site.authors[page.author].web}}" itemprop="url"><span itemprop="name">{{author.display_name}}</span></a>
+            by <a href="{{author.web}}" itemprop="url"><span itemprop="name">{{author.display_name}}</span></a>
           </span>
-        </li>
-      {% endfor %}
-      </ul>
-    </section>
+        </div>
+      </li>
+    {% endfor %}
+    </ul>
   </section>
-  <section itemscope itemtype=http://schema.org/ItemList>
-    <h3 class="title" itemprop="name">Resources</h3>
+
+  <section itemscope itemtype="http://schema.org/ItemList">
+    <h2 class="title" itemprop="name">Resources</h2>
     <meta itemscope itemprop="itemListOrder" content="Unordered" />
-    <section>
-      <ul>
+      <ul class="reslist">
       {% for post in site.categories.resourced %}
         <li itemprop="itemListElement"><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
       </ul>
-    </section>
   </section>
   <section itemscope itemprop="mainContentOfPage about" itemtype=http://schema.org/WebPageElement>
     <h2>About</h2>
-    <section>
       <p>We think the best way to improve the design industry is to work in the open.</p>
       <p>For more details, read <a href="http://opensourcedesign.is/blogging_about/the-open-source-design-manifesto/">The Open Source Design Manifesto</a>, and <a href="http://opensourcedesign.is/blogging_about/building_this_site/">Building this Site</a>.  If you'd like to help contribute to the project, checkout the <a href="https://github.com/opensourcedesignis/opensourcedesignis.github.io/issues">GitHub Issues</a> or hit us up on the #opensourcedesign channel (Freenode) in IRC
-    </section>
   </section>
 </div>
