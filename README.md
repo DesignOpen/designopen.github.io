@@ -15,3 +15,7 @@ Join us in the IRC channel #opensourcedesign on Freenode.
 I'm taking screenshots of the design as it progresses - sizing the window to 1024x900 px.
 
 The [site statistics](http://www.seethestats.com/site/opensourcedesign.is) are public.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/opensourcedesignis/opensourcedesignis.github.io/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
