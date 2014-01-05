@@ -19,6 +19,6 @@ We would also be curious what you think of this process for open design, or if y
 [github-issues]: https://github.com/opensourcedesignis/opensourcedesignis.github.io/issues
 [ia]: https://github.com/opensourcedesignis/opensourcedesignis.github.io/issues/18
 [ui]: https://github.com/opensourcedesignis/opensourcedesignis.github.io/issues/14
-[layervault]: https://layervault.com/garthdb/OSD%20Branding/Branding%20Postcards.ai/7
+[layervault]: https://layervault.com/garthdb/Open%20Source%20Design/Branding%20Postcards.ai/1
 [branding-issue]: https://github.com/opensourcedesignis/opensourcedesignis.github.io/issues/33
 [creative-cloud]: https://creative.adobe.com/share/252a6187-a89f-4121-a2a9-087df8173cb0
