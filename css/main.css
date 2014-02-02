@@ -1,21 +1,30 @@
 body {
   font: normal normal normal 1em/1.5 'source_sans_pro', sans;
   margin: 0;
-  background: rgb(248,248,248);
+  font-weight: 300;
 }
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
+/*Media Queries for Text Size Changes*/
+@media only screen and (max-width: 500px) {
+  :root {
+    font-size: 90%;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  :root {
+    font-size: 100%;
+  }
+}
+@media only screen and (min-width: 800px) {
+  :root {
+    font-size: 120%;
+  }
 }
 
 a{
-  color: rgb(49,107,158);
   text-decoration: inherit;
 }
-a:hover {
-  text-decoration: underline;
-}
+
 .site {
-  max-width: 36em;
   margin: 0 auto;
   padding: 0 1em;
 }
@@ -30,7 +39,6 @@ nav li {
 article img {
   max-width: 100%;
   height: auto;
-
 }
 section{
   padding: 1px 0;
@@ -46,6 +54,7 @@ section>.title{
   padding-bottom: 56.25%;
   height: 0;
   width: 100%;
+  margin: 1em 0;
 }
 .videoContainer iframe {
   position: absolute;
@@ -81,23 +90,173 @@ section>.title{
   padding: 0;
 }
 
-/*Media Queries for Text Size Changes*/
-@media only screen and (max-width: 500px) {
-  :root {
-    font-size: 90%;
-  }
+/* Article*/
+article{
+  font-size: 1.375em;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 1px 0;
+  color: rgba(0,0,0,.75);
 }
-@media only screen and (min-width: 500px) and (max-width: 800px) {
-  :root {
-    font-size: 100%;
-  }
+article .article-header{
+  margin: 0 10% 0 20%;
 }
-@media only screen and (min-width: 800px) {
-  :root {
-    font-size: 120%;
-  }
+article .article-body{
+  margin: 0 20%;
+}
+article .article-footer{
+  margin: 0 20%;
+}
+article h1{
+  font-size: 3.375em;
+  font-weight: 200;
+  line-height: 1;
+  margin: 0 0 .25em;
+}
+article h2{
+  font-size: 1.5em;
+  line-height: 1;
+  font-weight: 400;
+  margin: 2em 0 .5em;
+}
+article h3{
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 1.5em 0 0;
+  letter-spacing: .1em;
+  font-weight: 600;
+}
+article h4{
+  font-size: 1em;
+  margin: 1.5em 0 0;
+  font-weight: 600;
+}
+article h5{
+  font-size: 1em;
+  margin: 1.5em 0 0;
+  font-weight: 600;
+}
+article h6{
+  font-size: 1em;
+  margin: 1.5em 0 0;
+  font-weight: 600;
+}
+article p{
+  font-size: 1em;
+  margin: 0 0 1em;
+}
+article a{
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+}
+article p>a::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  height: .8em;
+  width: 100%;
+  margin: .2em 0 0;
+  background: yellow;
+  z-index: -1;
+}
+article p>a:hover::before{
+  border-bottom: 1px solid;
+}
+article code{
+  font-size: 80%;
+}
+article blockquote{
+  font-style: italic;
+  padding: .5em 1em .75em;
+  margin: 1em 0 1em;
+  font-size: 1.5em;
+  line-height: 1.2;
+  font-weight: 300;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+article blockquote p{
+   margin: 0;
+}
+article ul{
+  list-style: none;
+  padding: 0 0 0 1em;
+  counter-reset: ul;
+}
+article ul li{
+  margin: 0 0 .5em;
+}
+article ul li::before{
+  content: "\25ca";
+  display: inline-block;
+  width: 1em;
+  margin: 0 0 0 -1em;
+  color: rgb(49,107,158);
+}
+article ol{
+  padding: 0;
+  list-style: none;
+  padding: 0 0 0 1em;
+  counter-reset: o;
+}
+article ol li{
+  counter-increment: o;
+  margin: 0 0 .5em;
+}
+article ol li::before{
+  display: inline-block;
+  content: counter(o) ".";
+  width: 1em;
+  margin: 0 0 0 -1em;
+  color: rgb(49,107,158);
+}
+.footnotes ol{
+  padding: 0;
+  list-style: none;
+  padding: 0 0 0 1em;
+  counter-reset: o;
+}
+.footnotes ol li{
+  counter-increment: o;
+  margin: 0 0 .5em;
+}
+.footnotes ol li::before{
+  display: inline-block;
+  content: counter(o) ".";
+  width: 1em;
+  margin: 0 0 0 -1em;
+  color: rgb(49,107,158);
+}
+.footnotes p{
+  display: inline-block;
+  margin: 0;
 }
 
+sup:nth-of-type(4n+1){
+  color: green;
+}
+sup:nth-of-type(4n+2){
+  color: blue;
+}
+sup:nth-of-type(4n+3){
+  color: cyan;
+}
+sup:nth-of-type(4n+0){
+  color: red;
+}
 
-
-
+.footnotes li:nth-of-type(4n+1){
+  border-left: 4px solid green;
+}
+.footnotes li:nth-of-type(4n+2){
+  border-left: 4px solid blue;
+}
+.footnotes li:nth-of-type(4n+3){
+  border-left: 4px solid cyan;
+}
+.footnotes li:nth-of-type(4n+0){
+  border-left: 4px solid red;
+}
