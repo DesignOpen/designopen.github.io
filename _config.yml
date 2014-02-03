@@ -4,6 +4,9 @@ url: http://opensourcedesign.is
 name: Open Source Design
 excerpt_separator: <!--more-->
 markdown: kramdown
+sass:
+  style: expanded
+  deploy_style: compressed
 post:
   template: _post.txt
   extension: md

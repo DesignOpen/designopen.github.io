@@ -6,7 +6,7 @@ tags: design, design update
 author: garthdb
 date: '2013-12-06 10:15:00' 
 ---
-Someone in the IRC[^1] asked how they could[^2] contribute and what our[^3] roadmap is.  I thought I[^4] would lay out a few places where anyone could jump in if they wanted to help out.
+Someone in the IRC[^1] asked how they could contribute and what our roadmap is.  I thought I would lay out a few places where anyone could jump in if they wanted to help out.
 
 <!--more-->
 
@@ -74,6 +74,3 @@ The idea is each post should be unique, so there is no style guide to follow; ma
 Sorry, resource seeker sounds lame, but I couldn't think of a more elegant want to put it.  We have a running list of resources and examples of open source design.  Feel free to tweet [@designopen](http://www.twitter.com/designopen) if you have anything you'd like to add.
 
 [^1]: Our IRC channel is #opensourcedesign on Freenode
-[^2]: Our IRC channel is #opensourcedesign on Freenode
-[^3]: Our IRC channel is #opensourcedesign on Freenode
-[^4]: Our IRC channel is #opensourcedesign on Freenode

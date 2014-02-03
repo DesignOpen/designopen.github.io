@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 <div id="content" class="site">
-  <section itemscope itemtype="http://schema.org/Blog">
+  <section class="home-section" itemscope itemtype="http://schema.org/Blog">
     <h2 class="title" itemscope itemprop="name">Articles</h2>
     <ul class="bloglist">
     {% for post in site.categories.blogging_about %}
@@ -21,7 +21,7 @@ title: Home
     </ul>
   </section>
 
-  <section itemscope itemtype="http://schema.org/ItemList">
+  <section class="home-section" itemscope itemtype="http://schema.org/ItemList">
     <h2 class="title" itemprop="name">Resources</h2>
     <meta itemscope itemprop="itemListOrder" content="Unordered" />
       <ul class="reslist">
@@ -30,7 +30,7 @@ title: Home
       {% endfor %}
       </ul>
   </section>
-  <section itemscope itemprop="mainContentOfPage about" itemtype=http://schema.org/WebPageElement>
+  <section class="home-section" itemscope itemprop="mainContentOfPage about" itemtype=http://schema.org/WebPageElement>
     <h2>About</h2>
       <p>We think the best way to improve the design industry is to work in the open.</p>
       <p>For more details, read <a href="http://opensourcedesign.is/blogging_about/the-open-source-design-manifesto/">The Open Source Design Manifesto</a>, and <a href="http://opensourcedesign.is/blogging_about/building_this_site/">Building this Site</a>.  If you'd like to help contribute to the project, checkout the <a href="https://github.com/opensourcedesignis/opensourcedesignis.github.io/issues">GitHub Issues</a> or hit us up on the #opensourcedesign channel (Freenode) in IRC

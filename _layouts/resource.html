@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign author = site.authors[page.author] %}
 <div id="content" class="site">
-  <article>
+  <article class="resource">
     {{ content }}
     <footer>
       <div class="source">Source: <a href="{{page.source_url}}">{{page.title}}</a></div>
@@ -12,4 +12,4 @@ layout: default
   </article>
 </div>
 <br>
-<footer class="site">{% include comments.html %}</footer>
+<footer class="resource-comments">{% include comments.html %}</footer>
