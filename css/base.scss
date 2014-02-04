@@ -1,17 +1,30 @@
-// Defaults for the body
 body {
   font: normal normal normal 1.375em/1.5 'source_sans_pro', sans;
   margin: 0;
   font-weight: 400;
   color: rgba(0,0,0,.75);
 }
-:not(p)>a{
-  color: rgb(49,107,158);
-  &:hover{
-    text-decoration: underline;
+/*Media Queries for Text Size Changes*/
+@media only screen and (max-width: 500px) {
+  :root {
+    font-size: 90%;
   }
 }
-// Global objects like the header and footer
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  :root {
+    font-size: 100%;
+  }
+}
+@media only screen and (min-width: 800px) {
+  :root {
+    font-size: 120%;
+  }
+}
+a{
+  text-decoration: inherit;
+}
+
+
 #globalhead{
   background: #000;
   padding: .5rem 0;
@@ -31,24 +44,8 @@ body {
 #globalheadplaceholder{
   height: 2.5rem;
 }
-#globalfoot{
-  background: #000;
-  padding: .5rem 0;
-  text-align: center;
-  width: 100%;
-  ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  li{
-    display: inline-block;
-    margin: 0 .5em;
-  }
-  a{
-    color: white;
-  }
-}
+
+
 
 .videoContainer {
   position: relative;
@@ -69,27 +66,20 @@ body {
 article, section{
   padding: 1px 0;
 }
-.article-header, .section-header{
-  margin: 2rem 10% 0 20%;
-  @media (min-width: 500px) and (max-width: 800px) {
-    margin: 2rem 5% 0;
-  }
-  @media (max-width: 500px) {
-    margin: 2rem .25em 0;
-  }
-}
-.home-section, 
-.article-body,
-.article-footer,
-.resource-comments{
-  max-width: 800px;
+.home-section{
   margin: 0 20%;
-  @media (min-width: 500px) and (max-width: 800px) {
-    margin: 0 5%;
-  }
-  @media (max-width: 500px) {
-    margin: 0 .25em;
-  }
+}
+.article-header{
+  margin: 2rem 10% 0 20%;
+}
+.article-body{
+  margin: 0 20%;
+}
+.article-footer{
+  margin: 0 20%;
+}
+.resource, .resource-comments{
+  margin: 0 20%;
 }
 
 h1{
@@ -97,9 +87,6 @@ h1{
   font-weight: 200;
   line-height: 1;
   margin: 0 0 .25em;
-  @media (max-width: 800px) {
-    font-size: 2em;
-  }
 }
 h2{
   font-size: 1.5em;
@@ -248,23 +235,4 @@ sup:nth-of-type(4n+0){
 }
 .footnotes li:nth-of-type(4n+0):before{
   color: red;
-}
-
-
-
-// Media Queries for Text Size Changes
-@media only screen and (max-width: 500px) {
-  :root {
-    font-size: 90%;
-  }
-}
-@media only screen and (min-width: 500px) and (max-width: 800px) {
-  :root {
-    font-size: 100%;
-  }
-}
-@media only screen and (min-width: 800px) {
-  :root {
-    font-size: 120%;
-  }
 }
