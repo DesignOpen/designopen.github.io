@@ -3,6 +3,12 @@ layout: default
 title: Home
 ---
 <div id="content" class="site">
+  <section class="home-section" itemscope itemprop="mainContentOfPage about" itemtype=http://schema.org/WebPageElement>
+    <h2>About</h2>
+      <p>We think the best way to improve the design industry is to work in the open.</p>
+      <p>For more details, read <a href="http://opensourcedesign.is/blogging_about/the-open-source-design-manifesto/">The Open Source Design Manifesto</a>, and <a href="http://opensourcedesign.is/blogging_about/building_this_site/">Building this Site</a>.  If you'd like to help contribute to the project, checkout the <a href="https://github.com/opensourcedesignis/opensourcedesignis.github.io/issues">GitHub Issues</a> or hit us up on the #opensourcedesign channel (Freenode) in IRC
+  </section>
+  
   <section class="home-section" itemscope itemtype="http://schema.org/Blog">
     <h2 class="title" itemscope itemprop="name">Articles</h2>
     <ul class="bloglist">
@@ -29,10 +35,5 @@ title: Home
         <li itemprop="itemListElement"><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
       </ul>
-  </section>
-  <section class="home-section" itemscope itemprop="mainContentOfPage about" itemtype=http://schema.org/WebPageElement>
-    <h2>About</h2>
-      <p>We think the best way to improve the design industry is to work in the open.</p>
-      <p>For more details, read <a href="http://opensourcedesign.is/blogging_about/the-open-source-design-manifesto/">The Open Source Design Manifesto</a>, and <a href="http://opensourcedesign.is/blogging_about/building_this_site/">Building this Site</a>.  If you'd like to help contribute to the project, checkout the <a href="https://github.com/opensourcedesignis/opensourcedesignis.github.io/issues">GitHub Issues</a> or hit us up on the #opensourcedesign channel (Freenode) in IRC
   </section>
 </div>

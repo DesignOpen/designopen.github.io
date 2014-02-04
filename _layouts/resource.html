@@ -2,10 +2,16 @@
 layout: default
 ---
 {% assign author = site.authors[page.author] %}
-<div id="content" class="site">
+<div id="content">
   <article class="resource">
-    {{ content }}
-    <footer>
+  	<header class="article-header">
+      <h1 itemprop="name">{{ page.title }}</h1>
+      <p>Sourced on <time itemprop="datePublished" datetime="{{page.date | date: "%Y-%m-%d" }}">{{page.date | date: "%b %e, %Y" }}</time></p>
+    </header>
+    <section class="article-body">
+	    {{ content }}
+	  </section>
+    <footer class="article-footer">
       <div class="source">Source: <a href="{{page.source_url}}">{{page.title}}</a></div>
       <div class="contributor">Submitted by: <a href="http://www.twitter.com/{{page.contributor}}">@{{page.contributor}}</a></div>
     </footer>
