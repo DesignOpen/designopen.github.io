@@ -2,19 +2,19 @@
 layout: default
 ---
 {% assign author = site.authors[page.author] %}
-<div id="content" class="site">
-  <article itemscope itemtype=http://schema.org/BlogPosting>
+<div id="content">
+  <article itemscope itemtype="http://schema.org/BlogPosting" class="post">
     <meta itemprop="description" content="{{ page.excerpt | strip_html}}">
-    <header>
-      <h3 itemprop="name">{{ page.title }}</h3>
+    <header class="article-header">
+      <h1 itemprop="name">{{ page.title }}</h1>
+      <p>Published on <time itemprop="datePublished" datetime="{{page.date | date: "%Y-%m-%d" }}">{{page.date | date: "%b %e, %Y" }}</time></p>
     </header>
     <div>
-      Published on <time itemprop="datePublished" datetime="{{page.date | date: "%Y-%m-%d" }}">{{page.date | date: "%b %e, %Y" }}</time>
     </div>
-    <section itemprop="articleBody">
+    <section itemprop="articleBody" class="article-body">
       {{ content }}
     </section>
-    <footer>
+    <footer class="article-footer">
       <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
         <a href="{{author.web}}"><img itemprop="image" src="http://www.gravatar.com/avatar/{{author.gravatar}}" alt="{{author.display_name}}" width="30" height="30"></a>
         <h3>About the author: <a href="{{site.authors[page.author].web}}" itemprop="url"><span itemprop="name">{{author.display_name}}</span></a></h3>
