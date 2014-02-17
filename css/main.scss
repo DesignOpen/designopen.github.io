@@ -226,33 +226,6 @@ article ol li::before{
   margin: 0;
 }
 
-sup:nth-of-type(4n+1){
-  color: green;
-}
-sup:nth-of-type(4n+2){
-  color: blue;
-}
-sup:nth-of-type(4n+3){
-  color: cyan;
-}
-sup:nth-of-type(4n+0){
-  color: red;
-}
-
-.footnotes li:nth-of-type(4n+1):before{
-  color: green;
-}
-.footnotes li:nth-of-type(4n+2):before{
-  color: blue;
-}
-.footnotes li:nth-of-type(4n+3):before{
-  color: cyan;
-}
-.footnotes li:nth-of-type(4n+0):before{
-  color: red;
-}
-
-
 
 // Media Queries for Text Size Changes
 @media only screen and (max-width: 800px) {
