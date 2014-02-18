@@ -3,7 +3,7 @@ body {
   font: normal normal normal 1rem/1.5 'source_sans_pro', sans;
   margin: 0;
   font-weight: 400;
-  color: rgba(0,0,0,.75);
+  color: #333;
 }
 :not(p)>a{
   color: rgb(49,107,158);
@@ -224,6 +224,33 @@ article ol li::before{
 .footnotes p{
   display: inline-block;
   margin: 0;
+}
+
+.homeheader {
+  width: 100%;
+  height: 12rem;
+  background:#333;
+  color: white;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+  }
+  @media (min-width: 800px) {
+    height: 20rem;
+  }
+}
+.homelogo {
+  margin-right: 1rem;
+  width: 6rem;
+  height: 6rem;
 }
 
 // Media Queries for Text Size Changes

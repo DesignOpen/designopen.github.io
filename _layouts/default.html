@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0" />
-    <title>Open Source Design{% if page.title %} | {{ page.title }}{% endif %}</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" type="text/css" href="/css/fonts/fonts.css">
+    {% include head.html %}
   </head>
   <body itemscope itemtype="http://schema.org/WebPage">
     <meta itemscope itemprop="url" content="{{ site.url }}{{ page.url }}">
