@@ -23,7 +23,7 @@ This deals primarily with the professional context, but it could apply to any ar
 
 We should be happy with the good things we have going for us in our lives, but we should never stay standing still. Push yourself to want something more. I'm not necessarily recommending you should quit your job (yet) and try to form a startup tomorrow, but if that's what you want to ultimately do you should keep that goal in mind.
 
-Write it down if you think it'll help you think it through.
+Write it down if it'll help you think it through.
 
 ##2. What are you lacking?
 
