@@ -17,7 +17,7 @@ First the questions:
 
 Let's break these down.
 
-##1. What do you want to do?
+###1. What do you want to do?
 
 This deals primarily with the professional context, but it could apply to any area of your life.  It isn't a trick question though, what do you want? What is on your dream to-do list? Maybe it's to write a book, speak at a specific conference, learn a new skill, get a new position, or be hired by a specific company.
 
@@ -25,7 +25,7 @@ We should be happy with the good things we have going for us in our lives, but w
 
 Write it down if it'll help you think it through.
 
-##2. What are you lacking?
+###2. What are you lacking?
 
 It's not hard to think about this question.  Often self doubt pushes our weakness to the forefront of our mind, so maybe work through this with a trusted friend.
 
@@ -35,7 +35,7 @@ Take this to-do list of skills and with that close friend, try to make an honest
 
 This question is not designed to depress you. If you stop here I'd be doing you a diservice, so stick with it to the end.
 
-##3. How can you bridge that gap?
+###3. How can you bridge that gap?
 
 Now that you have your dream board done, start figuring out what you need to do to get to where you are dreaming. For most situations you'll need to work on a showcase project, both to learn a skill and also to demonstrate your prowess.
 
@@ -47,7 +47,7 @@ So pick a project. For most cases the project should be:
 * **collaborative**.  This is a bit of a bonus, but if possible you will grow fastest and in the right direction if you have a mentor helping to light the path ahead of you.
 * something you are **passionate** about.
 
-#The Simple Proposal
+##The Simple Proposal
 It shouldn't be too surprising, but I would propose that you should consider an open source project, either an existing one or start a new project.  If you can find a way to do some of these growing projects as part of your day job, more power to you, but it's not common that your goals perfectly coincide with those of your employer.
 
 If you are looking for a mentor, [I volunteer](http://gifrific.gifrific.netdna-cdn.com/wp-content/uploads/2012/04/i-volunteer.gif).  I'm not perfect, or the expert in all things, but I believe firmly in the role of mentorship in the process of progression, so I'm putting my money where my mouth is.  Reach out to me on [Twitter](http://www.twitter.com/garthdb) or leave a comment below.
