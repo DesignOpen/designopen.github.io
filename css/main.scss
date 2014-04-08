@@ -1,9 +1,9 @@
 // Defaults for the body
 body {
-  font: normal normal normal 1.375em/1.5 'source_sans_pro', sans;
+  font: normal normal normal 1rem/1.5 'source_sans_pro', sans;
   margin: 0;
   font-weight: 400;
-  color: rgba(0,0,0,.75);
+  color: #333;
 }
 :not(p)>a{
   color: rgb(49,107,158);
@@ -43,7 +43,7 @@ body {
   }
   li{
     display: inline-block;
-    margin: 0 .5em;
+    margin: 0 .5rem;
   }
   a{
     color: white;
@@ -75,7 +75,7 @@ article, section{
     margin: 2rem 5% 0;
   }
   @media (max-width: 500px) {
-    margin: 2rem .25em 0;
+    margin: 2rem .25rem 0;
   }
 }
 .home-section, 
@@ -88,79 +88,69 @@ article, section{
     margin: 0 5%;
   }
   @media (max-width: 500px) {
-    margin: 0 .25em;
+    margin: 0 1rem;
   }
 }
 
 h1{
-  font-size: 3.375em;
+  font-size: 3.375rem;
   font-weight: 200;
   line-height: 1;
-  margin: 0 0 .25em;
+  margin: 0 0 .25rem;
   @media (max-width: 800px) {
-    font-size: 2em;
+    font-size: 2rem;
   }
 }
 h2{
-  font-size: 1.5em;
+  font-size: 1.5rem;
   line-height: 1;
   font-weight: 400;
-  margin: 2em 0 .5em;
+  margin: 2rem 0 .5rem;
 }
 h3{
-  font-size: 1em;
+  font-size: 1rem;
   text-transform: uppercase;
-  margin: 1.5em 0 0;
-  letter-spacing: .1em;
+  margin: 1.5rem 0 0;
+  letter-spacing: .1rem;
   font-weight: 600;
 }
 h4{
-  font-size: 1em;
-  margin: 1.5em 0 0;
+  font-size: 1rem;
+  margin: 1.5rem 0 0;
   font-weight: 600;
 }
 h5{
-  font-size: 1em;
-  margin: 1.5em 0 0;
+  font-size: 1rem;
+  margin: 1.5rem 0 0;
   font-weight: 600;
 }
 h6{
-  font-size: 1em;
-  margin: 1.5em 0 0;
+  font-size: 1rem;
+  margin: 1.5rem 0 0;
   font-weight: 600;
 }
 p{
-  font-size: 1em;
-  margin: 0 0 1em;
+  font-size: 1rem;
+  margin: 0 0 1rem;
 }
-a{
+p > a{
   color: inherit;
-  text-decoration: none;
-  position: relative;
-}
-p>a::before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: inline-block;
-  height: .8em;
-  width: 100%;
-  margin: .2em 0 0;
   background: yellow;
-  z-index: -1;
+  &:hover {
+    border-bottom: 1px solid;
+  }
 }
-p>a:hover::before{
-  border-bottom: 1px solid;
+a {
+  text-decoration: none;
 }
 code{
   font-size: 80%;
 }
 blockquote{
   font-style: italic;
-  padding: .5em 1em .75em;
-  margin: 1em 0 1em;
-  font-size: 1.5em;
+  padding: .5rem 1rem .75rem;
+  margin: 1rem 0 1rem;
+  font-size: 1.5rem;
   line-height: 1.2;
   font-weight: 300;
   border-top: 1px solid;
@@ -169,54 +159,56 @@ blockquote{
 blockquote p{
    margin: 0;
 }
-
+ul {
+  padding: 0 0 0 1.5rem;
+}
 article ul{
   list-style: none;
-  padding: 0 0 0 1em;
+  padding: 0 0 0 1rem;
 }
 article ul li{
-  margin: 0 0 .5em;
+  margin: 0 0 .5rem;
 }
 article ul li::before{
   content: "\25ca";
   display: inline-block;
-  width: 1em;
-  margin: 0 0 0 -1em;
+  width: 1rem;
+  margin: 0 0 0 -1rem;
   color: rgb(49,107,158);
 }
 article ol{
   padding: 0;
   list-style: none;
-  padding: 0 0 0 1em;
+  padding: 0 0 0 1rem;
   counter-reset: o;
 }
 article ol li{
   counter-increment: o;
-  margin: 0 0 .5em;
+  margin: 0 0 .5rem;
 }
 article ol li::before{
   display: inline-block;
   content: counter(o) ".";
-  width: 1em;
-  margin: 0 0 0 -1em;
+  width: 1rem;
+  margin: 0 0 0 -1rem;
   color: rgb(49,107,158);
 }
 
 .footnotes ol{
   padding: 0;
   list-style: none;
-  padding: 0 0 0 1em;
+  padding: 0 0 0 1rem;
   counter-reset: o;
 }
 .footnotes ol li{
   counter-increment: o;
-  margin: 0 0 .5em;
+  margin: 0 0 .5rem;
 }
 .footnotes ol li::before{
   display: inline-block;
   content: counter(o) ".";
-  width: 1em;
-  margin: 0 0 0 -1em;
+  width: 1rem;
+  margin: 0 0 0 -1rem;
   color: rgb(49,107,158);
 }
 .footnotes p{
@@ -224,20 +216,41 @@ article ol li::before{
   margin: 0;
 }
 
-
-// Media Queries for Text Size Changes
-@media only screen and (max-width: 500px) {
-  :root {
-    font-size: 90%;
+.homeheader {
+  width: 100%;
+  height: 12rem;
+  background:#333;
+  color: white;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+  }
+  @media (min-width: 800px) {
+    height: 20rem;
   }
 }
-@media only screen and (min-width: 500px) and (max-width: 800px) {
+.homelogo {
+  margin-right: 1rem;
+  width: 6rem;
+  height: 6rem;
+}
+
+// Media Queries for Text Size Changes
+@media only screen and (max-width: 800px) {
   :root {
-    font-size: 100%;
+    font-size: 16px;
   }
 }
 @media only screen and (min-width: 800px) {
   :root {
-    font-size: 120%;
+    font-size: 18px;
   }
 }

@@ -1,0 +1,351 @@
+/* line 2, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+body {
+  font: normal normal normal 1rem/1.5 'source_sans_pro', sans;
+  margin: 0;
+  font-weight: 400;
+  color: #333;
+}
+
+/* line 8, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+:not(p) > a {
+  color: #316b9e;
+}
+/* line 10, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+:not(p) > a:hover {
+  text-decoration: underline;
+}
+
+/* line 15, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+#globalhead {
+  background: #000;
+  padding: .5rem 0;
+  height: 2.5rem;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+/* line 24, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+#globalhead a:hover {
+  background: transparent;
+}
+/* line 26, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+#globalhead a:hover path {
+  fill: #f5f58f;
+}
+
+/* line 31, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+#globalheadplaceholder {
+  height: 2.5rem;
+}
+
+/* line 34, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+#globalfoot {
+  background: #000;
+  padding: .5rem 0;
+  text-align: center;
+  width: 100%;
+}
+/* line 39, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+#globalfoot ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 44, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+#globalfoot li {
+  display: inline-block;
+  margin: 0 .5rem;
+}
+/* line 48, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+#globalfoot a {
+  color: white;
+}
+
+/* line 53, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+.videoContainer {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  width: 100%;
+  margin: 1em 0;
+}
+
+/* line 60, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+.videoContainer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Article*/
+/* line 69, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+article, section {
+  padding: 1px 0;
+}
+
+/* line 72, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+.article-header, .section-header {
+  margin: 2rem 10% 0 20%;
+}
+@media (min-width: 500px) and (max-width: 800px) {
+  /* line 72, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+  .article-header, .section-header {
+    margin: 2rem 5% 0;
+  }
+}
+@media (max-width: 500px) {
+  /* line 72, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+  .article-header, .section-header {
+    margin: 2rem .25rem 0;
+  }
+}
+
+/* line 84, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+.home-section,
+.article-body,
+.article-footer,
+.resource-comments {
+  max-width: 800px;
+  margin: 0 20%;
+}
+@media (min-width: 500px) and (max-width: 800px) {
+  /* line 84, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+  .home-section,
+  .article-body,
+  .article-footer,
+  .resource-comments {
+    margin: 0 5%;
+  }
+}
+@media (max-width: 500px) {
+  /* line 84, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+  .home-section,
+  .article-body,
+  .article-footer,
+  .resource-comments {
+    margin: 0 1rem;
+  }
+}
+
+/* line 95, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+h1 {
+  font-size: 3.375rem;
+  font-weight: 200;
+  line-height: 1;
+  margin: 0 0 .25rem;
+}
+@media (max-width: 800px) {
+  /* line 95, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/* line 104, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+h2 {
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 400;
+  margin: 2rem 0 .5rem;
+}
+
+/* line 110, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 1.5rem 0 0;
+  letter-spacing: .1rem;
+  font-weight: 600;
+}
+
+/* line 117, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+h4 {
+  font-size: 1rem;
+  margin: 1.5rem 0 0;
+  font-weight: 600;
+}
+
+/* line 122, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+h5 {
+  font-size: 1rem;
+  margin: 1.5rem 0 0;
+  font-weight: 600;
+}
+
+/* line 127, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+h6 {
+  font-size: 1rem;
+  margin: 1.5rem 0 0;
+  font-weight: 600;
+}
+
+/* line 132, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+p {
+  font-size: 1rem;
+  margin: 0 0 1rem;
+}
+
+/* line 136, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+p > a {
+  color: inherit;
+  background: yellow;
+}
+/* line 139, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+p > a:hover {
+  border-bottom: 1px solid;
+}
+
+/* line 143, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 146, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+code {
+  font-size: 80%;
+}
+
+/* line 149, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+blockquote {
+  font-style: italic;
+  padding: .5rem 1rem .75rem;
+  margin: 1rem 0 1rem;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 300;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+/* line 159, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+blockquote p {
+  margin: 0;
+}
+
+/* line 162, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+ul {
+  padding: 0 0 0 1.5rem;
+}
+
+/* line 165, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+article ul {
+  list-style: none;
+  padding: 0 0 0 1rem;
+}
+
+/* line 169, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+article ul li {
+  margin: 0 0 .5rem;
+}
+
+/* line 172, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+article ul li::before {
+  content: "\25ca";
+  display: inline-block;
+  width: 1rem;
+  margin: 0 0 0 -1rem;
+  color: #316b9e;
+}
+
+/* line 179, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+article ol {
+  padding: 0;
+  list-style: none;
+  padding: 0 0 0 1rem;
+  counter-reset: o;
+}
+
+/* line 185, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+article ol li {
+  counter-increment: o;
+  margin: 0 0 .5rem;
+}
+
+/* line 189, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+article ol li::before {
+  display: inline-block;
+  content: counter(o) ".";
+  width: 1rem;
+  margin: 0 0 0 -1rem;
+  color: #316b9e;
+}
+
+/* line 197, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+.footnotes ol {
+  padding: 0;
+  list-style: none;
+  padding: 0 0 0 1rem;
+  counter-reset: o;
+}
+
+/* line 203, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+.footnotes ol li {
+  counter-increment: o;
+  margin: 0 0 .5rem;
+}
+
+/* line 207, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+.footnotes ol li::before {
+  display: inline-block;
+  content: counter(o) ".";
+  width: 1rem;
+  margin: 0 0 0 -1rem;
+  color: #316b9e;
+}
+
+/* line 214, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+.footnotes p {
+  display: inline-block;
+  margin: 0;
+}
+
+/* line 219, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+.homeheader {
+  width: 100%;
+  height: 12rem;
+  background: #333;
+  color: white;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/* line 232, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+.homeheader h1 {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+@media (min-width: 800px) {
+  /* line 219, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+  .homeheader {
+    height: 20rem;
+  }
+}
+
+/* line 240, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+.homelogo {
+  margin-right: 1rem;
+  width: 6rem;
+  height: 6rem;
+}
+
+@media only screen and (max-width: 800px) {
+  /* line 248, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+  :root {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  /* line 253, /Users/garthdb/Open Source Design/opensourcedesignis.github.io/css/main.scss */
+  :root {
+    font-size: 18px;
+  }
+}
