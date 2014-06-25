@@ -1,1 +1,1 @@
-require "jekyll-sass"
+require_relative "jekyll-sass"
