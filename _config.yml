@@ -1,5 +1,5 @@
 permalink: /:categories/:title/
-pygments: true
+highlighter: true
 url: http://opensourcedesign.is
 name: Open Source Design
 excerpt_separator: <!--more-->
