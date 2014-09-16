@@ -30,7 +30,7 @@ ConvergeRVA is a smaller converge, but it has a great lineup, [go buy a ticket](
 ---
 
 ## Open Source Needs Design
-**[All Things Open](http://allthingsopen.org/speakers/garth-braithwaite/) - Los Angeles, CA - Oct 7th**
+**[All Things Open](http://allthingsopen.org/speakers/garth-braithwaite/) - Raleigh, NC - Oct 22-23th**
 
 <img alt="Adobe MAX" src="https://d13yacurqjgara.cloudfront.net/users/11525/screenshots/1721840/all-things-open.png" style="max-width: 400px; width: 100%; height: auto;"/>
 
