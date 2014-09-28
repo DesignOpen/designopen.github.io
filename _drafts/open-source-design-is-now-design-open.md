@@ -8,11 +8,13 @@ Thanks to some timely posts to our [GitHub issue on branding](https://github.com
 
 ##The Difference between Open Design and Open Source Design
 
-The removal of the term open source from the title does not signify we are going to stop encouraging designers to open source their work, or to collaborate on open source projects. On the contrary, we want to encourage all designers to become familiar with open source and make contributions to projects they care about.
+To work on open source design means to publish creative work with an open license, giving the community a chance to reuse and rework your content in ways you may not have considered. It is also the act of contributing design work to existing open source projects. Both  executions of open source design imply that the work is open to contributions and collaboration from outside designers.
 
-Although open sourcing is great, not every design can be published under an open license. However, almost every project can be designed openly to some degree and usually more than we are accustomed to doing now. If it is a client project, request to post a post mortem of the process. If you have design variations that you did not use see if you can publish the source files so someone else might benefit from your investigations. If there is a personal project you've wanted to accomplish, use a public platform to broadcast progress and keep yourself accountable to the goals you've set. Put forth real effort to design in the open. Show your work, process, and mistakes. It's good for the community, but more importantly, it is good for your own personal growth as a designer to honestly track progress.
+The removal of the term open source from the name of this project does not signify we are going to stop encouraging designers to open source their work, or to collaborate on open source projects. On the contrary, we want to encourage all designers to become familiar with open source and make contributions to projects they care about.
 
-As an added benefit to designing in the open, it is a short leap to open source design. Put a good open license on work you think could benefit others and post it publicly.
+Although open sourcing is great, not every design can be published under an open license. However, almost every project can be designed openly to some degree and usually more than we are accustomed to doing now. If it is a client project, request to write a post mortem of the process. If you have design variations that you did not ultimately use, see if you can publish the source files so someone else might benefit from your investigations. If there is a personal project you've wanted to accomplish, use a public platform to broadcast progress and keep yourself accountable to the goals you've set. Put forth real effort to designing in the open. Show your work, process, and mistakes. It's good for the community, but more importantly, it is good for your own personal growth as a designer to honestly track progress.
+
+As an added benefit to designing in the open, it is a short leap to open source design. Put an open license on work you think could benefit others and post it publicly.
 
 ##The Call
 
