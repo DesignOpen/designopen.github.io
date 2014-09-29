@@ -56,12 +56,6 @@ GitHub Pages is a simple way that any front end designer could contribute to jus
 
 ## Conclusion
 
-Open source projects need designers as much as other any other projects, maybe more so.  We are looking into starting a job board of sorts with projects looking for design contributions.  I just filed an [issue](https://github.com/opensourcedesignis/opensourcedesignis.github.io/issues/10), so watch that for updates, or join in the conversation.
+Open source projects need designers as much as other any other projects, maybe more so.  We are looking into starting a job board of sorts with projects looking for design contributions.  I just filed an [issue](https://github.com/DesignOpen/designopen.github.io/issues/10), so watch that for updates, or join in the conversation.
 
 Thanks [Stephan Junghanns](https://news.layervault.com/u/801/stephan-junghanns) for posting the question, and [Nicole Dominguez](https://twitter.com/sodevious) for pointing it out.
-
-
-
-
-
-

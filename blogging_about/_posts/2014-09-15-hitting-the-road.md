@@ -9,7 +9,7 @@ The ultimate goal of this project is to get more designers and developers collab
 
 If you are headed to these conferences come out to my session (RSVP for the MAX session). If you aren't planning to attend you should anyway.
 
-If there is a conference or meetup you'd like us to speak at, let us know by commenting on [this issue](https://github.com/opensourcedesignis/opensourcedesignis.github.io/issues/29) or reach out to me on [twitter](http://twitter.com/garthdb).
+If there is a conference or meetup you'd like us to speak at, let us know by commenting on [this issue](https://github.com/designopen/designopen.github.io/issues/29) or reach out to me on [twitter](http://twitter.com/garthdb).
 
 ## Collaborative Design in the Open
 **[Adobe MAX](https://www.adobe-max.com/connect/sessionDetail.ww?SESSION_ID=2708) - Los Angeles, CA - Oct 7th**
