@@ -19,4 +19,4 @@ The goal of this site is 3 fold:
 
 In the spirit of part 3 - this is the beginning. I've only done the minimal amout of design/code to make this post, and to post the manifesto.
 
-I'd love to find some contributors to add to the project.  Feel free to ping me on [twitter](http://www.twitter.com/garthdb).  Also, if you have any issues with the site or project in general, feel free to post comments on [Github Issues](https://github.com/opensourcedesignis/opensourcedesignis.github.io/issues).
+I'd love to find some contributors to add to the project.  Feel free to ping me on [twitter](http://www.twitter.com/garthdb).  Also, if you have any issues with the site or project in general, feel free to post comments on [Github Issues](https://github.com/DesignOpen/designopen.github.io/issues).
