@@ -2,6 +2,7 @@
 title: "Open Source Design is now Design Open"
 layout: post
 author: garthdb
+editor: mrondina
 priority: 0.9
 excerpt: Open Source Design has been renamed to Design Open, let's talk about why.
 tags: annoucement,news
@@ -20,4 +21,4 @@ The removal of the term open source from the name of this project does not signi
 
 ##The Call
 
-A while ago this site hit the front page of Designer News and the traffic spiked dramatically. It was wonderful to get the exposure, but ultimately I found it a little disappointing that it didn't lead to any significant, trackable increase in discussion. This is not merely a nice idea, it is a clarion call to shed our insecurities, pride, and paralyzing perfectionism; to dedicate effort to helping worthy causes; and to raise the quality of design and design education on the web. A call to design open.
+A while ago this site hit the front page of [Designer News](https://news.layervault.com/stories/8313-open-source-design-using-layervault) and the traffic spiked dramatically. It was wonderful to get the exposure, but ultimately I found it a little disappointing that it didn't lead to any significant, trackable increase in discussion. This is not merely a nice idea, it is a clarion call to shed our insecurities, pride, and paralyzing perfectionism; to dedicate effort to helping worthy causes; and to raise the quality of design and design education on the web. A call to design open.
