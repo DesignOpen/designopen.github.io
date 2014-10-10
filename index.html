@@ -12,7 +12,8 @@ title: Home
   <section class="home-section" itemscope itemtype="http://schema.org/Blog">
     <h2 class="title" itemscope itemprop="name">Articles</h2>
     <ul class="bloglist">
-    {% for post in site.categories.blogging_about limit:3 %}
+    {% for post in site.categories.blogging_about %}
+    {% if post.tags contains 'featured' %}
       {% assign author = site.authors[post.author] %}
       <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
         <h3 class="title" itemscope itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h3>
@@ -23,7 +24,8 @@ title: Home
           </span>
         </div>
       </li>
-    {% endfor %}
+      {% endif %}
+	    {% endfor %}
     </ul>
   </section>
 
