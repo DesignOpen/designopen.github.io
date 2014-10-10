@@ -2,7 +2,7 @@
 title: "The Roadmap"
 layout: post
 category: blogging_about
-tags: design, design update
+tags: design design update
 author: garthdb
 date: '2013-12-06 10:15:00'
 ---
