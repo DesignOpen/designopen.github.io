@@ -12,8 +12,11 @@ title: Home
   <section class="home-section" itemscope itemtype="http://schema.org/Blog">
     <h2 class="title" itemscope itemprop="name">Articles</h2>
     <ul class="bloglist">
+    {% assign counter = 0 %}
     {% for post in site.categories.blogging_about %}
-      {% assign author = site.authors[post.author] %}
+    {% if post.tags contains 'featured' and counter < 3 %}
+    {% assign counter=counter | plus:1 %}
+    {% assign author = site.authors[post.author] %}
       <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
         <h3 class="title" itemscope itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h3>
         <div class="meta">
@@ -23,17 +26,24 @@ title: Home
           </span>
         </div>
       </li>
-    {% endfor %}
+      {% endif %}
+	    {% endfor %}
     </ul>
+    <p><a href="/blog.html">Read More...</a></p>
   </section>
 
   <section class="home-section" itemscope itemtype="http://schema.org/ItemList">
     <h2 class="title" itemprop="name">Resources</h2>
-    <meta itemscope itemprop="itemListOrder" content="Unordered" />
-      <ul class="reslist">
-      {% for post in site.categories.resourced %}
-        <li itemprop="itemListElement"><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% for tagg in site.resourceTags %}
+        <meta itemscope itemprop="itemListOrder" content="Unordered" />
+        <ul class="reslist">
+        <h4> {{ tagg }} </h4>
+        {% for post in site.categories.resourced %}
+          {% if post.tags contains tagg %}
+            <li itemprop="itemListElement"><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+        </ul>
       {% endfor %}
-      </ul>
   </section>
 </div>
