@@ -2,7 +2,7 @@
 title: "UK Goverment Redesign"
 layout: resource
 source_url: http://alpha.gov.uk/
-tags: example,opendesign
+tags: example opendesign
 contributor: brad_frost
 posted_date: 2011-07-29
 ---
