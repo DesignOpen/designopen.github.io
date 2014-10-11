@@ -1,6 +1,6 @@
 permalink: /:categories/:title/
 highlighter: true
-url: localhost:4000
+url: http://localhost:4000
 name: Open Source Design
 excerpt_separator: <!--more-->
 markdown: kramdown

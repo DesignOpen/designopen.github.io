@@ -240,9 +240,45 @@ article ol li::before {
   :root {
     font-size: 18px; } }
 .navigation {
-  background-color: #1a1a1a;
+  background-color: whitesmoke;
+  min-height: 55px;
   width: 100%; }
   .navigation a {
-    color: white; }
-  .navigation li {
-    float: left; }
+    color: #4d4d4d; }
+  @media (max-width: 800px) {
+    .navigation {
+      min-height: 45px; } }
+  @media (max-width: 640px) {
+    .navigation {
+      min-height: 45px; } }
+
+.link-container {
+  display: block;
+  width: 75%;
+  min-height: 55px;
+  padding: 0;
+  margin: auto; }
+  @media (max-width: 800px) {
+    .link-container {
+      min-height: 45px; } }
+  @media (max-width: 640px) {
+    .link-container {
+      width: 100%; } }
+
+.nav-item {
+  display: block;
+  float: left;
+  height: 55px;
+  list-style-type: none;
+  padding: 2%;
+  text-align: center;
+  width: 25%;
+  font-size: 0.86957em;
+  letter-spacing: 0.5px;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s; }
+  .nav-item:hover {
+    background-color: #e1e1e1; }
+  @media (max-width: 800px) {
+    .nav-item {
+      max-height: 45px; } }

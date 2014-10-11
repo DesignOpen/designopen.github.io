@@ -2,7 +2,7 @@
 title: "@GarthDB on The East Wing"
 layout: resource
 source_url: http://theeastwing.net/episodes/72
-tags: podcast
+tags: podcast, news
 contributor: davidpots
 posted_date: 2013-10-08
 ---

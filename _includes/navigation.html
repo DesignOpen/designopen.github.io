@@ -1,8 +1,19 @@
 <nav class="navigation">
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Resources</a></li>
-    <li><a href="#">News</a></li>
+  <ul class="link-container">
+    <a href="{{ site.url }}">
+      <li class="nav-item">Home</li>
+    </a>
+
+    <a href="{{ site.url }}/index.html#about">
+      <li class="nav-item">About</li>
+    </a>
+
+    <a href="{{ site.url }}/index.html#articles">
+      <li class="nav-item">Articles</li>
+    </a>
+
+    <a href="{{ site.url }}/resources.html">
+      <li class="nav-item">Resources</li>
+    </a>
   </ul>
 </nav>

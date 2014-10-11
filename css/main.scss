@@ -256,15 +256,57 @@ article ol li::before{
 }
 
 .navigation {
-  background-color: darken(#333, 10%);
+  background-color: whitesmoke;
+  min-height: 55px;
   width: 100%;
 
   a {
-    color: white;
+    color: lighten(#333, 10%);
   }
 
-  li {
-    float: left;
-    // list-style-type: none;
+  @media (max-width: 800px) {
+    min-height: 45px;
+  }
+
+  @media (max-width: 640px) {
+    min-height: 45px;
+  }
+}
+
+.link-container {
+  display: block;
+  width: 75%;
+  min-height: 55px;
+  padding: 0;
+  margin: auto;
+
+  @media (max-width: 800px) {
+    min-height: 45px;
+  }
+
+  @media (max-width: 640px) {
+    width: 100%;
+  }
+}
+
+.nav-item {
+  display: block;
+  float: left;
+  height: 55px;
+  list-style-type: none;
+  padding: 2%;
+  text-align: center;
+  width: (100% / 4);
+  font-size: (1em / 1.15);
+  letter-spacing: 0.5px;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+
+  &:hover {
+    background-color: darken(whitesmoke, 8%);
+  }
+
+  @media (max-width: 800px) {
+    max-height: 45px;
   }
 }
