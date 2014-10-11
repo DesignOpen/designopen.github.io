@@ -451,13 +451,13 @@ $designHeight : 30rem;
     }
  .bounds {
   max-width: 820px;
-  position: relative;
-  margin: 0 auto;
  }
 }
 .bounds {
   padding-right: 20px;
   padding-left: 20px;
+  position: relative;
+  margin: 0 auto;
   box-sizing: border-box;
 }
 .manifesto {
@@ -467,4 +467,15 @@ $designHeight : 30rem;
   background-image: url('../img/HeroImage.png');
     background-size: cover; 
   background-attachment: fixed;
+  .bounds {
+    max-width: 960px;
+    height: 100%;
+  }
+  img {
+    height: 100%;
+    width: auto;
+    padding: 30px 30px 30px 30px;
+    border-radius: 100px;
+    float: right;
+  }
 }
