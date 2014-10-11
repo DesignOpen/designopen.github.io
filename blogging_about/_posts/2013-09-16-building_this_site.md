@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building this Site
-tags: design, design update
+tags: design design update
 author: garthdb
 priority: 0.9
 ---
