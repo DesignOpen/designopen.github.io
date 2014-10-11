@@ -254,3 +254,17 @@ article ol li::before{
     font-size: 18px;
   }
 }
+
+.navigation {
+  background-color: darken(#333, 10%);
+  width: 100%;
+
+  a {
+    color: white;
+  }
+
+  li {
+    float: left;
+    // list-style-type: none;
+  }
+}
