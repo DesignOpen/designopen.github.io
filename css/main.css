@@ -337,6 +337,14 @@ article ol li::before {
   height: 6rem;
 }
 
+/* line 240, /Users/terracomma/sites/osd/css/main.scss */
+.homelogoSmall {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+
 @media only screen and (max-width: 800px) {
   /* line 248, /Users/terracomma/sites/osd/css/main.scss */
   :root {
@@ -348,4 +356,13 @@ article ol li::before {
   :root {
     font-size: 18px;
   }
+}
+.homelogoSmall {
+  margin-right: -3px;
+  width: 2rem;
+  height: 27px;
+  margin-top: -8px;
+}
+.navbar-wrapper {
+  background-color: 8958;
 }

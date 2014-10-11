@@ -254,3 +254,19 @@ article ol li::before{
     font-size: 18px;
   }
 }
+
+.homelogoSmall {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
