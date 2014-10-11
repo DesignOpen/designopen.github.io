@@ -362,25 +362,25 @@ article ol li::before {
 .homelogoSmall {
   margin-right: -3px;
   width: 2rem;
-  height: 27px;
+  height: 28px;
   margin-top: -8px;
 }
 .navbar-wrapper {
   width: 100%;
-.navbar-inner {
-   background-color: rgb(51, 51, 51);
 }
 
 $bgDefault      : #444444;
-$bgHighlight    : #999999;
+$bgHighlight    : #fcf2d7;
 $colDefault     : #fcf2d7;
 $colHighlight   : #fcf2d7;
 .navbar-default {
   background-color: $bgDefault;
-  border-color: $bgHighlight;
+  background-image: none;
+  /* border-color: $bgHighlight; */
+  border-width: 0px;
   .navbar-brand {
     color: $colDefault;
-    &:hover, &:focus {
+    &:hover, &:focus { 
       color: $colHighlight; }}
   .navbar-text {
     color: $colDefault; }
@@ -389,24 +389,26 @@ $colHighlight   : #fcf2d7;
       > a {
         color: $colDefault;
         &:hover,  &:focus {
-          color: $colHighlight; }}}
+          color: $colDefault; }}}
     > .active {
       > a, > a:hover, > a:focus {
-        color: $colHighlight;
-        background-color: $bgHighlight; }}
+        color: $bgDefault;
+        background-image: none;
+        background-color: $colDefault; }}
     > .open {
       > a, > a:hover, > a:focus {
         color: $colHighlight;
-        background-color: $bgHighlight; }}}
+        background-image: none;
+        background-color: $colDefault; }}}
   .navbar-toggle {
-    border-color: $bgHighlight;
+    /*border-color: $bgHighlight */;
     &:hover, &:focus {
       background-color: $bgHighlight; }
     .icon-bar {
       background-color: $colDefault; }}
   .navbar-collapse,
   .navbar-form {
-    border-color: $colDefault; }
+    /* border-color: $colDefault; */}
   .navbar-link {
     color: $colDefault;
     &:hover {
@@ -421,4 +423,4 @@ $colHighlight   : #fcf2d7;
       > a, > a:hover, > a:focus, {
         color: $colHighlight;
         background-color: $bgHighlight; }}}
-}}
+}
