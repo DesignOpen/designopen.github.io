@@ -2,16 +2,14 @@
 <!-- New Homepage design by Sacha/Becca -->
 <html>
   <head>
-    
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/sizzle/2.0.0/sizzle.min.js"></script>
+    <script src="/js/main.js"></script>
         <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     {% include head.html %}
   </head>
   <body itemscope itemtype="http://schema.org/WebPage">
@@ -24,11 +22,13 @@
       <h1><span> Design Better</span><br><span>Work Together</span></h1>
     </div>
     <div class="designopen">
+      <div class="triangle2"></div>
+      <div class="triangle1"></div>
       <div class="bounds">
       <h2>Design Open</h2>
       <p><br>We think the best way to improve the design industry is to work in the open.<br><br>If you have 39 minutes watch this presentation, if not read the manifesto. If you're curious about this site read this post. Finally, if you'd like to help contribute design, code, or content; checkout the roadmap or hit us up on the #opensourcedesign channel (Freenode) in IRC</h3>
     </div>
-    </div>
+  </div>
     <section class="manifesto">
       <div class="bounds">
           <img src="img/manifestoNew.png">
@@ -47,7 +47,7 @@
           </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-          <li class=""><a href="#">  
+          <li class=""><a href="#">
            <div class="homelogoSmall">
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
            viewBox="0 0 144 144" enable-background="new 0 0 144 144" xml:space="preserve">
@@ -73,9 +73,6 @@
     {% include global-footer.html %}
 
     {% include analytics.html %}
-    <script src="js/main.js"></script>
-    <script src="js/stickUp.min.js"></script>
-    <script type="text/javascript">jQuery(function($) { $(document).ready( function() { $('.navbar-wrapper').stickUp(); }); }); </script>
     <script type="test/javascript">
       $("#navArticle").click(function() {
         $.scrollTo($(".content-article"), null);

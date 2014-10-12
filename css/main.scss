@@ -322,8 +322,8 @@ $offWhite : #fcf2d7;
   justify-content: center;
   align-items: center;
   margin-top: 0px;
-  background-image: url('../img/HeroImage.png');
-  background-size: cover; 
+  background-image: url('../img/HeroImage.jpg');
+  background-size: cover;
   background-attachment: fixed;
   color: $red;
   font-style: bold;
@@ -389,7 +389,7 @@ $colHighlight   : #fcf2d7;
   border-width: 0px;
   .navbar-brand {
     color: $colDefault;
-    &:hover, &:focus { 
+    &:hover, &:focus {
       color: $colHighlight; }}
   .navbar-text {
     color: $colDefault; }
@@ -464,8 +464,8 @@ $designHeight : 30rem;
   height: $designHeight;
   width: 100%;
   color: $offWhite;
-  background-image: url('../img/HeroImage.png');
-    background-size: cover; 
+  background-image: url('../img/HeroImage.jpg');
+  background-size: cover;
   background-attachment: fixed;
   .bounds {
     max-width: 960px;
@@ -477,5 +477,41 @@ $designHeight : 30rem;
     padding: 30px 30px 30px 30px;
     border-radius: 100px;
     float: right;
+  }
+}
+.triangle1 {
+  position: relative;
+  margin: -95px auto;
+  width: 0;
+  height: 0;
+  border-left: 97px solid transparent;
+  border-right: 97px solid transparent;
+  border-top: 97px solid #2AB69D;
+  top: -30px;
+  -webkit-transition: top 0.5s, border-top 0.5s;
+  transition: top 0.5s border-top 0.5s;
+}
+.triangle1.down {
+  top: 0;
+  border-top: 95px solid #E26056;
+}
+.triangle2 {
+  background-image: url('../img/HeroImage.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  width: 190px;
+  height: 95px;
+  position: relative;
+  margin: 0 auto 0;
+  &:before {
+    width: 0;
+    height: 0;
+    content: '';
+    position: absolute;
+    border-left: 95px solid #E26056;
+    border-right: 95px solid #E26056;
+    border-top: 95px solid transparent;
+    left: 0;
+    top: 0;
   }
 }
