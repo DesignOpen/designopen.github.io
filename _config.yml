@@ -1,6 +1,6 @@
 permalink: /:categories/:title/
 highlighter: true
-url: http://designopen.org
+baseurl: http://designopen.org
 name: Open Source Design
 excerpt_separator: <!--more-->
 markdown: kramdown
@@ -66,3 +66,6 @@ authors:
     twitter: mrondina
     github: mrondina
     bio: 'Interactive designer working in web, games and mobile development.'
+
+resourceTags: ["benefits", "blog", "challenges", "community", "design",
+	"example", "opendesign", "source"]

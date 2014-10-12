@@ -2,7 +2,7 @@
 title: "Mozilla Redesign"
 layout: resource
 source_url: https://wiki.mozilla.org/Websites/Mozilla.org/Archive/Redesign
-tags: example,opendesign
+tags: example opendesign
 contributor: brad_frost
 posted_date: 2013-02-05
 ---

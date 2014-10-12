@@ -2,7 +2,7 @@
 title: "A List Together"
 layout: resource
 source_url: http://alistapart.com/article/a-list-together
-tags: blog,design
+tags: blog design
 contributor: garthdb
 posted_date: 2014-01-14
 ---

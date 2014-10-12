@@ -2,9 +2,9 @@
 title: "Designers Can Open Source Session Video"
 layout: post
 category: blogging_about
-tags: video,conference,session
 author: garthdb
 date: '2014-01-17 06:15:00'
+tags: video, conference, session
 ---
 
 <div class="videoContainer"><iframe src="//www.youtube.com/embed/djf8sLjtbzU" frameborder="0" allowfullscreen></iframe></div>

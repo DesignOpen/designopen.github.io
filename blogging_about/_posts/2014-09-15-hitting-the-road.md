@@ -3,6 +3,7 @@ title: Hitting the Road
 layout: post
 author: garthdb
 priority: 0.9
+tags: featured
 excerpt: Open Source Design is coming to a conference near you; maybe.
 ---
 The ultimate goal of this project is to get more designers and developers collaborating together in the open, to that end I'm speaking at a few conferences to help designers and/or developers do just that.
