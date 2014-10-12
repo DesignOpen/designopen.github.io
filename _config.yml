@@ -1,6 +1,6 @@
 permalink: /:categories/:title/
 highlighter: true
-url: http://localhost:4000
+url: http://designopen.org
 name: Open Source Design
 excerpt_separator: <!--more-->
 markdown: kramdown
