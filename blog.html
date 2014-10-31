@@ -1,0 +1,25 @@
+---
+layout: home
+title: Home
+---
+<div id="content" class="site" >
+
+  <section class="home-section" itemscope itemtype="http://schema.org/Blog">
+    <h2 class="title" itemscope itemprop="name">Articles</h2>
+    <ul class="bloglist">
+    {% for post in site.categories.blogging_about %}
+      {% assign author = site.authors[post.author] %}
+      <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+        <h3 class="title" itemscope itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h3>
+        <div class="meta">
+          <time datetime="{{post.date | date: "%Y-%m-%d" }}" itemscope itemprop="datePublished">posted {{post.date | date: "%b %e" }}</time>
+          <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            by <a href="{{author.web}}" itemprop="url"><span itemprop="name">{{author.display_name}}</span></a>
+          </span>
+        </div>
+      </li>
+	    {% endfor %}
+    </ul>
+  </section>
+
+</div>

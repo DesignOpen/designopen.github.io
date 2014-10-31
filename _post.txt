@@ -2,5 +2,9 @@
 title:
 layout: post
 category: blogging_about
+author:
+editor:
+priority:
 tags:
+excerpt:
 ---
