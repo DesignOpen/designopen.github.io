@@ -8,7 +8,12 @@ tags: featured
 excerpt: At SassConf this year, there was a lot of talk about why designers don't contribute to open source, and how we can start to influence change.
 ---
 
-- my background
+THIS is all about designing in the open.
+--> I want to talk about designers in open SOURCE.
+
+Hi all, before I get into it &mdash; my name is Una (pronounced you-na), and I'm a designer turned developer. I started the DC Sass Meetup and ATX Sass, and _______ _____ ____. I love working with designers. I feel as though design is an integral part of the creation process, that really makes a difference in improving a product. There are so many brilliant open source projects out there on Github, like Sass, and ______, and ______. And many of them could be THAT much better if design was infused in the entire process.
+
+So how come designers don't contribtue to open source like developers do?
 
 - sassconf
 
