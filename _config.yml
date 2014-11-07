@@ -18,7 +18,15 @@ page:
   template: _page.txt
   extension: md
 authors:
-  garthdb:
+  una:
+    display_name: Una Kravets
+    gravatar: 732b3562b0496389b40e548918c38f98
+    email: una.kravets@gmail.com
+    web: http://www.unakravets.com/
+    twitter: una
+    github: una
+    bio: 'Front end developer/designer at IBM Watson. Sassvocate and <a href="http://una.github.io">blogger</a>.'
+    garthdb:
     display_name: Garth Braithwaite
     gravatar: b5cf6e112eeee572d722743dea924487
     email: garthdb@gmail.com
