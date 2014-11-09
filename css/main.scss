@@ -1,3 +1,8 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
 // Defaults for the body
 body {
   font: normal normal normal 1rem/1.5 'source_sans_pro', sans;
@@ -144,7 +149,7 @@ a {
   text-decoration: none;
 }
 code{
-  font-size: 80%;
+  font-size: 80%; 
 }
 blockquote{
   font-style: italic;
@@ -152,9 +157,8 @@ blockquote{
   margin: 1rem 0 1rem;
   font-size: 1.5rem;
   line-height: 1.2;
-  font-weight: 300;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
+  font-weight: 600; 
+  max-width: 80%; 
 }
 blockquote p{
    margin: 0;

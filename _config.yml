@@ -5,9 +5,8 @@ name: Open Source Design
 excerpt_separator: <!--more-->
 markdown: kramdown
 sass:
-  style: expanded
-  deploy_style: compressed
-  compile_in_place: true
+  sass_dir: _sass
+  style: compressed
 post:
   template: _post.txt
   extension: md
