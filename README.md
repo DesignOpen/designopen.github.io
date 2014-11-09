@@ -35,3 +35,7 @@ The [site statistics](http://www.seethestats.com/site/opensourcedesign.is) are p
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/opensourcedesignis/opensourcedesignis.github.io/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
+
+## To-Do
+
+- [ ] Organize Sass Architecture
