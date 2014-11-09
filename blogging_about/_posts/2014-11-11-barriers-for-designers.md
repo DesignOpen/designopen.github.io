@@ -18,7 +18,7 @@ I've gone to a lot of hackathons in my time and find that the teams which incorp
 
 ## Barriers to Designers
 
-Even reading the [contribution guidelines](http://0.0.0.0:4000/blogging_about/how-designers-can-contribute-to-open-source-projects/), that's so many things! Most designers don't even have a Github account. The same goes for the IRC (Internet Relay Chat). There is a community about open source design on there according to this document, but in order to participate, you'd have to first know what the IRC is, and know how to access it. Github and the IRC could seem like an intimidating communities for designers. Even just working in terminal used to intimidate me when I was first learning web development.
+Even reading this project's [contribution guidelines](http://0.0.0.0:4000/blogging_about/how-designers-can-contribute-to-open-source-projects/), that's so many things! Most designers don't even have a Github account. The same goes for the IRC (Internet Relay Chat). There is a community about open source design on there according to this document, but in order to participate, you'd have to first know what the IRC is, and know how to access it. Github and the IRC could seem like an intimidating communities for designers. Even just working in terminal used to intimidate me when I was first learning web development.
 
 > The first step to solving a problem is admitting we have a problem.
 
@@ -50,4 +50,4 @@ Educating designers is definitely the first step into getting a more well-rounde
 2. **Don't make any assumptions** of previous knowledge. Asking if someone is familiar with a term will make them feel empowered if they are, and not make them feel bad if they don't.
 3. **Show examples**. Whenever possible, send examples of work instead of just sending links to documentation.
 
-I love the message of this website. Getting designers to work more "in the open" is the first step to getting them to work on open source projects. Now, there are defintely more barriers out there than just intimidation, but lets get started where we can. Fork [this project](https://github.com/DesignOpen/designopen.github.io) to help contribute and make it more digestible for designers ot participate in this conversation! Your thoughts are very welcome.
+I love the message of this website. Getting designers to work more "in the open" is the first step to getting them to work on open source projects. Now, there are defintely more barriers out there than just intimidation, but lets get started where we can. Fork [this project](https://github.com/DesignOpen/designopen.github.io) to help contribute and make it more digestible for designers to participate in [this conversation](https://github.com/DesignOpen/designopen.github.io/issues)! Your thoughts are very welcome.
