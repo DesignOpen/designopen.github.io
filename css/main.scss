@@ -3,4 +3,11 @@
 ---
 
 @import "mixins";
-@import "todo";
+@import "base";
+@import "type";
+@import "article";
+@import "header";
+@import "footer";
+@import "video";
+
+@import "todo"; //junk file for later placement

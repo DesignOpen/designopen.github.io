@@ -1,5 +1,5 @@
 ---
-title: "Barriers for Designers"
+title: "The Intimidation Barrier"
 layout: post
 category: blogging_about
 author: una
@@ -18,56 +18,36 @@ I've gone to a lot of hackathons in my time and find that the teams which incorp
 
 ## Barriers to Designers
 
-Even reading the [contribution guidelines](http://0.0.0.0:4000/blogging_about/how-designers-can-contribute-to-open-source-projects/), oh my gosh, that's so many things. Most designers don't even have a Github account. They may have heard of it, but for some, it's an intimidating community for developers.
+Even reading the [contribution guidelines](http://0.0.0.0:4000/blogging_about/how-designers-can-contribute-to-open-source-projects/), that's so many things! Most designers don't even have a Github account. They may have heard of it, but for some, it's an intimidating community of developers.
 
 > The first step to solving a problem is admitting we have a problem.
 
 Lets look at the process for contributing to this project, which is aimed at getting designers to design more in the open: 
-	1. Stumble upon this page
-	2. Open the link to Github
-	3. Have a Github account
-	4. Know about Github Contribution workflow
-	5. Fork the Repo
-	6. Open terminal
-	7. Know that one needs to install dependancies 
-	8. Know *how* to install dependancies
-	9. Know about how Jekyll works
-	8. Run Jekyll server
-	9. Write in markdown or with HTML tags
-	10. Know about the config file and how to add authors
-	10. Add changes
-	11. Commit Changes
-	11. Submit pull request
 
-A lot of assumptions are made here!  
+1. Stumble upon this page
+2. Open the link to Github
+3. Have a Github account
+4. Know about Github Contribution workflow
+5. Fork the Repo
+6. Open terminal
+7. Know that one needs to install dependancies 
+8. Know *how* to install dependancies
+9. Know about how Jekyll works
+8. Run Jekyll server
+9. Write in markdown or with HTML tags
+10. Know about the config file and how to add authors
+10. Add changes
+11. Commit Changes
+11. Submit pull request
 
+A lot of assumptions are made here! And that's just for submitting a post. It's really important to realize that there are a lot of in-between steps which may seem like second nature to developers, but could be barriers for designers. And frustration turns people away.
 
-----
+## Education is Key
 
-- sassconf
+Educating designers is definitely the first step into getting a more well-rounded open source community. I gave a talk at [SassConf](http://sassconf.com) last month about building communities, which also touched on education. A few tips I gave are as follows:
 
-- open source projects
-- beautiful open
+1. **Never say "this is easy."** "Easy" is a subjective term that will close people off from asking further questions to avoid sounding inferior.
+2. **Don't make any assumptions** of previous knowledge. Asking if someone is familiar with a term will make them feel empowered if they are, and not make them feel bad if they don't.
+3. **Show examples**. Whenever possible, send examples of work instead of just sending links to documentation.
 
-- the barriers for designers: github, prior knowledge of jekyll, etc. even "join us on IRC" is really exclusive to developers, fuck you pay me mentality
-
-- how this system can improve to be more engaging to designers
-	- no word of contributing (i.e. Bundle install, etc.)
-	- 
-
-Lets look at the process for contributing to this project, which is aimed at getting designers to design more in the open: 
-
-	1. Stumble upon this page
-	2. Open the link to Github
-	3. Have a Github account
-	4. Know about Github Contribution workflow
-	5. Fork the Repo
-	6. Know that I need to install dependancies 
-	7. Know HOW to install dependancies
-	8. Run Jekyll server
-	9. Write in markdown or with HTML tags
-	10. know about the config file and how to add authors
-	10. know how to commit changes to my GH repo
-	11. know how to submit pull requests
-
-A lot of assumptions are made here
+I love the message of this website. Getting designers to work more "in the open" is the first step to getting them to work on open source projects. Now, there are defintely more barriers out there than just intimidation, but lets get started where we can. Fork [this project](https://github.com/DesignOpen/designopen.github.io) to help contribute and make it more digestible for designers ot participate in this conversation! I would love to hear your thoughts.
