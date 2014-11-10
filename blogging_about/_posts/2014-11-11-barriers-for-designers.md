@@ -18,7 +18,7 @@ I've gone to a lot of hackathons in my time and find that the teams which incorp
 
 ## Barriers to Designers
 
-Even reading this project's [contribution guidelines](http://0.0.0.0:4000/blogging_about/how-designers-can-contribute-to-open-source-projects/), that's so many things! Most designers don't even have a Github account. The same goes for the IRC (Internet Relay Chat). There is a community about open source design on there according to this document, but in order to participate, you'd have to first know what the IRC is, and know how to access it. Github and the IRC could seem like an intimidating communities for designers. Even just working in terminal used to intimidate me when I was first learning web development.
+Even reading this project's [contribution guidelines](http://designopen.org/blogging_about/how-designers-can-contribute-to-open-source-projects/), that's so many things! Most designers don't even have a Github account. The same goes for the IRC (Internet Relay Chat). There is a community about open source design on there according to this document, but in order to participate, you'd have to first know what the IRC is, and know how to access it. Github and the IRC could seem like an intimidating communities for designers. Even just working in terminal used to intimidate me when I was first learning web development.
 
 > The first step to solving a problem is admitting we have a problem.
 
