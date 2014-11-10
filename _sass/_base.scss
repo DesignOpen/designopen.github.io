@@ -1,0 +1,15 @@
+// Base Styles
+
+// Defaults for the body
+body {
+  font: normal normal normal 1rem/1.5 'source_sans_pro', sans;
+  margin: 0;
+  font-weight: 400;
+  color: #333;
+}
+:not(p)>a{
+  color: rgb(49,107,158);
+  &:hover{
+    text-decoration: underline;
+  }
+}

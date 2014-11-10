@@ -26,6 +26,8 @@ Feel free to contribute your own posts and ideas on this topic! Here's how:
 
 *If this is your first time using Jekyll, read [this](http://jekyllrb.com/docs/usage/) first. An important item of note is: do NOT touch the _site folder! This is where Jekyll is working to recompile changes into. Any time you make a change, it will overwrite whatever is inside of that folder.*
 
+[This](http://designopen.org/blogging_about/how-to-contribute/) post also helps to explain how to contribute to a Jekyll site via Github.
+
 ##Etc.
 
 I'm taking screenshots of the design as it progresses - sizing the window to 1024x900 px.
@@ -35,3 +37,7 @@ The [site statistics](http://www.seethestats.com/site/opensourcedesign.is) are p
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/opensourcedesignis/opensourcedesignis.github.io/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
+
+## To-Do
+
+- [ ] Organize Sass Architecture
