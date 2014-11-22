@@ -9,7 +9,8 @@
   width: 100%;
   top: 0;
   z-index: 10;
-  a:hover{
+  a:hover,
+  a:focus {
     background: transparent;
     path{
       fill: #f5f58f;

@@ -9,7 +9,8 @@ body {
 }
 :not(p)>a{
   color: rgb(49,107,158);
-  &:hover{
+  &:hover,
+  a:focus {
     text-decoration: underline;
   }
 }
