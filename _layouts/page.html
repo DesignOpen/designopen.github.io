@@ -2,8 +2,8 @@
 layout: default
 ---
 {% assign author = site.authors[page.author] %}
-<div id="content" class="site">
-  <article itemscope itemtype=http://schema.org/BlogPosting>
+<div id="content" class="site" role="main">
+  <article role="article" itemscope itemtype=http://schema.org/BlogPosting>
     <meta itemprop="description" content="{{ page.excerpt | strip_html}}">
     <header>
       <h3 itemprop="name">{{ page.title }}</h3>
@@ -11,7 +11,7 @@ layout: default
     <section itemprop="articleBody">
       {{ content }}
     </section>
-    <footer>
+    <footer role="contentinfo">
       {% include comments.html %}
     </footer>
     <meta itemprop="url" content="{{ site.url }}{{ page.url }}">
