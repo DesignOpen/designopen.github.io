@@ -40,10 +40,11 @@ h6{
 p{
   font-size: 1rem;
   margin: 0 0 1rem;
-  > a{
+  > a {
   color: inherit;
   background: yellow;
-    &:hover {
+    &:hover,
+    &:focus {
       border-bottom: 1px solid;
     }
   }
