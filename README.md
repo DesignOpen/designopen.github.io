@@ -1,6 +1,6 @@
 # [Design Open](http://designopen.org)
 
-[![Join the chat at https://gitter.im/DesignOpen/designopen.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DesignOpen/designopen.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/DesignOpen/designopen.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DesignOpen/OpenSourceDesign?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A Jekyll based site providing resources and discussion for designers wanting to work in the open.
 
@@ -10,7 +10,7 @@ It is a work in progress for sure.  Right now we are working the kicking off the
 
 ## Contribute to the Discussion
 
-Join us in the [Gitter channel](https://gitter.im/DesignOpen/designopen.github.io) and make some comments in the [GitHub issues](https://github.com/DesignOpen/designopen.github.io/issues).
+Join us in the [Open Source Design Gitter channel](https://gitter.im/DesignOpen/OpenSourceDesign) and make some comments in the [GitHub issues](https://github.com/DesignOpen/designopen.github.io/issues).
 
 ## Contributing Posts
 
