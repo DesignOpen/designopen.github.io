@@ -10,7 +10,7 @@ It is a work in progress for sure.  Right now we are working the kicking off the
 
 ## Contribute to the Discussion
 
-Join us in the [Gitter channel](https://gitter.im/DesignOpen/designopen.github.io).
+Join us in the [Gitter channel](https://gitter.im/DesignOpen/designopen.github.io) and make some comments in the [GitHub issues](https://github.com/DesignOpen/designopen.github.io/issues).
 
 ## Contributing Posts
 
