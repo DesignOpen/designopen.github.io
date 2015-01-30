@@ -33,13 +33,3 @@ Feel free to contribute your own posts and ideas on this topic! Here's how:
 ##Etc.
 
 I'm taking screenshots of the design as it progresses - sizing the window to 1024x900 px.
-
-The [site statistics](http://www.seethestats.com/site/opensourcedesign.is) are public.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/opensourcedesignis/opensourcedesignis.github.io/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
-
-## To-Do
-
-- [ ] Organize Sass Architecture
