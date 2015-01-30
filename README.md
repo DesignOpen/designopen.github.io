@@ -1,4 +1,4 @@
-# [Open Source Design Is](http://opensourcedesign.is)
+# [Design Open](http://designopen.org)
 
 [![Join the chat at https://gitter.im/DesignOpen/designopen.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DesignOpen/designopen.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -10,7 +10,7 @@ It is a work in progress for sure.  Right now we are working the kicking off the
 
 ## Contribute to the Discussion
 
-Join us in the IRC channel #opensourcedesign on Freenode.
+Join us in the [Gitter channel](https://gitter.im/DesignOpen/designopen.github.io).
 
 ## Contributing Posts
 
