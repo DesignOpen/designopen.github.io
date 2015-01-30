@@ -1,5 +1,7 @@
 # [Open Source Design Is](http://opensourcedesign.is)
 
+[![Join the chat at https://gitter.im/DesignOpen/designopen.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DesignOpen/designopen.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A Jekyll based site providing resources and discussion for designers wanting to work in the open.
 
 ##Right now
