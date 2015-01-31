@@ -1,7 +1,7 @@
 language: ruby
 rvm:
 - 2.1
-script: jekyll build && htmlproof ./_site --verbose
+script: jekyll build && htmlproof ./_site --verbose --href-ignore http://localhost:4000
 
 env:
   global:
