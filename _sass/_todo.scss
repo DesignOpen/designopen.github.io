@@ -99,7 +99,7 @@ article ol li::before{
   display: inline-block;
   content: counter(o) ".";
   width: 1rem;
-  margin: 0 0 0 -1rem;
+  margin: 0 0.5rem 0 -1rem;
   color: rgb(49,107,158);
 }
 
