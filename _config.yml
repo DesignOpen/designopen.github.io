@@ -1,9 +1,10 @@
 permalink: /:categories/:title/
-highlighter: true
+highlighter: pygments
 url: http://designopen.org
 name: Open Source Design
 excerpt_separator: <!--more-->
 markdown: kramdown
+exclude: [vendor]
 sass:
   sass_dir: _sass
   style: compressed
@@ -21,7 +22,7 @@ authors:
     display_name: Una Kravets
     gravatar: 732b3562b0496389b40e548918c38f98
     email: una.kravets@gmail.com
-    web: http://www.unakravets.com/
+    web: http://unakravets.com/
     twitter: una
     github: una
     bio: 'Front end developer/designer at IBM Watson. Sassvocate and <a href="http://una.github.io">blogger</a>.'
@@ -53,7 +54,7 @@ authors:
     display_name: Christopher Moody
     gravatar: 80d7c270dfac1d947d2b3fd39bf70b6a
     email: terracomma@gmail.com
-    web: http://terracomma.com
+    web: http://moody.coffee/
     twitter: terracomma
     github: terracomma
     bio: 'Designer and Developer.'
