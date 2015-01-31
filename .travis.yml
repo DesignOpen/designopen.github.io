@@ -1,7 +1,7 @@
 language: ruby
 rvm:
 - 2.1
-script: jekyll build && htmlproof ./_site
+script: jekyll build && htmlproof ./_site --verbose
 
 env:
   global:
