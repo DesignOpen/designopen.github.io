@@ -12,6 +12,9 @@ The [designopen.org](http://designopen.org) website is on GitHub pages, which ru
 ### Installing Ruby
 - Follow the guide over at [InstallRails](http://installrails.com/) to get rails installed on your machine.  Technically this guide will step you through installing Ruby and Rails, but all you really need for Jekyll is Ruby.
 
+#### First time user?
+  If you are working on Windows, you might need to install update packages beforehand. Be sure to check out the [SSL upgrades on rubygems.org and RubyInstaller versions](https://gist.github.com/luislavena/f064211759ee0f806c88#installing-using-update-packages-new) if you run into trouble.
+
 ### Installing Git:
 - Download the installer for your system on the [git-scm website](http://git-scm.com/downloads).
 
