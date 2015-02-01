@@ -3,6 +3,7 @@ title: "Sparkbox Redesign"
 layout: resource
 source_url: http://seesparkbox.com/foundry/rebuilding_in_public
 tags: example opendesign
+category: example
 contributor: brad_frost
 posted_date: 2012-11-26
 ---

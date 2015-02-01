@@ -1,0 +1,166 @@
+// This is a partial.
+// For all the Sass that needs to be places in better organization
+
+
+h1{
+  font-size: 3.375rem;
+  font-weight: 200;
+  line-height: 1;
+  margin: 0 0 .25rem;
+  @media (max-width: 800px) {
+    font-size: 2rem;
+  }
+}
+h2{
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 400;
+  margin: 2rem 0 .5rem;
+}
+h3{
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 1.5rem 0 0;
+  letter-spacing: .1rem;
+  font-weight: 600;
+}
+h4{
+  font-size: 1rem;
+  margin: 1.5rem 0 0;
+  font-weight: 600;
+}
+h5{
+  font-size: 1rem;
+  margin: 1.5rem 0 0;
+  font-weight: 600;
+}
+h6{
+  font-size: 1rem;
+  margin: 1.5rem 0 0;
+  font-weight: 600;
+}
+p{
+  font-size: 1rem;
+  margin: 0 0 1rem;
+}
+p > a{
+  color: inherit;
+  background: yellow;
+  &:hover {
+    border-bottom: 1px solid;
+  }
+}
+a {
+  text-decoration: none;
+}
+code{
+  font-size: 80%;
+}
+blockquote{
+  font-style: italic;
+  padding: .5rem 1rem .75rem;
+  margin: 1rem 0 1rem;
+  line-height: 1.2;
+  font-weight: 600;
+  max-width: 80%;
+}
+blockquote p{
+   margin: 0;
+   font-size: 1.8rem;
+}
+ul {
+  padding: 0 0 0 1.5rem;
+}
+article ul{
+  list-style: none;
+  padding: 0 0 0 1rem;
+}
+article ul li{
+  margin: 0 0 .5rem;
+}
+article ul li::before{
+  content: "\25ca";
+  display: inline-block;
+  margin: 0 0.2rem 0 -1rem;
+  color: rgb(49,107,158);
+}
+article ol{
+  padding: 0;
+  list-style: none;
+  padding: 0 0 0 1rem;
+  counter-reset: o;
+}
+article ol li{
+  counter-increment: o;
+  margin: 0 0 .5rem;
+}
+article ol li::before{
+  display: inline-block;
+  content: counter(o) ".";
+  margin: 0 0.2rem 0 -1rem;
+  color: rgb(49,107,158);
+}
+
+.footnotes ol{
+  padding: 0;
+  list-style: none;
+  padding: 0 0 0 1rem;
+  counter-reset: o;
+}
+.footnotes ol li{
+  counter-increment: o;
+  margin: 0 0 .5rem;
+}
+.footnotes ol li::before{
+  display: inline-block;
+  content: counter(o) ".";
+  margin: 0 0.2rem 0 -1rem;
+  color: rgb(49,107,158);
+}
+.footnotes p{
+  display: inline-block;
+  margin: 0;
+}
+
+.homeheader {
+  width: 100%;
+  height: 12rem;
+  background:#333;
+  color: white;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+  }
+  @media (min-width: 800px) {
+    height: 20rem;
+  }
+}
+.homelogo {
+  margin-right: 1rem;
+  width: 6rem;
+  height: 6rem;
+}
+
+.site {
+  padding: 2rem 0;
+}
+
+// Media Queries for Text Size Changes
+@media only screen and (max-width: 800px) {
+  :root {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  :root {
+    font-size: 18px;
+  }
+}

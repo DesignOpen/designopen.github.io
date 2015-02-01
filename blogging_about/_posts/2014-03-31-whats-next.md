@@ -50,6 +50,6 @@ So pick a project. For most cases the project should be:
 ##The Simple Proposal
 It shouldn't be too surprising, but I would propose that you should consider an open source project, either an existing one or start a new project.  If you can find a way to do some of these growing projects as part of your day job, more power to you, but it's not common that your goals perfectly coincide with those of your employer.
 
-If you are looking for a mentor, [I volunteer](http://gifrific.gifrific.netdna-cdn.com/wp-content/uploads/2012/04/i-volunteer.gif).  I'm not perfect, or the expert in all things, but I believe firmly in the role of mentorship in the process of progression, so I'm putting my money where my mouth is.  Reach out to me on [Twitter](http://www.twitter.com/garthdb) or leave a comment below.
+If you are looking for a mentor, [I volunteer](https://38.media.tumblr.com/b3ce9009a678f4cb4a040c959a7a50d7/tumblr_mun46pEkbT1sjav2eo3_500.gif).  I'm not perfect, or the expert in all things, but I believe firmly in the role of mentorship in the process of progression, so I'm putting my money where my mouth is.  Reach out to me on [Twitter](http://www.twitter.com/garthdb) or leave a comment below.
 
 You're awesome, but you have potential for more.

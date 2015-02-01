@@ -6,7 +6,7 @@ title: Home
   <section class="home-section" itemscope itemprop="mainContentOfPage about" itemtype=http://schema.org/WebPageElement>
     <h2 id="about">About</h2>
       <p>We think the best way to improve the design industry is to work in the open.</p>
-      <p>If you have 39 minutes <a href="/blogging_about/designers-can-open-source-session-video/">watch this presentation</a>, if not <a href="/blogging_about/the-open-source-design-manifesto/">read the manifesto</a>. If you're curious about this site <a href="/blogging_about/building_this_site/">read this post</a>.  Finally, if you'd like to help contribute design, code, or content; <a href="/blogging_about/the-roadmap/">checkout the roadmap</a> or hit us up on the #opensourcedesign channel (Freenode) in IRC.
+      <p>If you have 39 minutes <a href="/blogging_about/designers-can-open-source-session-video/">watch this presentation</a>, if not <a href="/blogging_about/the-open-source-design-manifesto/">read the manifesto</a>. If you're curious about this site <a href="/blogging_about/building_this_site/">read this post</a>.  Finally, if you'd like to help contribute design, code, or content; <a href="/blogging_about/the-roadmap/">checkout the roadmap</a> or hit us up on the <a href="https://gitter.im/DesignOpen/OpenSourceDesign">Gitter</a> channel.
   </section>
 
   <section class="home-section" itemscope itemtype="http://schema.org/Blog">
@@ -33,12 +33,12 @@ title: Home
   </section>
   <section class="home-section" itemscope itemtype="http://schema.org/ItemList">
     <h2 class="title" itemprop="name">Resources</h2>
-      {% for tagg in site.resourceTags %}
+      {% for categ in site.resourceCategories %}
         <meta itemscope itemprop="itemListOrder" content="Unordered" />
         <ul class="reslist">
-        <h4> {{ tagg }} </h4>
+        <h4> {{categ}} </h4>
         {% for post in site.categories.resourced %}
-          {% if post.tags contains tagg %}
+          {% if post.category == categ %}
             <li itemprop="itemListElement"><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endif %}
         {% endfor %}

@@ -1,13 +1,13 @@
 permalink: /:categories/:title/
-highlighter: true
-baseurl: http://designopen.org
+highlighter: pygments
+url: http://designopen.org
 name: Open Source Design
 excerpt_separator: <!--more-->
 markdown: kramdown
+exclude: [vendor]
 sass:
-  style: expanded
-  deploy_style: compressed
-  compile_in_place: true
+  sass_dir: _sass
+  style: compressed
 post:
   template: _post.txt
   extension: md
@@ -18,6 +18,14 @@ page:
   template: _page.txt
   extension: md
 authors:
+  una:
+    display_name: Una Kravets
+    gravatar: 732b3562b0496389b40e548918c38f98
+    email: una.kravets@gmail.com
+    web: http://unakravets.com/
+    twitter: una
+    github: una
+    bio: 'Front end developer/designer at IBM Watson. Sassvocate and <a href="http://una.github.io">blogger</a>.'
   garthdb:
     display_name: Garth Braithwaite
     gravatar: b5cf6e112eeee572d722743dea924487
@@ -46,10 +54,10 @@ authors:
     display_name: Christopher Moody
     gravatar: 80d7c270dfac1d947d2b3fd39bf70b6a
     email: terracomma@gmail.com
-    web: http://terracomma.com
+    web: http://moody.coffee/
     twitter: terracomma
     github: terracomma
-    bio: 'Designer and Developer currently writing code at <a href="http://wedgies.com">Wedgies</a>'
+    bio: 'Designer and Developer.'
   vitorio:
     display_name: Vitorio Miliano
     gravatar: 1b2ea3fc983558c15216a609af35f709
@@ -67,5 +75,5 @@ authors:
     github: mrondina
     bio: 'Interactive designer working in web, games and mobile development.'
 
-resourceTags: ["benefits", "blog", "challenges", "community", "design",
-	"example", "opendesign", "source"]
+resourceTags: ["benefits", "blog", "challenges", "community", "design", "education", "example", "opendesign", "source"]
+resourceCategories: ["blog", "design", "education", "example", "opendesign", "source"]
