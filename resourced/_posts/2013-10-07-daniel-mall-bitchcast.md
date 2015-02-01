@@ -3,6 +3,7 @@ title: "Daniel Mall Bitchcast"
 layout: resource
 source_url: http://www.youtube.com/watch?v=Hd_BE39vh_c&feature=youtu.be
 tags: video open source
+category: video
 contributor: mrondina
 posted_date: 2013-10-04
 ---

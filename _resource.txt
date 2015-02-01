@@ -3,6 +3,7 @@ title:
 layout: resource
 source_url:
 tags:
+category:
 contributor:
 posted_date:
 ---

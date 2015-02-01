@@ -3,6 +3,7 @@ title: "Penn State University Redesign"
 layout: resource
 source_url: http://storyboard.psu.edu/
 tags: example opendesign community
+category: example
 contributor: brad_frost
 posted_date: 2012-02-02
 ---

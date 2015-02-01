@@ -3,6 +3,7 @@ title: "@Brad_Frost on Unfinished Business"
 layout: resource
 source_url: http://unfinished.bz/39
 tags: podcast
+category: podcast
 contributor: davidpots
 posted_date: 2013-10-07
 ---
