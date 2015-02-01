@@ -81,8 +81,7 @@ article ul li{
 article ul li::before{
   content: "\25ca";
   display: inline-block;
-  width: 1rem;
-  margin: 0 0 0 -1rem;
+  margin: 0 0.2rem 0 -1rem;
   color: rgb(49,107,158);
 }
 article ol{
@@ -98,8 +97,7 @@ article ol li{
 article ol li::before{
   display: inline-block;
   content: counter(o) ".";
-  width: 1rem;
-  margin: 0 0.5rem 0 -1rem;
+  margin: 0 0.2rem 0 -1rem;
   color: rgb(49,107,158);
 }
 
@@ -116,8 +114,7 @@ article ol li::before{
 .footnotes ol li::before{
   display: inline-block;
   content: counter(o) ".";
-  width: 1rem;
-  margin: 0 0 0 -1rem;
+  margin: 0 0.2rem 0 -1rem;
   color: rgb(49,107,158);
 }
 .footnotes p{
