@@ -3,7 +3,7 @@ title: "How To Build An App Project"
 layout: resource
 source_url: http://howtobuildanapp.tumblr.com/
 tags: example opendesign
-category: opendesign
+category: tutorials
 contributor: brad_frost
 posted_date: 2013-08-21
 ---
