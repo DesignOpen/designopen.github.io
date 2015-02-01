@@ -3,7 +3,7 @@ title: "DanielMall.com"
 layout: resource
 source_url: http://danielmall.com/articles/now-with-responsive/
 tags: open source design
-category: design
+category: how-tos
 contributor: mrondina
 posted_date: 2013-10-05
 ---
