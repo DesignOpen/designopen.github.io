@@ -3,6 +3,7 @@ title: "Open Skillshare"
 layout: resource
 source_url: http://blog.skillshare.com/introducing-open-skillshare/
 tags: education
+category: education
 contributor: garthdb
 posted_date: 2013-10-14
 ---

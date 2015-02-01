@@ -34,12 +34,12 @@ title: Home
 
   <section class="home-section" itemscope itemtype="http://schema.org/ItemList">
     <h2 class="title" itemprop="name">Resources</h2>
-      {% for tagg in site.resourceTags %}
+      {% for categ in site.resourceCategories %}
         <meta itemscope itemprop="itemListOrder" content="Unordered" />
         <ul class="reslist">
-        <h4> {{ tagg }} </h4>
+        <h4> {{categ}} </h4>
         {% for post in site.categories.resourced %}
-          {% if post.tags contains tagg %}
+          {% if post.category == categ %}
             <li itemprop="itemListElement"><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endif %}
         {% endfor %}
