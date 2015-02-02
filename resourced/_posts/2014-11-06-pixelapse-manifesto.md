@@ -2,8 +2,7 @@
 title: "Pixelapse Manifesto"
 layout: resource
 source_url: https://www.pixelapse.com/open
-tags: opendesign
-category: design
+category: philosophy
 contributor: mrondina
 posted_date: 2014-11-06
 ---

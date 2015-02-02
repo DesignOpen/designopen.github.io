@@ -2,8 +2,7 @@
 title: EIGHT.psd
 layout: resource
 source_url: http://cameronmoll.tumblr.com/post/61590854809/download-eight-psd
-tags: source example
-category: example
+category: sources
 contributor: mrondina
 posted_date: 2013-09-18
 ---
