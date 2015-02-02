@@ -1,7 +1,7 @@
 ---
 title: "The Open Source Design Manifesto"
 layout: post
-category: blogging_about
+category: articles
 tags:
 author: garthdb
 priority: 1.0

@@ -1,7 +1,7 @@
 ---
 title: "The Intimidation Barrier"
 layout: post
-category: blogging_about
+category: articles
 author: una
 tags: featured
 excerpt: At SassConf this year, there was a lot of talk about why designers don't contribute to open source, and how we can start to influence change.
@@ -18,11 +18,11 @@ I've gone to a lot of hackathons in my time and find that the teams which incorp
 
 ## Barriers to Designers
 
-Even reading this project's [contribution guidelines](http://designopen.org/blogging_about/how-designers-can-contribute-to-open-source-projects/), that's so many things! Most designers don't even have a Github account. The same goes for the IRC (Internet Relay Chat). There is a community about open source design on there according to this document, but in order to participate, you'd have to first know what the IRC is, and know how to access it. Github and the IRC could seem like an intimidating communities for designers. Even just working in terminal used to intimidate me when I was first learning web development.
+Even reading this project's [contribution guidelines](/articles/how-designers-can-contribute-to-open-source-projects/), that's so many things! Most designers don't even have a Github account. The same goes for the IRC (Internet Relay Chat). There is a community about open source design on there according to this document, but in order to participate, you'd have to first know what the IRC is, and know how to access it. Github and the IRC could seem like an intimidating communities for designers. Even just working in terminal used to intimidate me when I was first learning web development.
 
 > The first step to solving a problem is admitting we have a problem.
 
-Lets look at the process for contributing to this project, which we must keep in mind, is aimed at reaching out to designers. 
+Lets look at the process for contributing to this project, which we must keep in mind, is aimed at reaching out to designers.
 
 1. Stumble upon this page
 2. Open the link to Github
@@ -30,7 +30,7 @@ Lets look at the process for contributing to this project, which we must keep in
 4. Know about Github Contribution workflow
 5. Fork the Repo
 6. Open terminal
-7. Know that one needs to install dependancies 
+7. Know that one needs to install dependancies
 8. Know *how* to install dependancies
 9. Know about how Jekyll works
 8. Run Jekyll server

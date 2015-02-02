@@ -1,0 +1,14 @@
+---
+layout: home
+title: Home
+---
+
+<section class="home-section" itemscope itemtype="http://schema.org/ItemList">
+  <h2 class="title" itemprop="name">Resources</h2>
+  <meta itemscope itemprop="itemListOrder" content="Unordered" />
+    <ul class="reslist">
+    {% for post in site.categories.resourced %}
+      <li itemprop="itemListElement"><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+</section>

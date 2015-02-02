@@ -1,7 +1,7 @@
 ---
 title: "Open Source for Self Improvement"
 layout: post
-category: blogging_about
+category: articles
 tags: improvement
 author: garthdb
 date: '2014-03-31 10:16:00'

@@ -4,16 +4,16 @@ title: Home
 ---
 <div id="content" class="site" >
   <section class="home-section" itemscope itemprop="mainContentOfPage about" itemtype=http://schema.org/WebPageElement>
-    <h2>About</h2>
+    <h2 id="about">About</h2>
       <p>We think the best way to improve the design industry is to work in the open.</p>
-      <p>If you have 39 minutes <a href="/blogging_about/designers-can-open-source-session-video/">watch this presentation</a>, if not <a href="/blogging_about/the-open-source-design-manifesto/">read the manifesto</a>. If you're curious about this site <a href="/blogging_about/building_this_site/">read this post</a>.  Finally, if you'd like to help contribute design, code, or content; <a href="/blogging_about/the-roadmap/">checkout the roadmap</a> or hit us up on the <a href="https://gitter.im/DesignOpen/OpenSourceDesign">Gitter</a> channel.
+      <p>If you have 39 minutes <a href="/articles/designers-can-open-source-session-video/">watch this presentation</a>, if not <a href="/articles/the-open-source-design-manifesto/">read the manifesto</a>. If you're curious about this site <a href="/articles/building_this_site/">read this post</a>.  Finally, if you'd like to help contribute design, code, or content; <a href="/articles/the-roadmap/">checkout the roadmap</a> or hit us up on the <a href="https://gitter.im/DesignOpen/OpenSourceDesign">Gitter</a> channel.
   </section>
 
   <section class="home-section" itemscope itemtype="http://schema.org/Blog">
-    <h2 class="title" itemscope itemprop="name">Articles</h2>
+    <h2 class="title" itemscope itemprop="name">Recent Articles</h2>
     <ul class="bloglist">
     {% assign counter = 0 %}
-    {% for post in site.categories.blogging_about %}
+    {% for post in site.categories.articles %}
     {% if post.tags contains 'featured' and counter < 3 %}
     {% assign counter=counter | plus:1 %}
     {% assign author = site.authors[post.author] %}
@@ -29,21 +29,23 @@ title: Home
       {% endif %}
 	    {% endfor %}
     </ul>
-    <p><a href="/blog.html">Read More...</a></p>
+    <p><a href="/articles/">Read More...</a></p>
   </section>
 
   <section class="home-section" itemscope itemtype="http://schema.org/ItemList">
-    <h2 class="title" itemprop="name">Resources</h2>
-      {% for categ in site.resourceCategories %}
-        <meta itemscope itemprop="itemListOrder" content="Unordered" />
-        <ul class="reslist">
-        <h4> {{categ}} </h4>
-        {% for post in site.categories.resourced %}
-          {% if post.category == categ %}
-            <li itemprop="itemListElement"><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-        </ul>
+    <h2 class="title" >Recently Added Resources</h2>
+    <ul class="resourceList">
+      {% assign counter = 0 %}
+
+      {% for post in site.categories.resources %}
+        {% if counter < 5 %}
+          {% assign counter=counter | plus:1 %}
+          <li itemprop="itemListElement"><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
       {% endfor %}
+
+    </ul>
+    <p><a href="/resources/">View all resources...</a></p>
   </section>
+
 </div>

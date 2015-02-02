@@ -1,7 +1,7 @@
 ---
 title: "The Roadmap"
 layout: post
-category: blogging_about
+category: articles
 tags: design design update
 author: garthdb
 date: '2013-12-06 10:15:00'
@@ -12,7 +12,7 @@ Someone in the IRC[^1] asked how they could contribute and what our roadmap is. 
 
 ##Authors Wanted
 
-Feel free to write about anything related to open source and design and how designers can get involved.  [Areus Wade](https://twitter.com/areus) wrote a great post on [how to contribute a post to the blog](http://designopen.org/blogging_about/how-to-contribute/).
+Feel free to write about anything related to open source and design and how designers can get involved.  [Areus Wade](https://twitter.com/areus) wrote a great post on [how to contribute a post to the blog](/articles/how-to-contribute/).
 
 If you need a place to start we have a running list of topics in the [github issues](https://github.com/designopen/designopen.github.io/issues?direction=desc&labels=editorial+idea%2C1+-+Ready&page=1&sort=updated&state=open).  You can [add any new ideas](https://github.com/designopen/designopen.github.io/issues/new), or pick one of the following:
 
@@ -65,7 +65,7 @@ If you want to do some actual design, you could create a custom design for any p
 
 <ul id="post-designs"></ul>
 
-You can do any part of it: just visual design, or actual coding.  [One post](http://designopen.org/blogging_about/using-github-for-design-collaboration/) at least has been done and I plan to put together a tutorial on how to create a custom layout, but until then feel free to take a look at the [source code](https://github.com/designopen/designopen.github.io/blob/master/_layouts/using-github-for-design-collaboration.html) as an example.
+You can do any part of it: just visual design, or actual coding.  [One post](/articles/using-github-for-design-collaboration/) at least has been done and I plan to put together a tutorial on how to create a custom layout, but until then feel free to take a look at the [source code](https://github.com/designopen/designopen.github.io/blob/master/_layouts/using-github-for-design-collaboration.html) as an example.
 
 The idea is each post should be unique, so there is no style guide to follow; make your own.
 

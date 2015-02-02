@@ -1,7 +1,7 @@
 ---
 title: Designing a Brand in the Open
 layout: post
-category: blogging_about
+category: articles
 tags:
 author: garthdb
 priority: 0.6

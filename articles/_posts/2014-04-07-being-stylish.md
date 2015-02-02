@@ -1,7 +1,7 @@
 ---
 title: "Styling Open Source"
 layout: post
-category: blogging_about
+category: articles
 tags: improvement
 author: terracomma
 date: '2014-04-07 10:16:00'
@@ -45,7 +45,7 @@ the talk is pretty awesome over [here][homepage].
 Happy Open Sourcing!
 
 [garth]: http://www.garthdb.com/
-[ex]: /blogging_about/using-github-for-design-collaboration/
+[ex]: /articles/using-github-for-design-collaboration/
 [kd]: http://kramdown.gettalong.org/
 [stylethread]: https://github.com/designopen/designopen.github.io/issues/86
 [articles]: https://github.com/designopen/designopen.github.io/issues?labels=post+design&page=1&state=open

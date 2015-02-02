@@ -1,7 +1,7 @@
 ---
 title: "How to get designers (or anyone) to work on your open source project"
 layout: post
-category: blogging_about
+category: articles
 tags: news featured improvement
 author: vitorio
 date: '2014-05-27 21:33:00'

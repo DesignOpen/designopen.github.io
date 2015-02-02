@@ -20,9 +20,9 @@ layout: default
         <h3>About the author: <a href="{{site.authors[page.author].web}}" itemprop="url"><span itemprop="name">{{author.display_name}}</span></a></h3>
         <p class="author_bio">{{author.bio}}</p>
       </div>
+      {% include post_footer.html %}
       {% include comments.html %}
     </footer>
     <meta itemprop="url" content="{{ site.url }}{{ page.url }}">
   </article>
 </div>
-<br>
