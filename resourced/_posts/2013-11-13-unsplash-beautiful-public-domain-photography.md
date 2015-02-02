@@ -2,7 +2,6 @@
 title: "Unsplash: Beautiful Public Domain Photography"
 layout: resource
 source_url: http://unsplash.com/
-tags: cc0
 category: sources
 contributor: garthdb
 posted_date: 2013-11-13

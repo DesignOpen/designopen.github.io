@@ -2,7 +2,6 @@
 title: "Open Content for University of Ulster Design Course"
 layout: resource
 source_url: https://github.com/fehler/curriculum
-tags: sources
 category: sources
 contributor: zachinglis
 posted_date: 2013-12-11

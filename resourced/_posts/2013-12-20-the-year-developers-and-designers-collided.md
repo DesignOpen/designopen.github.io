@@ -2,7 +2,6 @@
 title: "The year developers and designers collided"
 layout: resource
 source_url: http://redmonk.com/dberkholz/2013/12/16/the-year-developers-and-designers-collided/
-tags: design development opensource article
 category: philosophy
 contributor: dam
 posted_date: 2013-12-16

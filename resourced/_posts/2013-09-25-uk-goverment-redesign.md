@@ -2,7 +2,6 @@
 title: "UK Goverment Redesign"
 layout: resource
 source_url: http://webarchive.nationalarchives.gov.uk/20111004104716/http://alpha.gov.uk/
-tags: example opendesign
 category: redesigns
 contributor: brad_frost
 posted_date: 2011-07-29

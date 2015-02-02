@@ -2,7 +2,6 @@
 title: "New Internationalist Redesign"
 layout: resource
 source_url: http://stuffandnonsense.co.uk/blog/about/help_me_to_redesign_new_internationalist/
-tags: example opendesign community
 category: redesigns
 contributor: brad_frost
 posted_date: 2009-05-12
