@@ -28,7 +28,7 @@ Feel free to contribute your own posts and ideas on this topic! Here's how:
 
 *If this is your first time using Jekyll, read [this](http://jekyllrb.com/docs/usage/) first. An important item of note is: do NOT touch the _site folder! This is where Jekyll is working to recompile changes into. Any time you make a change, it will overwrite whatever is inside of that folder.*
 
-[This](http://designopen.org/articles/how-to-contribute/) post also helps to explain how to contribute to a Jekyll site via Github.
+[This](/articles/how-to-contribute/) post also helps to explain how to contribute to a Jekyll site via Github.
 
 ##Etc.
 
