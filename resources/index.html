@@ -4,8 +4,8 @@ title: Resources
 ---
 {% for categ in site.resourceCategories %}
   <meta itemscope itemprop="itemListOrder" content="Unordered" />
+  <h4>{{ categ }}</h4>
   <ul class="reslist" itemscope itemtype="http://schema.org/ItemList">
-    <h4> {{categ}} </h4>
     {% for post in site.categories.resources %}
       {% if post.category == categ %}
         <li itemprop="itemListElement"><a href="{{ post.url }}">{{ post.title }}</a></li>
