@@ -1,20 +1,19 @@
----
-layout: default
----
-{% assign author = site.authors[page.author] %}
-<div id="content" class="site" role="main">
-  <article role="article" itemscope itemtype=http://schema.org/BlogPosting>
-    <meta itemprop="description" content="{{ page.excerpt | strip_html}}">
-    <header>
-      <h3 itemprop="name">{{ page.title }}</h3>
-    </header>
-    <section itemprop="articleBody">
-      {{ content }}
-    </section>
-    <footer role="contentinfo">
-      {% include comments.html %}
-    </footer>
-    <meta itemprop="url" content="{{ site.url }}{{ page.url }}">
-  </article>
+{% include head.html %}
+
+<div class="pageheader">
+
+  <h1>
+    <a href="/">
+      {% include logo.svg %} <span>Design Open</span>
+    </a>
+  </h1>
 </div>
-<br>
+<div id="content" class="site" >
+  <section class="page-section">
+    {% if page.title %}<h2 id="about">{{ page.title }}</h2>{% endif %}
+{{ content }}
+  </section>
+</div>
+
+{% include global-footer.html %}
+{% include foot.html %}

@@ -1,7 +1,16 @@
-<meta charset="utf-8">
-<meta name="viewport" content="initial-scale=1.0" />
-<title>Design Open{% if page.title %} | {{ page.title }}{% endif %}</title>
-<link rel="shortcut icon" href="/favicon.ico">
-<link rel="stylesheet" type="text/css" href="/css/normalize.css">
-<link rel="stylesheet" type="text/css" href="/css/main.css">
-<link rel="stylesheet" type="text/css" href="/css/fonts/fonts.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0" />
+  <title>Design Open{% if page.title %} | {{ page.title }}{% endif %}</title>
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" type="text/css" href="/css/fonts/fonts.css">
+</head>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <meta itemscope itemprop="url" content="{{ site.url }}{{ page.url }}">
+  {% if page.title %}
+  <meta itemscope itemprop="name" content="{{ page.title }}">
+  {% endif %}

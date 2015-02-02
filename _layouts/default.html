@@ -1,21 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    {% include head.html %}
-  </head>
-  <body itemscope itemtype="http://schema.org/WebPage">
-    <meta itemscope itemprop="url" content="{{ site.url }}{{ page.url }}">
-    {% if page.title %}
-      <meta itemscope itemprop="name" content="{{ page.title }}">
-    {% endif %}
-
-    {% include global-header.html %}
-
-    {{ content }}
-
-    {% include global-footer.html %}
-
-    {% include analytics.html %}
-    <script src="/js/main.js"></script>
-  </body>
-</html>
+{% include head.html %}
+<div id="globalheadplaceholder"></div>
+<div id="globalhead">
+  <a href="/">
+    {% include logo.svg %}
+  </a>
+</div>
+{{ content }}
+{% include global-footer.html %}
+{% include foot.html %}

@@ -9,8 +9,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>{{site.url}}/resourced/</loc>
-    <lastmod>{{site.categories.resourced.first.date | date_to_xmlschema }}</lastmod>
+    <loc>{{site.url}}/resources/</loc>
+    <lastmod>{{site.categories.resources.first.date | date_to_xmlschema }}</lastmod>
     <priority>0.7</priority>
   </url>
   {% for post in site.posts %}

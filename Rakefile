@@ -17,8 +17,8 @@ CONFIG = YAML.load_file("_config.yml")
 DATE = Time.now.strftime("%Y-%m-%d")
 
 # Directories
-POSTS = "blogging_about/_posts/"
-RESOURCES = "resourced/_posts/"
+POSTS = "articles/_posts/"
+RESOURCES = "resources/_posts/"
 DRAFTS = "_drafts"
 
 # == Helpers ===================================================================
@@ -81,7 +81,7 @@ end
 # == Tasks =====================================================================
 
 # rake post["Title"]
-desc "Create a post in blogging_about/_posts/"
+desc "Create a post in articles/_posts/"
 task :post, :title do |t, args|
   title = args[:title]
   template = CONFIG["post"]["template"]
@@ -126,7 +126,7 @@ task :publish do
 end
 
 # rake resource["Title"]
-desc "Create a resource in resourced/_posts/"
+desc "Create a resource in resources/_posts/"
 task :resource, :title do |t, args|
   title = args[:title]
   template = CONFIG["resource"]["template"]

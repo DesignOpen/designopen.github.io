@@ -1,7 +1,7 @@
 ---
 title: "Open Design is not Design by Committee"
 layout: post
-category: blogging_about
+category: articles
 tags: faq
 author: garthdb
 priority: 0.9
