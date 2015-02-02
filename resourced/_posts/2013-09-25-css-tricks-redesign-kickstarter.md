@@ -2,7 +2,6 @@
 title: "CSS-Tricks Redesign"
 layout: resource
 source_url: http://css-tricks.com/screencasting-complete-redesign-get-access-kickstarter/
-tags: example opendesign
 category: redesigns
 contributor: brad_frost
 posted_date: 2012-06-18

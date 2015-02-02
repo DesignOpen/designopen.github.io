@@ -2,7 +2,6 @@
 title: Gratisography
 layout: resource
 source_url: http://www.gratisography.com/
-tags: source example
 category: sources
 contributor: garthdb
 posted_date: 2013-11-25

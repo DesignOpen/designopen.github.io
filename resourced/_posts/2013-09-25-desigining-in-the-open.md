@@ -2,7 +2,6 @@
 title: "Designing In The Open"
 layout: resource
 source_url: http://bradfrostweb.com/blog/post/designing-in-the-open/
-tags: blog benefits challenges
 category: philosophy
 contributor: garthdb
 posted_date: 2013-09-23

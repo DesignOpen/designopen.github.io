@@ -2,7 +2,6 @@
 title: "Greater Pittsburgh Community Food Bank Website Redesign"
 layout: resource
 source_url: http://bradfrostweb.com/blog/post/greater-pittsburgh-community-food-bank-open-redesign/
-tags: example opendesign
 category: redesigns
 contributor: garthdb
 posted_date: 2013-09-19
