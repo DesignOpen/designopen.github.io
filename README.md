@@ -1,4 +1,4 @@
-# [Design Open](http://designopen.org)
+# [Design Open](http://designopen.org) [![Travis Badge](https://travis-ci.org/DesignOpen/designopen.github.io.svg)](https://travis-ci.org/DesignOpen/designopen.github.io)
 
 [![Join the chat at https://gitter.im/DesignOpen/designopen.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DesignOpen/OpenSourceDesign?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 

@@ -5,9 +5,10 @@
   <meta name="viewport" content="initial-scale=1.0" />
   <title>Design Open{% if page.title %} | {{ page.title }}{% endif %}</title>
   <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="stylesheet" type="text/css" href="/css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="/css/main.css">
-  <link rel="stylesheet" type="text/css" href="/css/fonts/fonts.css">
+  <style type="text/css">
+    {% capture include_to_scssify %}{% include main.scss %}{% endcapture %}
+    {{ include_to_scssify | scssify }}
+  </style>
 </head>
 <body itemscope itemtype="http://schema.org/WebPage">
   <meta itemscope itemprop="url" content="{{ site.url }}{{ page.url }}">
