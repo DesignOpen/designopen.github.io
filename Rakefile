@@ -4,6 +4,7 @@ require 'rake'
 require 'yaml'
 require 'fileutils'
 require 'rbconfig'
+require 'html/proofer'
 
 # == Configuration =============================================================
 
@@ -194,4 +195,11 @@ task :preview do
     execute("#{open_command} http://localhost:#{port}/")
   end
   Rake::Task[:watch].invoke
+end
+
+# rake test
+desc "build and test website"
+task :test do
+  sh "bundle exec jekyll build"
+  HTML::Proofer.new("./_site", {:href_ignore=> ['http://localhost:4000'], :verbose => true}).run
 end
