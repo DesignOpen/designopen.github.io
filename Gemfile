@@ -2,4 +2,7 @@ source 'https://rubygems.org'
 gem 'github-pages'
 
 # Test the build
-gem 'html-proofer'
+group :test do
+  gem 'rake'
+  gem 'html-proofer'
+end
