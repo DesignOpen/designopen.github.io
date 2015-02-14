@@ -1,4 +1,4 @@
-# [Design Open](http://designopen.org)
+# [Design Open](http://designopen.org) [![Travis Badge](https://travis-ci.org/DesignOpen/designopen.github.io.svg)](https://travis-ci.org/DesignOpen/designopen.github.io)
 
 [![Join the chat at https://gitter.im/DesignOpen/designopen.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DesignOpen/OpenSourceDesign?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -20,7 +20,7 @@ Feel free to contribute your own posts and ideas on this topic! Here's how:
 2. Clone your new fork onto your system and navigate into it
 3. Install [Bundler](http://bundler.io/) if you don't have it installed yet.
 4. Run the command: `bundle install` to install ruby dependancies
-5. Run `jekyll serve --watch` to start the server and watch for changes
+5. Run `bundle exec jekyll serve --watch` to start the server and watch for changes
 6. Navigate to `http://0.0.0.0:4000/` in your browser to see your site running locally
 7. Write new posts in the *articles/_posts* folder
 8. Add your author information in the *_config.yml* file

@@ -46,7 +46,8 @@ p{
 p > a{
   color: inherit;
   background: yellow;
-  &:hover {
+  &:hover,
+  &:focus {
     border-bottom: 1px solid;
   }
 }
