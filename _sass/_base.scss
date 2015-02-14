@@ -1,11 +1,18 @@
 // Base Styles
-
+html{
+  height: 100%;
+}
 // Defaults for the body
 body {
   font: normal normal normal 1rem/1.5 'source_sans_pro', sans;
   margin: 0;
   font-weight: 400;
   color: #333;
+  min-height: 100%;
+  box-sizing: border-box;
+  padding-bottom: 100px;
+  margin-bottom: -100px;
+  position: relative;
 }
 :not(p)>a{
   color: rgb(49,107,158);
