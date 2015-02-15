@@ -8,6 +8,11 @@ exclude: [vendor]
 sass:
   sass_dir: _sass
   style: compressed
+# _layouts/compress.html
+compress_html:
+  clippings: all
+  endings: all
+  comments: ["<!--", "-->"]
 post:
   template: _post.txt
   extension: md
