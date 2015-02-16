@@ -1,14 +1,11 @@
 // Article Module
 
-article, section{
+article, section {
   padding: 1px 0;
 }
-.article-header, .section-header{
-  margin: 2rem 10% 0 20%;
-  @media (min-width: 500px) and (max-width: 800px) {
-    margin: 2rem 5% 0;
-  }
-  @media (max-width: 500px) {
-    margin: 2rem .25rem 0 1rem;
-  }
+.article-header {
+  padding-top: 30px;
+}
+.article-header, .section-header {
+  margin: 2rem 0 0 0;
 }
