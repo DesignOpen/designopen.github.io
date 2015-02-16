@@ -34,15 +34,13 @@
 
 .home-section,
 .page-section,
+.article-header,
 .article-body,
 .article-footer,
 .resource-comments{
   max-width: 800px;
-  margin: 0 20%;
-  @media (min-width: 500px) and (max-width: 800px) {
-    margin: 0 5%;
-  }
-  @media (max-width: 500px) {
-    margin: 0 1rem;
-  }
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
 }
