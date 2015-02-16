@@ -34,6 +34,7 @@
 
 .home-section,
 .page-section,
+.article-header,
 .article-body,
 .article-footer,
 .resource-comments{
@@ -44,5 +45,10 @@
   }
   @media (max-width: 500px) {
     margin: 0 1rem;
+  }
+
+  @media (min-width: 1400px) {
+    margin: 0 auto;
+    padding-top: 20px;
   }
 }
