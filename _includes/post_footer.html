@@ -1,3 +1,20 @@
 <div class="post-footer">
+  {% assign index = 0 %}
+  {% for post in site.categories.articles %}
+    {% if post.id == page.id %}
+      {% assign index=forloop.index0 %}
+    {% endif %}
+  {% endfor %}
+
+  {% if index > 0 %}
+    {% assign next = index | minus:1 %}
+    <a class="next" href="{{ site.categories.articles[next].url }}">&lt; Next</a>
+  {% endif %}
+
   <a href="/articles/">View all articles</a>
+
+  {% assign prev = index | plus:1 %}
+  {% if site.categories.articles[prev].url %}
+    <a class="prev" href="{{ site.categories.articles[prev].url }}">Prev &gt;</a>
+  {% endif %}
 </div>
