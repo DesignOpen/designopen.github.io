@@ -1,0 +1,3 @@
+---
+---
+{"categories":[{% for categ in site.resourceCategories %}"{{ categ }}"{% if forloop.last == false %},{% endif %}{% endfor %}]}
