@@ -6,7 +6,7 @@ tags:
 author: garthdb
 priority: 0.6
 ---
-**Update:** we are switching to LayerVault to [Pixelapse][pixelapse]. We've had issues with LayerVault and our files were actually lost. Our experience with Pixelapse has been quite positive so far.
+**Update:** we have switched from LayerVault to [Pixelapse][pixelapse]. We've had issues with LayerVault; our files were lost. Our experience with Pixelapse has been quite positive so far.
 
 We have already started some open design discussion for this site in [GitHub Issues][github-issues] ([IA][ia] and [UI][ui]).  This discussion will lead to some loose design prototypes in a new repo that the community can fork and contribute to, but for the project branding we've decided to try LayerVault and [Creative Cloud][creative-cloud]. You do not need to sign up for an account on Creative Cloud to comment there.
 
