@@ -4,7 +4,7 @@ layout: post
 category: articles
 author: garthdb
 priority: 1
-tags: ux,study
+tags: ux,study featured
 excerpt:
 ---
 ##MOAR DATA!
