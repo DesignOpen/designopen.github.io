@@ -79,5 +79,12 @@ authors:
     twitter: mrondina
     github: mrondina
     bio: 'Interactive designer working in web, games and mobile development.'
+  jonlau:
+    display_name: Jonathan Lau
+    gravatar: 0bed1d08d62923272cb9786f375edcc8
+    email: jon@jon.sg
+    web: http://jon.sg
+    github: lauweijie
+    bio: 'Front-end developer.'
 
 resourceCategories: ["philosophy", "sources", "redesigns", "inspiration", "tutorials"]
