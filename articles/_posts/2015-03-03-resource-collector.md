@@ -9,7 +9,7 @@ excerpt:
 ---
 Design Open collects [resources](http://designopen.org/resources/) related to designers working in the open. Although it is open to the community to submit new resources, the current process involves forking the repo, adding the resource, and making a pull request. This process works, but it has a few large flaws. First, contributing to a GitHub repo is not always [simplest of tasks](http://designopen.org/articles/how-to-contribute/), especially for those who don't regularly use git. Secondly, even for those who are comfortable making pull requests it takes a lot of time and manual work to submit the resource. We wanted to make contributing resources to as simple as possible for everyone. As such, we decided to build a simple tool to streamline the process.
 
-Initial designs of the Resource Collector involved having a database and a back-end administration dashboard to view and approve additions to the site. However, we were not satisfied with having to log in to a separate service just to review these incoming submissions. While searching for a simpler review process, we realized that it would be best to automatically these submit these resources as an issue for the repo.
+Initial designs of the Resource Collector involved having a database and a back-end administration dashboard to view and approve additions to the site. However, we were not satisfied with having to log in to a separate service just to review these incoming submissions. While searching for a simpler review process, we realized that it would be best to automatically submit these resources as an issue for the repo.
 
 There are several advantages for tracking resource submissions this way:
 
