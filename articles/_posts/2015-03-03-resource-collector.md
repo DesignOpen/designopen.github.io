@@ -7,9 +7,9 @@ priority: 1
 tags: featured
 excerpt:
 ---
-Contributing to a Jekyll site on GitHub is clearly [not the simplest of things](http://designopen.org/articles/how-to-contribute/) for designers. Readers of Design Open regularly tweet us with useful resources to add to the site. While that is convinent for them, it makes reviewing all the incoming links difficult for us. We wanted to make contributing resources to Design Open as simple as possible for everyone. As such, we decided to build a simple tool that would make this an easy process for all.
+Design Open collects [resources](http://designopen.org/resources/) related to designers working in the open. Although it is open to the community to submit new resources, the current process involves forking the repo, adding the resource, and making a pull request. This process works, but it has a few large flaws. First, contributing to a GitHub repo is not always [simplest of tasks](http://designopen.org/articles/how-to-contribute/), especially for those who don't regularly use git. Secondly, even for those who are comfortable making pull requests it takes a lot of time and manual work to submit the resource. We wanted to make contributing resources to as simple as possible for everyone. As such, we decided to build a simple tool to streamline the process.
 
-Initial designs of the Resource Collector involved having a database and a back-end administration dashboard to view and approve additions to the site. However, we were not satisfied with having to log in to a separate service just to review these incoming submissions. While searching for a simplier review process, we figured that it would be good if these submissions could trigger a bot to automatically open an issue for it on GitHub.
+Initial designs of the Resource Collector involved having a database and a back-end administration dashboard to view and approve additions to the site. However, we were not satisfied with having to log in to a separate service just to review these incoming submissions. While searching for a simpler review process, we realized that it would be best to automatically these submit these resources as an issue for the repo.
 
 There are several advantages for tracking resource submissions this way:
 
@@ -17,7 +17,7 @@ There are several advantages for tracking resource submissions this way:
 2. The person who submit the resource can track the status of the submission on GitHub
 3. When it is eventually added to the site, the pull request can also easily reference the issue
 
-The Resource Collector comes in two flavour:
+The Resource Collector comes in two flavors:
 
 - Chrome Extension
 - JavaScript Bookmarklet
