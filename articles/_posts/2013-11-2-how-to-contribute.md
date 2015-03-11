@@ -31,7 +31,7 @@ Now that we're running Jekyll locally, we need to get a copy of the site onto ou
 2. After all that hardcore forking is over with, GitHub will show you the new fork on your account. Copy the Clone URL (bottom right of the sidebar), and go back to Terminal.
 3. For the sake of this guide, I'm going to put this project in `~/Documents/Projects/`.
 4. In Terminal `cd ~/Documents/Projects` and press enter.
-5. Then type the clone command, paste the URL we just copied, then a folder name `git clone git@github.com:[yourusername]/opensourcedesignis.github.io.git designopen.org`
+5. Then type the clone command, paste the URL we just copied, then a folder name `git clone git@github.com:[yourusername]/designopen.github.io.git designopen.org`
 6. Once it's done cloning, type `cd designopen.org` to go into the folder that was just created.
 7. From here you can simply run `jekyll serve`, then browse to [http://localhost:4000](http://localhost:4000), and you should see the designopen.org site running locally on your computer.
 
