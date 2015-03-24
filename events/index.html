@@ -1,0 +1,25 @@
+---
+layout: page
+title: Events
+---
+{% assign curDate = site.time | date: '%s' %}
+<h3>Upcoming Events</h3>
+<ul class="reslist" itemscope itemtype="http://schema.org/ItemList">
+  {% for post in site.categories.events %}
+    {% assign postStartDate = post.event_date | date: '%s' %}
+    {% if postStartDate >= curDate %}
+      {% assign author = site.authors[post.presenter] %}
+      <li itemprop="itemListElement"><a href="{{post.source_url}}">{{ post.title }}</a> ({{post.location}}) <a href="{{author.web}}" itemprop="url"><span itemprop="name">{{author.display_name}}</span></a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h3>Past Events</h3>
+<ul class="reslist" itemscope itemtype="http://schema.org/ItemList">
+  {% for post in site.categories.events %}
+    {% assign postStartDate = post.event_date | date: '%s' %}
+    {% if postStartDate <= curDate %}
+      <li itemprop="itemListElement"><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
