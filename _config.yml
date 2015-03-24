@@ -86,5 +86,12 @@ authors:
     web: http://jon.sg
     github: lauweijie
     bio: 'Front-end developer.'
+  winterdamsel:
+    display_name: Paulina Duran
+    gravatar: a89d1b7181eb4592e30306082d2b5c8f
+    email: winterdamsel@gmail.com
+    web: https://twitter.com/winterdamsel
+    github: winterdamsel
+    bio: 'UX Grad student/aspiring Design Technologist, experimenter & chocolate lover learning more about the world. This semester, having fun with HCD, OSS & Agile.'
 
 resourceCategories: ["philosophy", "sources", "redesigns", "inspiration", "tutorials"]
