@@ -6,4 +6,4 @@ category: "philosophy"
 contributor: "dam"
 posted_date: "2015-03-25"
 ---
-Benedikt Lehnert discusses using open design reviews as a communication tool in an organization.
+[Benedikt Lehnert](http://twitter.com/blehnert) discusses using open design reviews as a communication tool in an organization.
