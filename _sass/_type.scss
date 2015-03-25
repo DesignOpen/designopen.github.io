@@ -1,4 +1,6 @@
-// Typography
+// TYPOGRAPHY
+
+// HEADNINGS
 
 h1 {
   font-size: 3.375rem;
@@ -41,3 +43,111 @@ h6 {
   font-weight: 600;
   margin: 1.5rem 0 0;
 }
+
+
+// PARAGRAPHS
+
+p {
+  font-size: 1rem;
+  margin: 0 0 1rem;
+}
+
+.footnotes p {
+  display: inline-block;
+  margin: 0;
+}
+
+
+// LINKS
+
+p > a {
+  color: inherit;
+  background: rgb(255, 255, 0);
+
+  &:hover,
+  &:focus { border-bottom: 1px solid; }
+}
+
+a { text-decoration: none; }
+
+
+// CODE
+
+code { font-size: 80%; }
+
+
+// QUOTES
+
+blockquote {
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 1rem 0;
+  max-width: 80%;
+  padding: .5rem 1rem .75rem;
+}
+
+blockquote p {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+
+// LISTS
+
+ul { padding-left: 1.5rem; }
+
+article ul {
+  list-style: none;
+  padding: 0 0 0 1rem;
+}
+
+article ul li {
+  margin: 0 0 .5rem;
+
+  &:before {
+    color: rgb(49,107,158);
+    content: "\25ca";
+    display: inline-block;
+    margin: 0 .2rem 0 -1rem;
+  }
+}
+
+article ol {
+  list-style: none;
+  padding: 0 0 0 1rem;
+  counter-reset: o;
+}
+
+article ol li {
+  counter-increment: o;
+  margin: 0 0 .5rem;
+
+  &:before {
+    color: rgb(49,107,158);
+    content: counter(o) ".";
+    display: inline-block;
+    margin: 0 .2rem 0 -1rem;
+  }
+}
+
+.footnotes ol {
+  counter-reset: o;
+  list-style: none;
+  padding: 0 0 0 1rem;
+}
+
+.footnotes ol li {
+  counter-increment: o;
+  margin: 0 0 .5rem;
+
+  &:before {
+    color: rgb(49,107,158);
+    content: counter(o) ".";
+    display: inline-block;
+    margin: 0 .2rem 0 -1rem;
+  }
+}
+
+
+
