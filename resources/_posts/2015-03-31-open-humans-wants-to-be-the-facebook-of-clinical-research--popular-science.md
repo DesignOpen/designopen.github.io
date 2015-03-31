@@ -10,4 +10,4 @@ After struggling a bit with finding interviewees for the first stage of our rese
 
 For now, "Open Humans" is mostly aimed towards health projects and it's a bit limited since it just kicked off; however, it has a great potential for anyone with a project that involves people. The concept is simple: if someone needs data for a research, the platform can provide results and resources needed to carry on the process.
 
-I'm excited about the fact that those (sometimes) long boring surveys have a chance to be revamped by awesome designers willing to contribute :). The original article where I spotted this was ['Open Humans' Wants To Be The Facebook Of Clinical Research](http://www.popsci.com/online-platform-open-humans-connects-clinical-trial-subjects-and-researchers).
+I'm excited about the fact that those (sometimes) long boring surveys have a chance to be revamped by awesome designers willing to contribute :) .
