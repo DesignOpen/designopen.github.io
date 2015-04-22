@@ -1,6 +1,6 @@
 # Welcome
 
-Thanks for wanting to contribute to [Design Open](http://designopen.org). This is not the typical open source project, we do need code contributions, but we are also looking for UX Design, UI Design, Information Architecture, and Content Strategy contributions. More than anything, we want to help more people recognize the benefits of collaborating in the open. We recognize there are barriers to entry for these less common open source contributors, so in addition to working with experienced contributors, we want to help people with their first contributions and [pull requests](https://help.github.com/articles/using-pull-requests/). If at any point you have any questions, or need some help, please don't hesitate to contact us.
+Thanks for wanting to contribute to [Design Open](http://designopen.org). This is not the typical open source project— we do need code contributions, but we are also looking for UX Design, UI Design, Information Architecture, and Content Strategy contributions. More than anything, we want to help more people recognize the benefits of collaborating in the open. We recognize there are barriers to entry for these less common open source contributors, so in addition to working with experienced contributors, we want to help people with their first contributions and [pull requests](https://help.github.com/articles/using-pull-requests/). If at any point you have any questions, or need some help, please don't hesitate to contact us.
 
 ## How to Contact Us
 
@@ -16,7 +16,7 @@ If you have a particular set of skills that would lend itself well to Design Ope
 
 ### 2. Let a core contributor know what you are interested in doing
 
-To make sure we are stepping on each other's toes it's a good idea to contact us about your work *before* you start doing work. We recommend starting a [GitHub issue](https://github.com/DesignOpen/designopen.github.io/issues) so everyone can participate in the conversation, but feel free to contact us through any of the channels mentioned above.
+To make sure we aren't stepping on each other's toes, it's a good idea to contact us about your work *before* you start doing work. We recommend starting a [GitHub issue](https://github.com/DesignOpen/designopen.github.io/issues) so everyone can participate in the conversation, but feel free to contact us through any of the channels mentioned above.
 
 ### 3. Show progress
 
