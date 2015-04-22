@@ -56,7 +56,7 @@ We love you for wanting to help out. Use Design Open as an excuse to try somethi
 
 Making a contribution does not commit you to the project forever. We'd love you to stick around, but we know life gets busy and new projects pop up.
 
-If at any point we doubt your ability, or availability, to be able to finish something you've started, let us know. We'll help you through it, or transfer your work to someone else. The sooner you let us know, the better.
+If at any point you doubt your ability, or availability, to be able to finish something you've started, let us know. We'll help you through it, or transfer your work to someone else. The sooner you let us know, the better.
 
 Love,
 The Design Open Dirextors ([Garth Braithwaite](http://garthdb.com), [Christopher Moody](http://moody.coffee), [Una Kravets](http://t.co/pCZO7357Of))
