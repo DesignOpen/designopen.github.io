@@ -20,3 +20,13 @@ body {
   &:hover,
   a:focus { text-decoration: underline; }
 }
+
+@media only screen and (max-width: 800px) {
+
+  :root { font-size: 16px; }
+}
+
+@media only screen and (min-width: 800px) {
+
+  :root { font-size: 18px; }
+}
