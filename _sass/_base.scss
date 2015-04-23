@@ -1,7 +1,7 @@
+
 // Base Styles
-html{
-  height: 100%;
-}
+html{ height: 100%; }
+
 // Defaults for the body
 body {
   font: normal normal normal 1rem/1.5 'source_sans_pro', sans;
@@ -14,10 +14,9 @@ body {
   margin-bottom: -100px;
   position: relative;
 }
-:not(p)>a{
-  color: rgb(49,107,158);
+
+:not(p)>a{ color: rgb(49,107,158);
+
   &:hover,
-  a:focus {
-    text-decoration: underline;
-  }
+  a:focus { text-decoration: underline; }
 }
