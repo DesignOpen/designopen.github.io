@@ -32,6 +32,21 @@
   svg { height: 100%; }
 }
 
+.pageheader { height: 200px;
+
+  span {
+    vertical-align: middle;
+    position: relative;
+    top: 2px;
+  }
+
+  svg {
+    margin-right: 10px;
+    height: 40px;
+    vertical-align: middle;
+  }
+}
+
 #globalheadplaceholder { height: 2.5rem; }
 
 .home-section,
