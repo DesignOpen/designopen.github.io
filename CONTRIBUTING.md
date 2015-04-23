@@ -34,7 +34,7 @@ We try to have automated tests on all our projects. Before making a pull request
 
 # Design Contributions
 
-There isn't a perfect way to contribute design. We are not exclusive on file format or design tool. Work with whatever you want. We've found success using [Pixelase](https://www.pixelapse.com/GarthDB/projects/designopen/) for collaborating; we can add you to the project if that helps. If you prefer something else, we are open. Whatever you do, post screenshots and ideas often.
+There isn't a perfect way to contribute design. We are not exclusive on file format or design tool. Work with whatever you want. We've found success using [Pixelapse](https://www.pixelapse.com/GarthDB/projects/designopen/) for collaborating; we can add you to the project if that helps. If you prefer something else, we are open. Whatever you do, post screenshots and ideas often.
 
 A good place to start designing (low hanging fruit), is to make a custom design for an article that is still using the default template. We have a way to add custom design to each article (a lá [CSS Zen Garden](http://www.csszengarden.com/)); check out the `post design` [tagged issues](https://github.com/DesignOpen/designopen.github.io/labels/post%20design). You can just provide a design for an article, or even go as far as writing the front end code. We'll fill in any gaps. The articles are designed to be modular; you don't have to match the style of anything else on the site. We'd prefer the design to work well with the content of the article. We do have a universal header and elements of a footer we'd like every article to keep, to make site navigation easier.
 
@@ -59,4 +59,4 @@ Making a contribution does not commit you to the project forever. We'd love you 
 If at any point you doubt your ability, or availability, to be able to finish something you've started, let us know. We'll help you through it, or transfer your work to someone else. The sooner you let us know, the better.
 
 Love,
-The Design Open Dirextors ([Garth Braithwaite](http://garthdb.com), [Christopher Moody](http://moody.coffee), [Una Kravets](http://t.co/pCZO7357Of))
+The Design Open Directors ([Garth Braithwaite](http://garthdb.com), [Christopher Moody](http://moody.coffee), [Una Kravets](http://t.co/pCZO7357Of))
