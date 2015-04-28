@@ -5,7 +5,7 @@ category: articles
 author: garthdb
 editor:
 priority: 1
-tags: event,workshop
+tags: featured
 excerpt:
 ---
 [Una Kravets](http://twitter.com/una), [Christopher Moody](http://twitter.com/terracomma), and [I](http://twitter.com/garthdb) have been working to put together a workshop on open design and we're happy to announce that [Future of Web Design](https://futureofwebdesign.com/san-francisco-2015/schedule/workshops/1967) will be hosting the inaugural workshop in San Francisco on Oct 28th 2015.
