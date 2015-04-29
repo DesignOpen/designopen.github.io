@@ -4,8 +4,8 @@ layout: post
 category: articles
 author: garthdb
 priority: 1
-tags: ux,study featured
-excerpt:
+tags: ux study featured
+excerpt: An attempt to obtain more data about how designers can and do work on open source projects.
 ---
 ##MOAR DATA!
 

@@ -5,7 +5,7 @@ category: articles
 author: terracomma
 priority: 0.9
 tags: featured
-excerpt: My favorite restauarant has an open kitchen. The best designers do too.
+excerpt: My favorite restaurant has an open kitchen. The best designers do too.
 ---
 
 My favorite restaurant has an open kitchen. The chef and her staff work in plain view of their diners, showing off every aspect of their kitchencraft. Meats are grilled, salads are assembled, sides are portioned and entrees are plated in the open and for all to see.

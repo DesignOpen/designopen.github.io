@@ -5,6 +5,7 @@ category: articles
 tags: improvement
 author: terracomma
 date: '2014-04-07 10:16:00'
+excerpt: We've been working on improving the design of the site, this is an update.
 ---
 
 [Garth][garth] (the originator of OSD) and I are regulars at a design meetup where he first shared the vision for this site.

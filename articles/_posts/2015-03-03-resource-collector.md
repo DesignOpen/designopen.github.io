@@ -6,7 +6,7 @@ author: jonlau
 editor: mrondina
 priority: 1
 tags: featured
-excerpt:
+excerpt: We have a new design resource collector.
 ---
 ## Our Latest Feature to Design Open
 
@@ -14,7 +14,7 @@ Here at Design Open, we've been collecting articles and ideas related to designe
 
 ## Lowering the Barrier to Participation
 
-Initial designs of the Resource Collector involved having a database and a back-end administration dashboard to view and approve additions to the site. However, we weren't satisfied with having to log in to a separate service just to review these incoming submissions. 
+Initial designs of the Resource Collector involved having a database and a back-end administration dashboard to view and approve additions to the site. However, we weren't satisfied with having to log in to a separate service just to review these incoming submissions.
 
 We weren't completely satisfied with the current process of forking, adding and making the pull request. It works, but it can be a little intimidating for some of us new to git. For those more familiar with the git workflow, it still requires a lot of time and manual effort to get a resource added. We wanted to make contributing resources as simple as possible for everyone.
 

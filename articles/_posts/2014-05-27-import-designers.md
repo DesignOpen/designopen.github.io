@@ -5,6 +5,7 @@ category: articles
 tags: news featured improvement
 author: vitorio
 date: '2014-05-27 21:33:00'
+excerpt: Vitorio gives a breakdown of how open source project maintainers can attract and work with designers, or any non developers.
 ---
 
 > Dear twitter, please direct me to good writing on what designers need from maintainers to consider contributing to open source projects. —[@garannm](https://twitter.com/garannm/status/410885971496808448)

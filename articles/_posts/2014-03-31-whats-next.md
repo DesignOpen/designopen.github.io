@@ -5,6 +5,7 @@ category: articles
 tags: improvement
 author: garthdb
 date: '2014-03-31 10:16:00'
+excerpt: Designers can use open source as a way to work on skills in the context of real projects.
 ---
 
 Ok, a couple of questions and a simple proposal.
