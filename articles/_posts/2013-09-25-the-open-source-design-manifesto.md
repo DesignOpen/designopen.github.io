@@ -5,11 +5,10 @@ category: articles
 tags:
 author: garthdb
 priority: 1.0
+excerpt: Using the term Open Source Design gets interesting reactions from different people. I want to clarify a little of what I think it means. It isn't about working for free, doing design by committee, or dealing with trolls (although I can't promise those things won't happen).  It is about challenging ourselves, our design process, and the way we work together in the design community.
 ---
 
 Using the term Open Source Design gets interesting reactions from different people. I want to clarify a little of what I think it means. It isn't about working for free, doing design by committee, or dealing with trolls (although I can't promise those things won't happen).  It is about challenging ourselves, our design process, and the way we work together in the design community.
-
-<!--more-->
 
 At [BlendConf](http://blendconf.com/) I wrote a humble manifesto for Open Source Design. This isn't an epic line I'm drawing in the sand or a radical paradigm shift. That's why it's humble. It is a challenge to try something a little different, and see if the benefits are worth it.
 

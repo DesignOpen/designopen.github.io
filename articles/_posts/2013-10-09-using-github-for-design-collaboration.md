@@ -5,6 +5,7 @@ category: articles
 tags: GitHub collaboration
 author: ttimsmith
 date: '2013-10-09 13:39:07'
+excerpt: GitHub ends up being a great tool for design collaboration.
 ---
 I haven't been giving GitHub enough credit. The power of collaboration, even for a design project like this, is truly magical.
 
