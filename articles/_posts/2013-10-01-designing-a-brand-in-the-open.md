@@ -5,12 +5,11 @@ category: articles
 tags:
 author: garthdb
 priority: 0.6
+excerpt: We have already started some open design discussion for this site in GitHub Issues (IA and UI).  This discussion will lead to some loose design prototypes in a new repo that the community can fork and contribute to, but for the project branding we've decided to try LayerVault and Creative Cloud. You do not need to sign up for an account on Creative Cloud to comment there.
 ---
 **Update:** we have switched from LayerVault to [Pixelapse][pixelapse]. We've had issues with LayerVault; our files were lost. Our experience with Pixelapse has been quite positive so far.
 
 We have already started some open design discussion for this site in [GitHub Issues][github-issues] ([IA][ia] and [UI][ui]).  This discussion will lead to some loose design prototypes in a new repo that the community can fork and contribute to, but for the project branding we've decided to try LayerVault and [Creative Cloud][creative-cloud]. You do not need to sign up for an account on Creative Cloud to comment there.
-
-<!--more-->
 
 The first designs posted should be considered proposals, feel free, as always, to fork, comment, and contribute back any ideas. You can comment on the LayerVault Project or on the branding [Github Issue][branding-issue].
 

@@ -5,6 +5,7 @@ category: articles
 tags: faq
 author: garthdb
 priority: 0.9
+excerpt: As I've chatted with designers about the idea of working in the open and allowing for community contributions, eventually someone says something to the effect of "that sounds a lot like design by committee." I have to admit, there are some similarities between the two design environments, but the differences are significant.
 ---
 
 As I've chatted with designers about the idea of working in the open and allowing for community contributions, eventually someone says something to the effect of "that sounds a lot like design by committee." I have to admit, there are some similarities between the two design environments, but the differences are significant.

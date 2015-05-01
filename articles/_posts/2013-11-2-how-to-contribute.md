@@ -5,6 +5,7 @@ category: articles
 tags: GitHub collaboration
 author: areus
 date: '2013-11-2 02:10:02'
+excerpt: Step by step instructions for contributing to a Jekyll Blog.
 ---
 ## Installing dependencies
 The [designopen.org](http://designopen.org) website is on GitHub pages, which runs atop of [Jekyll](http://jekyllrb.com). Lets install it so we can get this cloned and running locally.

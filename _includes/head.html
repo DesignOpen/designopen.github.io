@@ -1,10 +1,37 @@
+{% assign pagetitle = site.title %}
+{% if page.title %}
+  {% assign pagetitle = page.title %}
+{% endif %}
+
+{% assign pagedescription = site.description %}
+{% if page.description %}
+  {% assign pagedescription = page.description %}
+{% endif %}
+{% if page.excerpt %}
+  {% assign pagedescription = page.excerpt %}
+{% endif %}
+
+{% assign pageurl = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0" />
   <title>Design Open{% if page.title %} | {{ page.title }}{% endif %}</title>
-  <link rel="shortcut icon" href="/favicon.ico">
+  <meta name="description" content="{{ pagedescription }}">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@designopen">
+  <meta name="twitter:title" content="{{ pagetitle }}">
+  <meta name="twitter:description" content="{{ pagedescription }}">
+  {% if page.twitter.image %}
+    <meta name="twitter:image:src" content="{{ page.twitter.image }}">
+  {% endif %}
+  <meta name="twitter:url" content="{{ pageurl }}" />
+
+  <link rel="canonical" href="{{ pageurl }}">
+
   <style type="text/css">
     {% capture include_to_scssify %}{% include main.scss %}{% endcapture %}
     {{ include_to_scssify | scssify }}
