@@ -1,5 +1,5 @@
 ---
-title: "Finding the bridge between inventive worlds"
+title: "Finding the Bridge Between Inventive Worlds"
 layout: post
 category: articles
 author: winterdamsel
