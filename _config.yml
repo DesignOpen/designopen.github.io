@@ -1,6 +1,6 @@
 permalink: /:categories/:title/
 highlighter: pygments
-url: http://designopen.org
+url: http://opendesign.foundation
 name: Open Source Design
 excerpt_separator: <!--more-->
 markdown: kramdown

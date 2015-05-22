@@ -12,7 +12,7 @@ excerpt: A session given on open source design given at Blend Conf 2013.
 
 In the Spring of last year, [Bermon Painter](http://www.twitter.com/bermonpainter) sent me an invitation to speak at [Blend Conf](http://www.blendconf.com), his new conference in Charlotte, NC.  When I asked him what I should speak on, his response was "You can talk about whatever you want." It felt like a signed blank check.
 
-After some deep soul searching, and talks with friends, I put together the session Designers Can Open Source, I wrote the [Open Source Design Manifesto](/articles/the-open-source-design-manifesto/), and purchased the designopen.org domain.
+After some deep soul searching, and talks with friends, I put together the session Designers Can Open Source, I wrote the [Open Source Design Manifesto](/articles/the-open-source-design-manifesto/), and purchased the opendesign.foundation domain.
 
 [Treehouse](http://teamtreehouse.com/library/blend-conference-2013) recorded the session and just released the video file to me to post.
 

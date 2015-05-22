@@ -7,6 +7,8 @@ priority: 0.9
 excerpt: Open Source Design has been renamed to Design Open, let's talk about why.
 tags: annoucement featured news
 ---
+**Update:** Design Open has been renamed again to the Open Design Foundation.
+
 Thanks to some timely posts to our [GitHub issue on branding](https://github.com/DesignOpen/designopen.github.io/issues/33#issuecomment-56763448) we decided to rethink the name of this project. Originally I planned for the site to be a definitive guide on what open source design is, hence the original domain name, opensourcedesign.is, but that has become too limiting for the direction this project is heading. Instead we are moving to a call for action: *Design Open!*
 
 ##The Difference between Open Design and Open Source Design
