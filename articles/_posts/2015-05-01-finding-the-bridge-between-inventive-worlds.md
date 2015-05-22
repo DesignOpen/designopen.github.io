@@ -1,0 +1,37 @@
+---
+title: "Finding the Bridge Between Inventive Worlds"
+layout: post
+category: articles
+author: winterdamsel
+editor: garthdb
+priority: 1
+tags: featured
+excerpt: Paulina Durán gives a summary of the initial research she has conducted with Alicja
+---
+
+Finding the bridge between inventive worlds
+
+A peanut butter sandwich is great by itself, but mixing some jelly or jam makes the experience sublime. Just like PB & J, designers and developers deliver excellent outcomes on their own yet, when combining efforts, the results become amazing! How would the experience in TripAdvisor feel if there was no way to sort out the millions of destinations and reviews? Can you imagine the latest most powerful smartphone with an interface resembling a 90's website? The magic happens once these two worlds meet.
+
+For the past month and a half, as part of our learning experience while working with Design Open team, we started a quest to search for a better understanding on how these two groups of people come together. [DesignOpen's manifesto](/articles/the-open-source-design-manifesto/) states clear and simple principles, but we wondered if there were  hidden things in the minds of potential contributors that could improve the way the initiative is growing up.
+
+During this first stage, a small research team ([Alicja](http://alicjasalamon.com/), [Jan](http://www.twitter.com/simulo) and [myself](http://www.twitter.com/winterdamsel)) defined topics that we considered interested to get more insights about. The main concerns were:
+
+* What's it like to work with the other discipline?
+* How aware are they of design?
+* What do they think about designing in the open and sharing results?
+
+These topics made it possible to come up with semi-structured interviews -one for designers, one for developers-, remembering that time is precious for anyone so, we tried to keep them short but sharp.
+
+Once the sets of questions were drafted, we faced a new problem: where were we going to find people to answer them? Because of our IT background, developers were somehow easier to find in our closer circles; designers, however, were a bit further away. With posts on Twitter, Facebook, LinkedIn, Google+ and StackOverflow, it seemed that we were going to succeed rapidly in this task...but social media proved that to be wrong. We felt like recruiters, trying to grab people's attention but the problem was that we were looking for this specific set of people (developers who had worked in a team where design was involved and designers who had worked in a team where development was involved) and finding them, getting them to spend their time with us and making them interested in doing so was indeed a challenge.
+After a couple of rough weeks, [Una](http://twitter.com/una) & [Garth](http://twitter.com/garthdb) were kind to give us a hand and spread the word about our research, which brought more people in and allowed us to finish this first stage.
+We were able to pick different brains in 3 continents, from students to directors, men and women, all of them with new thoughts and anecdotes that became new pieces to get a more detailed picture.
+After all the Skype call and Hangout sessions, we organized the data and found out interesting beliefs such as:
+
+* Speaking a different language. Not necessarily English and Swahili but terms in both environments. Vectors and SVGs are not the same as Vectors and LinkedLists.
+* Sharing work can become scary because of criticism. This may hinder them from contributing since they are exposed to anything and, well, nobody really wants to read messages from haters.
+* Both groups think that functionality is key. Designers made remarks about the fact that it's not just making something look pretty.
+* Designers don't necessarily look for fame but they like knowing their brand is recognized.
+* Open Source Design sounds like a utopic idea because solutions to collaborate on designs (in regards to technology and/or workflows) are not widespread, yet the interest to check them out exists.
+
+Overall, this has given us a better ground on which to stand in order to get more solid data out a soon-to-be-released survey. We look forward to see how this evolves and hope that the results make DesignOpen’s scope richer.
