@@ -8,9 +8,9 @@ priority: 1
 tags: featured
 excerpt: We have a new design resource collector.
 ---
-## Our Latest Feature to Design Open
+## Our Latest Feature to Open Design
 
-Here at Design Open, we've been collecting articles and ideas related to designers working in the open. These resources build a deep bench of industry examples to inspire us all to be more open with our work. We've built a new tool to make the gathering of these articles simpler for the entire community.
+Here at Open Design, we've been collecting articles and ideas related to designers working in the open. These resources build a deep bench of industry examples to inspire us all to be more open with our work. We've built a new tool to make the gathering of these articles simpler for the entire community.
 
 ## Lowering the Barrier to Participation
 
@@ -18,7 +18,7 @@ Initial designs of the Resource Collector involved having a database and a back-
 
 We weren't completely satisfied with the current process of forking, adding and making the pull request. It works, but it can be a little intimidating for some of us new to git. For those more familiar with the git workflow, it still requires a lot of time and manual effort to get a resource added. We wanted to make contributing resources as simple as possible for everyone.
 
-While searching for a simpler process, we realized that it would be best to provide a tool that automatically submits the article or reference as an issue for the repo. The Design Open community can then review and approve the request to have new submissions added to the site.
+While searching for a simpler process, we realized that it would be best to provide a tool that automatically submits the article or reference as an issue for the repo. The Open Design community can then review and approve the request to have new submissions added to the site.
 
 There are several advantages for tracking resource additions this way:
 

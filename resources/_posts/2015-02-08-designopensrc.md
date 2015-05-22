@@ -1,5 +1,5 @@
 ---
-title: "Design Open Src"
+title: "Open Design Src"
 layout: resource
 source_url: http://designopensrc.com/
 category: sources

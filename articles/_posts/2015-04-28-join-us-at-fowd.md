@@ -9,9 +9,9 @@ tags:
   - featured
   - events
   - workshop
-excerpt: Join the Design Open Core Team at FOWD SF in Oct to learn how to apply and benefit from open design best practices in your existing workflows.
+excerpt: Join the Open Design Core Team at FOWD SF in Oct to learn how to apply and benefit from open design best practices in your existing workflows.
 twitter:
-  image: http://designopen.org/img/fowd_twitter_card_image.png
+  image: http://opendesign.foundation/img/fowd_twitter_card_image.png
 ---
 [Una Kravets](http://twitter.com/una), [Christopher Moody](http://twitter.com/terracomma), and [I](http://twitter.com/garthdb) have been working to put together a workshop on open design and we're happy to announce that [Future of Web Design](https://futureofwebdesign.com/san-francisco-2015/schedule/workshops/1967) will be hosting the inaugural workshop in San Francisco on Oct 28th 2015.
 

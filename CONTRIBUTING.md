@@ -1,6 +1,6 @@
 # Welcome
 
-Thanks for wanting to contribute to [Design Open](http://designopen.org). This is not the typical open source project— we do need code contributions, but we are also looking for UX Design, UI Design, Information Architecture, and Content Strategy contributions. More than anything, we want to help more people recognize the benefits of collaborating in the open. We recognize there are barriers to entry for these less common open source contributors, so in addition to working with experienced contributors, we want to help people with their first contributions and [pull requests](https://help.github.com/articles/using-pull-requests/). If at any point you have any questions, or need some help, please don't hesitate to contact us.
+Thanks for wanting to contribute to [Open Design](http://opendesign.foundation). This is not the typical open source project— we do need code contributions, but we are also looking for UX Design, UI Design, Information Architecture, and Content Strategy contributions. More than anything, we want to help more people recognize the benefits of collaborating in the open. We recognize there are barriers to entry for these less common open source contributors, so in addition to working with experienced contributors, we want to help people with their first contributions and [pull requests](https://help.github.com/articles/using-pull-requests/). If at any point you have any questions, or need some help, please don't hesitate to contact us.
 
 ## How to Contact Us
 
@@ -12,7 +12,7 @@ These are just recommended steps, if you have a different, preferred workflow, u
 
 ### 1. Find something to do
 
-If you have a particular set of skills that would lend itself well to Design Open, we want you. If you want to get experience in a new field (design, developer, writing, or something totally different) we want you; this is a safe space for experimentation. Read through the existing [GitHub issues](https://github.com/DesignOpen/designopen.github.io/issues) to see if something interests you. If someone has already started work on an issue or feature, that doesn't mean you can't help, it just means we get to collaborate. Jump into the discussion and let us know you're interested.
+If you have a particular set of skills that would lend itself well to Open Design, we want you. If you want to get experience in a new field (design, developer, writing, or something totally different) we want you; this is a safe space for experimentation. Read through the existing [GitHub issues](https://github.com/DesignOpen/designopen.github.io/issues) to see if something interests you. If someone has already started work on an issue or feature, that doesn't mean you can't help, it just means we get to collaborate. Jump into the discussion and let us know you're interested.
 
 ### 2. Let a core contributor know what you are interested in doing
 
@@ -52,11 +52,11 @@ Ultimately the article will be formatted using [markdown](http://daringfireball.
 
 # Final Thoughts
 
-We love you for wanting to help out. Use Design Open as an excuse to try something new and add some new skills and tools to your toolbelt.
+We love you for wanting to help out. Use Open Design as an excuse to try something new and add some new skills and tools to your toolbelt.
 
 Making a contribution does not commit you to the project forever. We'd love you to stick around, but we know life gets busy and new projects pop up.
 
 If at any point you doubt your ability, or availability, to be able to finish something you've started, let us know. We'll help you through it, or transfer your work to someone else. The sooner you let us know, the better.
 
 Love,
-The Design Open Directors ([Garth Braithwaite](http://garthdb.com), [Christopher Moody](http://moody.coffee), [Una Kravets](http://t.co/pCZO7357Of))
+The Open Design Directors ([Garth Braithwaite](http://garthdb.com), [Christopher Moody](http://moody.coffee), [Una Kravets](http://t.co/pCZO7357Of))
