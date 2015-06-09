@@ -18,7 +18,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0" />
-  <title>Open Design{% if page.title %} | {{ page.title }}{% endif %}</title>
+  <title>Open Design Foundation{% if page.title %} | {{ page.title }}{% endif %}</title>
   <meta name="description" content="{{ pagedescription }}">
 
   <meta name="twitter:card" content="summary">
@@ -28,9 +28,9 @@
   {% if page.twitter.image %}
     <meta name="twitter:image:src" content="{{ page.twitter.image }}">
   {% endif %}
-  <meta name="twitter:url" content="{{ pageurl }}" />
+  <meta name="twitter:url" data-proofer-ignore content="{{ pageurl }}" />
 
-  <link rel="canonical" href="{{ pageurl }}">
+  <link rel="canonical" data-proofer-ignore href="{{ pageurl }}">
 
   <style type="text/css">
     {% capture include_to_scssify %}{% include main.scss %}{% endcapture %}
