@@ -1,9 +1,0 @@
----
-title: "Design In Tech 2015"
-layout: resource
-source_url: "http://www.kpcb.com/blog/design-in-tech-report-2015"
-category: "philosophy"
-contributor: "winterdamsel"
-posted_date: "2015-07-7"
----
-"Design is only needed to make things look pretty" is such an outdated thought in the Tech industry and if you're not totally convinced and need some more numbers, Maeda's report will make you a believer.
