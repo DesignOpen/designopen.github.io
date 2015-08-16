@@ -1,4 +1,4 @@
-# [Open Design](http://opendesign.foundation) [![Travis Badge](https://travis-ci.org/DesignOpen/designopen.github.io.svg)](https://travis-ci.org/DesignOpen/designopen.github.io) [![Stories in Ready](https://badge.waffle.io/designopen/designopen.github.io.png?label=ready&title=Ready)](https://waffle.io/designopen/designopen.github.io) [![Join the chat at https://gitter.im/DesignOpen/designopen.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DesignOpen/OpenSourceDesign?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Join us on Slack!](http://slack.opendesign.foundation/badge.svg)](https://osd-slackin.herokuapp.com/)
+# [Open Design](http://opendesign.foundation) [![Travis Badge](https://travis-ci.org/DesignOpen/designopen.github.io.svg)](https://travis-ci.org/DesignOpen/designopen.github.io) [![Stories in Ready](https://badge.waffle.io/designopen/designopen.github.io.png?label=ready&title=Ready)](https://waffle.io/designopen/designopen.github.io) [![Join the chat at https://gitter.im/DesignOpen/designopen.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DesignOpen/OpenSourceDesign?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Join us on Slack!](http://slack.opendesign.foundation/badge.svg)](http://slack.opendesign.foundation/)
 
 
 
@@ -16,7 +16,7 @@ We do have a [Slack Team](http://osd.slack.com), but is not going to be useful/i
 
 Also, we do use the @everyone fairly often, so be prepared for notifications.
 
-If you are still interested in joining the Slack Team, fill out [this form](http://goo.gl/forms/Pol75dWNHn).
+If you are still interested in joining the Slack Team, request an invite [here](http://slack.opendesign.foundation).
 
 ## Contributing Posts
 
