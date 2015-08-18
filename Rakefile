@@ -201,5 +201,5 @@ end
 desc "build and test website"
 task :test do
   sh "bundle exec jekyll build"
-  HTML::Proofer.new("./_site", {:href_ignore=> ['http://localhost:4000'], :typhoeus => { :followlocation => true, :headers => { 'User-Agent' => 'html-proofer' } }}).run
+  HTML::Proofer.new("./_site", {:href_ignore=> ['http://localhost:4000','http://linkedin.com/in/sachabest','http://www.linkedin.com/pub/david-yuxuan-wei/95/488/77/','http://www.linkedin.com/pub/elaine-hwang/9b/830/739','https://www.linkedin.com/in/ngovkevin'], :typhoeus => { :followlocation => true, :ssl_verifypeer => false, :headers => { 'User-Agent' => 'html-proofer' } }}).run
 end
