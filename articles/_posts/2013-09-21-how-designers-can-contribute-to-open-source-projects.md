@@ -6,7 +6,7 @@ priority: 0.9
 excerpt: How can designers get involved in Open Source Projects on GitHub?
 ---
 
-A great question popped up on [designer news](https://news.layervault.com/stories/7779-ask-dn-as-a-designer-how-can-i-get-involved-in-open-source-projects-on-github):
+A great question popped up on [designer news](https://www.designernews.co/stories/7779-ask-dn-as-a-designer-how-can-i-get-involved-in-open-source-projects-on-github):
 
 > **As a designer. How can I get involved in Open Source Projects on GitHub?**
 
@@ -58,4 +58,4 @@ GitHub Pages is a simple way that any front end designer could contribute to jus
 
 Open source projects need designers as much as other any other projects, maybe more so.  We are looking into starting a job board of sorts with projects looking for design contributions.  I just filed an [issue](https://github.com/DesignOpen/designopen.github.io/issues/10), so watch that for updates, or join in the conversation.
 
-Thanks [Stephan Junghanns](https://news.layervault.com/u/801/stephan-junghanns) for posting the question, and [Nicole Dominguez](https://twitter.com/sodevious) for pointing it out.
+Thanks [Stephan Junghanns](https://www.designernews.co/u/801/stephan-junghanns) for posting the question, and [Nicole Dominguez](https://twitter.com/sodevious) for pointing it out.
