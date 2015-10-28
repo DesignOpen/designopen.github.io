@@ -11,7 +11,7 @@ layout: compress
     <link rel="shortcut icon" href="/favicon.ico">
     <style>
 		@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
-		
+
 		*{
 			border:0;
 			outline:0;
@@ -47,6 +47,60 @@ layout: compress
 			font-family: "Courier New", serif;
 			text-decoration: none;
 		}
+
+    #image {
+      width: 100%;
+      height: 200px;
+      position: relative;
+      overflow: hidden;
+    }
+    #image:before {
+      background: url('/img/Joint_Session_of_Congress.jpg') no-repeat center bottom;
+      background-size: cover;
+      position: fixed;
+      content: '';
+      width: 100%;
+      height: 200px;
+      will-change: transform;
+    }
+    #image svg {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      will-change: transform;
+    }
+    #article {
+      background: white;
+      position: relative;
+      z-index: 2;
+    }
+    #article h1 {
+      max-width: 40rem;
+      position: relative;
+      margin: 0 auto;
+      padding: 0 1rem;
+      font-size: 3rem;
+      text-align: right;
+      top: -60px;
+      line-height: 3rem;
+      margin-bottom: -20px;
+    }
+    @media only screen and (min-width: 700px) {
+      #image {
+        height: 420px;
+      }
+      #image:before {
+        height: 420px;
+      }
+      #image svg {
+        height: 216px;
+      }
+      #article h1 {
+        top: -100px;
+      }
+    }
     </style>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -60,10 +114,14 @@ layout: compress
           <path fill="#FFF" d="M12.5,10.521c-1.093,0-1.979,0.886-1.979,1.979c0,0.953,0.673,1.747,1.57,1.936V24.99C12.227,24.994,12.363,25,12.5,25 s0.273-0.006,0.409-0.01V14.436c0.896-0.189,1.57-0.984,1.57-1.936C14.479,11.407,13.593,10.521,12.5,10.521z M25,12.5 C25,5.596,19.403,0,12.5,0S0,5.596,0,12.5c0,6.489,4.944,11.821,11.271,12.439l0,0l0-0.002l0,0 c-0.031-5.08-3.094-9.005-4.364-10.415v0c0,0-0.522-0.626-0.226-1.376l2.314-5.869c0,0,0.428-1.085,1.379-1.085H12.5h2.127 c0.951,0,1.379,1.085,1.379,1.085l2.314,5.869c0.296,0.75-0.226,1.376-0.226,1.376v0c-1.271,1.411-4.333,5.335-4.364,10.415l0,0.002 C20.056,24.321,25,18.989,25,12.5z"></path>
         </svg></a></div>
     <div id="site">
-      <div id="image"></div>
+      <div id="image">
+        <svg xmlns="http://www.w3.org/2000/svg" width="216" height="216" viewBox="0 0 216 216" preserveAspectRatio="none">
+          <path fill="#FFFFFF" d="M216 0L0 216h216"/>
+        </svg>
+      </div>
       <article id="article" itemscope itemtype=http://schema.org/BlogPosting>
         <meta itemprop="description" content="{{ page.excerpt | strip_html}}">
-        <h1 itemprop="name">Using GitHub for Design Collaboration</h1>
+        <h1 itemprop="name">Open<br/>Design<br/>is not<br/>Design by<br/>Committee</h1>
         <div id="publishDate">Published <time itemprop="datePublished" datetime="{{page.date | date: "%Y-%m-%d" }}">{{page.date | date: "%b %e, %Y" }}</time>
         </div>
         <section itemprop="articleBody">
