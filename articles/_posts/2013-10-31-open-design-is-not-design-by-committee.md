@@ -32,6 +32,8 @@ I can't lie and say that it isn't, but community contributions, in the form of i
 
 It can happen. As ideas collide in a discussion, it is possible that contributors will feel the need to move in a different direction than the owner's goals. In an open source project with the right kind of license, the rebelling faction should have the option of forking the project and continuing independently. This is not a great outcome in terms of community development, but it gives an owner with dictatorial tendencies a reason to work with others.
 
+>the Open Source workflow benefits all parties involved
+
 ##Why do it?
 
 When implemented correctly, the Open Source workflow benefits all parties involved. Contributors get a chance to collaborate with designers in a more autonomous capacity than most work environments allow, and still receive feedback and encouragement from the project owners. The owners get outside opinions to challenge their assumptions and sometimes they get fantastic contributions worth all the hassle. Most importantly, all the designers involved have the privilege of improving the design community and building something they care about.
