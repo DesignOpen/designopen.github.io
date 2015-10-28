@@ -16,7 +16,7 @@ For those who are unfamiliar with the term Design By Committee, it is a special 
 
 I think some designers have the mistaken idea that open source projects are lawless anarchies, where random contributors haphazardly throw bits and pieces together; forming a version of Frankenstein's monster that hopefully can perform basic tasks. In reality a healthy open source project needs to have an owner, or small group of owners[^1], with a strong sense of where the project is heading. With a core team in place, outside contributors can file issues, submit contributions, and just complain about things they don't like. The core team of owners can then accept or reject the contributions from the community (hopefully in a way that encourages growth and future contributions).
 
->instead of being an expert consultant, the designer becomes the tool of the committee members who often have very little design experience
+>Instead of being an expert consultant, the designer becomes the tool of the committee members who often have very little design experience
 
 ##Ownership is key
 
@@ -31,6 +31,8 @@ I can't lie and say that it isn't, but community contributions, in the form of i
 ##What Happens if the Project Owner is a Tool?
 
 It can happen. As ideas collide in a discussion, it is possible that contributors will feel the need to move in a different direction than the owner's goals. In an open source project with the right kind of license, the rebelling faction should have the option of forking the project and continuing independently. This is not a great outcome in terms of community development, but it gives an owner with dictatorial tendencies a reason to work with others.
+
+>The Open Source workflow benefits all parties involved
 
 ##Why do it?
 
