@@ -1,3 +1,73 @@
 ---
 layout: compress
 ---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Open Source Design{% if page.title %} | {{ page.title }}{% endif %}</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <style>
+      .guys{
+float:left;
+width:30%;
+margin:0 1%;	
+text-align:center;
+}
+.guys img{
+width:100%;
+height:auto;	
+}
+.clear{
+ clear:both;   
+}
+#banner{
+max-width: 640px;
+box-sizing: border-box;
+margin: 0 auto;
+padding-right: 20px;
+padding-left: 20px;  
+padding-top:20px;
+}
+    </style>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body itemscope itemtype="http://schema.org/WebPage">
+      {% include head.html %}
+    <div id="globalheadplaceholder"></div>
+      <div id="globalhead">
+        <a href="/">
+            {% include logo.svg %}
+        </a>
+      </div>
+      <div id="content">
+        <article itemscope itemtype="http://schema.org/BlogPosting" class="post">
+            <meta itemprop="description" content="{{ page.excerpt | strip_html}}">
+            {% assign author = site.authors[page.author] %}
+            <div id="banner"><img src="/img/fboa_banner_v2.png" width="100%" height="auto" alt=""/></div>
+        <header class="article-header">
+            <h1 itemprop="name">{{ page.title }}</h1>
+            <p>Published on <time itemprop="datePublished" datetime="{{page.date | date: "%Y-%m-%d" }}">{{page.date | date: "%b %e, %Y" }}</time></p>
+        </header>
+        <section itemprop="articleBody" class="article-body">
+            {{ content }}
+        </section>
+        <footer class="article-footer">
+            <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a href="{{author.web}}"><img itemprop="image" src="http://www.gravatar.com/avatar/{{author.gravatar}}" alt="{{author.display_name}}" width="30" height="30"></a>
+            <h3>About the author: <a href="{{site.authors[page.author].web}}" itemprop="url"><span itemprop="name">{{author.display_name}}</span></a></h3>
+            <p class="author_bio">{{author.bio}}</p>
+            </div>
+            {% include post_footer.html %}
+            {% include comments.html %}
+        </footer>
+        <meta itemprop="url" content="{{ site.url }}{{ page.url }}">
+        </article>
+      </div>
+  </body>
+  {% include analytics.html %}
+</html>
