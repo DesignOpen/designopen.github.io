@@ -37,8 +37,4 @@
     {{ include_to_scssify | scssify }}
   </style>
 </head>
-<body itemscope itemtype="http://schema.org/WebPage">
-  <meta itemscope itemprop="url" content="{{ site.url }}{{ page.url }}">
-  {% if page.title %}
-  <meta itemscope itemprop="name" content="{{ page.title }}">
-  {% endif %}
+<body>
