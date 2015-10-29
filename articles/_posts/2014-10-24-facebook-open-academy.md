@@ -15,28 +15,28 @@ I'm pleased to introduce [David Wei](http://www.linkedin.com/pub/david-yuxuan-we
 
 <h2>2014 Group</h2>
 <div class="guys">
-    <img src="/img/fboa-guy1.jpg" width="200" height="200" alt=""/>
+    <img src="/img/fboa-guy1.jpg" width="200" height="200" alt="Chris Moody"/>
             <a href=""><h3>Chris Moody</h3></a>
 </div>
 <div class="guys">
-    <img src="/img/fboa-guy2.jpg" width="200" height="200" alt=""/>
+    <img src="/img/fboa-guy2.jpg" width="200" height="200" alt="Kevin Ngo"/>
     <a href="https://www.linkedin.com/in/ngovkevin"><h3>Kevin Ngo</h3></a>
 </div>
 <div class="guys">
-    <img src="/img/fboa-guy3.jpg" width="200" height="200" alt=""/>
+    <img src="/img/fboa-guy3.jpg" width="200" height="200" alt="David Wei"/>
     <a href="http://www.linkedin.com/pub/david-yuxuan-wei/95/488/77/"><h3>David Wei</h3></a>
 </div>
 <div class="clear"></div>
 <div class="guys">
-    <img src="/img/fboa-guy4.jpg" width="200" height="200" alt=""/>
+    <img src="/img/fboa-guy4.jpg" width="200" height="200" alt="Elaine Hwang"/>
     <a href="http://www.linkedin.com/pub/elaine-hwang/9b/830/739"><h3>Elaine Hwang</h3></a>
 </div>
 <div class="guys">
-    <img src="/img/fboa-guy5.jpg" width="200" height="200" alt=""/>
+    <img src="/img/fboa-guy5.jpg" width="200" height="200" alt="Sacha Best"/>
     <a href="http://linkedin.com/in/sachabest"><h3>Sacha Best</h3></a>
 </div>
 <div class="guys">
-    <img src="/img/fboa-guy6.jpg" width="200" height="200" alt=""/>
+    <img src="/img/fboa-guy6.jpg" width="200" height="200" alt="Becca Hallac"/>
     <a href="http://rebeccahallac.com"><h3>Becca Hallac</h3></a>
 </div>
 <div class="clear"></div>

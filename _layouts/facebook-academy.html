@@ -13,22 +13,22 @@ layout: compress
       .guys{
 float:left;
 width:30%;
-margin:0 1%;	
+margin:0 1%;
 text-align:center;
 }
 .guys img{
 width:100%;
-height:auto;	
+height:auto;
 }
 .clear{
- clear:both;   
+ clear:both;
 }
 #banner{
 max-width: 640px;
 box-sizing: border-box;
 margin: 0 auto;
 padding-right: 20px;
-padding-left: 20px;  
+padding-left: 20px;
 padding-top:20px;
 }
     </style>
@@ -48,7 +48,7 @@ padding-top:20px;
         <article itemscope itemtype="http://schema.org/BlogPosting" class="post">
             <meta itemprop="description" content="{{ page.excerpt | strip_html}}">
             {% assign author = site.authors[page.author] %}
-            <div id="banner"><img src="/img/fboa_banner_v2.png" width="100%" height="auto" alt=""/></div>
+            <div id="banner"><img src="/img/fboa_banner_v2.png" width="100%" height="auto" alt="Facebook Open Academy"/></div>
         <header class="article-header">
             <h1 itemprop="name">{{ page.title }}</h1>
             <p>Published on <time itemprop="datePublished" datetime="{{page.date | date: "%Y-%m-%d" }}">{{page.date | date: "%b %e, %Y" }}</time></p>
