@@ -16,7 +16,7 @@ I'm pleased to introduce [David Wei](http://www.linkedin.com/pub/david-yuxuan-we
 <h2>2014 Group</h2>
 <div class="guys">
     <img src="/img/fboa-guy1.jpg" width="200" height="200" alt="Chris Moody"/>
-            <a href=""><h3>Chris Moody</h3></a>
+            <a href="http://moody.coffee/"><h3>Chris Moody</h3></a>
 </div>
 <div class="guys">
     <img src="/img/fboa-guy2.jpg" width="200" height="200" alt="Kevin Ngo"/>
