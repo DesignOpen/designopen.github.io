@@ -1,4 +1,4 @@
-# [Open Design](http://opendesign.foundation) [![Travis Badge](https://travis-ci.org/DesignOpen/designopen.github.io.svg)](https://travis-ci.org/DesignOpen/designopen.github.io) [![Stories in Ready](https://badge.waffle.io/designopen/designopen.github.io.png?label=ready&title=Ready)](https://waffle.io/designopen/designopen.github.io) [![Join the chat at https://gitter.im/DesignOpen/designopen.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DesignOpen/OpenSourceDesign?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Join us on Slack!](http://osd-slackin.herokuapp.com/badge.svg)](https://osd-slackin.herokuapp.com/)
+# [Open Design](http://opendesign.foundation) [![Travis Badge](https://travis-ci.org/DesignOpen/designopen.github.io.svg)](https://travis-ci.org/DesignOpen/designopen.github.io) [![Stories in Ready](https://badge.waffle.io/designopen/designopen.github.io.png?label=ready&title=Ready)](https://waffle.io/designopen/designopen.github.io) [![Join the chat at https://gitter.im/DesignOpen/designopen.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DesignOpen/OpenSourceDesign?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Join us on Slack!](http://slack.opendesign.foundation/badge.svg)](http://slack.opendesign.foundation/)
 
 
 
@@ -16,7 +16,7 @@ We do have a [Slack Team](http://osd.slack.com), but is not going to be useful/i
 
 Also, we do use the @everyone fairly often, so be prepared for notifications.
 
-If you are still interested in joining the Slack Team, fill out [this form](http://goo.gl/forms/Pol75dWNHn).
+If you are still interested in joining the Slack Team, request an invite [here](http://slack.opendesign.foundation).
 
 ## Contributing Posts
 
@@ -34,7 +34,7 @@ Feel free to contribute your own posts and ideas on this topic! Here's how:
 
 *If this is your first time using Jekyll, read [this](http://jekyllrb.com/docs/usage/) first. An important item of note is: do NOT touch the _site folder! This is where Jekyll is working to recompile changes into. Any time you make a change, it will overwrite whatever is inside of that folder.*
 
-[This](/articles/how-to-contribute/) post also helps to explain how to contribute to a Jekyll site via Github.
+[This](http://opendesign.foundation/articles/how-to-contribute/) post also helps to explain how to contribute to a Jekyll site via Github.
 
 ##Etc.
 
