@@ -5,6 +5,7 @@ require 'yaml'
 require 'fileutils'
 require 'rbconfig'
 require 'html/proofer'
+require 'scss_lint/rake_task'
 
 # == Configuration =============================================================
 
@@ -202,4 +203,9 @@ desc "build and test website"
 task :test do
   sh "bundle exec jekyll build"
   HTML::Proofer.new("./_site", {:href_ignore=> ['http://localhost:4000','http://linkedin.com/in/sachabest','http://www.linkedin.com/pub/david-yuxuan-wei/95/488/77/','http://www.linkedin.com/pub/elaine-hwang/9b/830/739','https://www.linkedin.com/in/ngovkevin'], :typhoeus => { :followlocation => true, :ssl_verifypeer => false, :headers => { 'User-Agent' => 'html-proofer' } }}).run
+end
+
+# rake lint
+desc "Lint SCSS"
+SCSSLint::RakeTask.new do |t|
 end

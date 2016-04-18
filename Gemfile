@@ -5,4 +5,5 @@ gem 'github-pages'
 group :test do
   gem 'rake'
   gem 'html-proofer'
+  gem 'scss_lint'
 end
