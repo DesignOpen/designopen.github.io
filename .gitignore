@@ -2,3 +2,4 @@ _site
 .DS_Store
 Gemfile.lock
 .sass-cache
+tmp/

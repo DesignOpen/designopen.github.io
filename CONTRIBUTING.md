@@ -4,7 +4,7 @@ Thanks for wanting to contribute to [Open Design](http://opendesign.foundation).
 
 ## How to Contact Us
 
-The fastest way to get ahold of us is to ping us on twitter [@designopen](http://twitter.com/designopen) [@garthdb](http://twitter.com/garthdb) [@una](http://twitter.com/una) [@terracomma](http://twitter.com/terracomma). If you'd prefer, you could jump into our Slack team; [join here](https://osd-slackin.herokuapp.com/). If you want to talk about an issue or propose a feature, start a [GitHub issue](https://github.com/DesignOpen/designopen.github.io/issues). Finally, if you like email, you can contact Garth at garthdb@gmail.com, he's probably looking for a distraction from something he should be doing.
+The fastest way to get ahold of us is to ping us on twitter [@designopen](http://twitter.com/designopen) [@garthdb](http://twitter.com/garthdb) [@una](http://twitter.com/una) [@terracomma](http://twitter.com/moodycomputer). If you'd prefer, you could jump into our Slack team; [join here](https://osd-slackin.herokuapp.com/). If you want to talk about an issue or propose a feature, start a [GitHub issue](https://github.com/DesignOpen/designopen.github.io/issues). Finally, if you like email, you can contact Garth at garthdb@gmail.com, he's probably looking for a distraction from something he should be doing.
 
 ## How to Contribute
 
