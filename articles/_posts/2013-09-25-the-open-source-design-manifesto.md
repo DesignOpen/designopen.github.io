@@ -18,7 +18,7 @@ Here's the original manifesto:
 
 Here's a text-based version for all the bots out there (with some slight modifications for clarity):
 
-##Open Source Design Manifesto
+## Open Source Design Manifesto
 
 I will:
 

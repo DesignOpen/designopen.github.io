@@ -14,7 +14,7 @@ At the time the site's design was about 4 CSS rules away from default. I remembe
 
 Well it worked, and less than a week later I stepped in and worked on it.
 
-##Design vs Style
+## Design vs Style
 
 Early in the process, and through conversation with Garth the decision was made to avoid *designing* the site,
 instead choosing to *style* it. This site is set up so that any article can (and hopefully will) get its own
@@ -23,7 +23,7 @@ design treatment. A fantastic example can be seen on the article [*USING GITHUB 
 With that in mind, the goal for this iteration of the look of the site became
 "Nice, but still something someone would want to replace."
 
-##A Checklist
+## A Checklist
 
 A list of requirements was drawn up for the default design of the site:
 
