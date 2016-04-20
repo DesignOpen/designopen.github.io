@@ -11,7 +11,7 @@ Open Design is excited to announce that we have been invited to participate in [
 
 <img src="/img/foa_1.jpg" width="100%" height="auto" alt="picture of students working"/>
 
-I'm pleased to introduce [David Wei](http://www.linkedin.com/pub/david-yuxuan-wei/95/488/77/), [Elaine Hwang](http://www.linkedin.com/pub/elaine-hwang/9b/830/739), and [Kevin Ngo](https://www.linkedin.com/in/ngovkevin) from <abbr title="University of California San Diego">UCSD</abbr>, as well as [Becca Hallac](http://rebeccahallac.com) and [Sacha Best](http://linkedin.com/in/sachabest) from <abbr title="University of Pennsylvania">UPENN</abbr> as our newest contributors. They have decided to tackle the [Open Design job board](https://github.com/DesignOpen/board). [Chris Moody](http://twitter.com/terracomma) and I had the pleasure of participating in an initial orientation and project sprint with them in person at Facebook's headquarters earlier this month, and they are fantastic.
+I'm pleased to introduce [David Wei](http://www.linkedin.com/pub/david-yuxuan-wei/95/488/77/), [Elaine Hwang](http://www.linkedin.com/pub/elaine-hwang/9b/830/739), and [Kevin Ngo](https://www.linkedin.com/in/ngovkevin) from <abbr title="University of California San Diego">UCSD</abbr>, as well as [Becca Hallac](http://rebeccahallac.com) and [Sacha Best](http://linkedin.com/in/sachabest) from <abbr title="University of Pennsylvania">UPENN</abbr> as our newest contributors. They have decided to tackle the [Open Design job board](https://github.com/DesignOpen/board). [Chris Moody](http://twitter.com/moodycomputer) and I had the pleasure of participating in an initial orientation and project sprint with them in person at Facebook's headquarters earlier this month, and they are fantastic.
 
 <h2>2014 Group</h2>
 <div class="guys">
@@ -46,4 +46,4 @@ I'm pleased to introduce [David Wei](http://www.linkedin.com/pub/david-yuxuan-we
 <img src="/img/foa_2.jpg" width="100%" height="auto" alt="picture of students working"/>
 <h2>About Facebook Open Academy</h2>
 <p>Open source is a huge part of Facebook engineering. We also believe that contributing to open source projects is one of the best ways a student can prepare for a job in the industry. Open Academy is a program designed to provide a practical, applied software engineering experience as part of a university student’s CS education.</p>
-<p>Source: <a href="https://www.facebook.com/notes/facebook-engineering/facebook-open-academy-bringing-open-source-to-cs-curricula/10151806121378920">Facebook&trade;</a></p>
+<p>Source: <a href="https://www.facebook.com/OpenAcademyProgram/">Facebook</a></p>
