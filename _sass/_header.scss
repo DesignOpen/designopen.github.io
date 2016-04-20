@@ -1,7 +1,7 @@
 
 
 // Header Styles
-#globalhead {
+.globalhead {
   background: #000;
   padding: .5rem 0;
   height: 2.5rem;
@@ -12,7 +12,7 @@
   z-index: 10;
 }
 
-#globalhead,
+.globalhead,
 .pageheader {
 
   a {
@@ -70,7 +70,7 @@
   @media (min-width: 800px) { height: 20rem; }
 }
 
-#globalheadplaceholder { height: 2.5rem; }
+.globalheadplaceholder { height: 2.5rem; }
 
 .home-section,
 .page-section,
