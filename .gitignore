@@ -3,3 +3,4 @@ _site
 Gemfile.lock
 .sass-cache
 tmp/
+npm-debug.log

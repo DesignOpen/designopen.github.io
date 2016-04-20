@@ -1,9 +1,11 @@
 permalink: /:categories/:title/
-highlighter: pygments
+highlighter: rouge
 url: http://opendesign.foundation
 name: Open Source Design
 excerpt_separator: <!--more-->
 markdown: kramdown
+gems:
+  - jekyll-sitemap
 exclude: [vendor]
 sass:
   sass_dir: _sass
