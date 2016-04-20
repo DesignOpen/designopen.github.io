@@ -32,7 +32,7 @@ authors:
     web: http://unakravets.com/
     twitter: una
     github: una
-    bio: 'Front end developer/designer at IBM Watson. Sassvocate and <a href="http://una.github.io">blogger</a>.'
+    bio: 'UI engineer <a href="http://do.co/welcome">DigitalOcean</a>. Community builder, technical writer, & cohost of <a href="http://toolsday.io">Toolsday</a>.'
   garthdb:
     display_name: Garth Braithwaite
     gravatar: b5cf6e112eeee572d722743dea924487
@@ -40,7 +40,7 @@ authors:
     web: http://www.garthdb.com/
     twitter: garthdb
     github: garthdb
-    bio: 'Hybrid at Adobe. Host of <a href="http://webfriends.io">Web Friends</a>.'
+    bio: 'Product Designer? and Front End Developer on <a href="http://phonegap.com">PhoneGap</a> at <a href="http://adobe.com">Adobe</a>. <a href="http://opendesign.foundation">The Open Design Foundation</a> Founder.'
   ttimsmith:
     display_name: Tim Smith
     gravatar: febbffcb54abe1be1435720fc2268237
@@ -64,7 +64,7 @@ authors:
     web: http://moody.coffee/
     twitter: terracomma
     github: terracomma
-    bio: 'Designer and Developer.'
+    bio: 'Designer & Developer. Product designer at IBM. Core Contributor <a href="http://opendesign.foundation/">The Open Design Foundation</a>. Licensed Intoxicologist.'
   vitorio:
     display_name: Vitorio Miliano
     gravatar: 1b2ea3fc983558c15216a609af35f709
