@@ -11,6 +11,7 @@ require 'scss_lint/rake_task'
 
 # Set "rake watch" as default task
 task :default => :watch
+task :lint => :scss_lint
 
 # Load the configuration file
 CONFIG = YAML.load_file("_config.yml")

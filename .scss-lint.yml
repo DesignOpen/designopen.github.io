@@ -58,7 +58,7 @@ linters:
     present: true
 
   HexLength:
-    enabled: false
+    enabled: true
     style: short # or 'long'
 
   HexNotation:
@@ -66,10 +66,10 @@ linters:
     style: lowercase # or 'uppercase'
 
   HexValidation:
-    enabled: false
+    enabled: true
 
   IdSelector:
-    enabled: false
+    enabled: true
 
   ImportantRule:
     enabled: false
