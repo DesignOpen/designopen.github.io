@@ -9,7 +9,7 @@ excerpt: Someone in the IRC asked how they could contribute and what our roadmap
 ---
 Someone in the IRC[^1] asked how they could contribute and what our roadmap is.  I thought I would lay out a few places where anyone could jump in if they wanted to help out.
 
-##Authors Wanted
+## Authors Wanted
 
 Feel free to write about anything related to open source and design and how designers can get involved.  [Areus Wade](https://twitter.com/areus) wrote a great post on [how to contribute a post to the blog](/articles/how-to-contribute/).
 
@@ -54,7 +54,7 @@ If you need a place to start we have a running list of topics in the [github iss
 
 <ul id="article-issues"></ul>
 
-##Designers Wanted
+## Designers Wanted
 
 This is a site about open source design, and has a definite lack of design going on here.  The easiest way to jump in is to comment in the [design discussions](https://github.com/designopen/designopen.github.io/issues?direction=desc&labels=design+discussion&page=1&sort=updated&state=open):
 
@@ -68,7 +68,7 @@ You can do any part of it: just visual design, or actual coding.  [One post](/ar
 
 The idea is each post should be unique, so there is no style guide to follow; make your own.
 
-##Resource Seekers Wanted
+## Resource Seekers Wanted
 
 Sorry, resource seeker sounds lame, but I couldn't think of a more elegant want to put it.  We have a running list of resources and examples of open source design.  Feel free to tweet [@designopen](http://www.twitter.com/designopen) if you have anything you'd like to add.
 
