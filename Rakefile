@@ -228,3 +228,9 @@ end
 desc "Lint SCSS"
 SCSSLint::RakeTask.new do |t|
 end
+
+desc "Lint watch"
+task :lint_watch do
+  sh "bundle exec rake lint" rescue nil
+  sh "bundle exec guard"
+end

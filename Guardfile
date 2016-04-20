@@ -18,7 +18,7 @@
 # Add files and commands to this file, like the example:
 #   watch(%r{file/path}) { `command(s)` }
 #
-guard :shell, :cli => "-c", :all_on_start => true do
+guard :shell, :cli => "-c" do
   watch '.scss-lint.yml' do |m|
     system('bundle exec rake scss_lint')
   end
