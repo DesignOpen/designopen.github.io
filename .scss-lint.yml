@@ -15,7 +15,7 @@ linters:
     convention: zero # or `none`
 
   ChainedClasses:
-    enabled: false
+    enabled: true
 
   ColorKeyword:
     enabled: false
@@ -34,10 +34,10 @@ linters:
     enabled: false
 
   DisableLinterReason:
-    enabled: false
+    enabled: true
 
   DuplicateProperty:
-    enabled: false
+    enabled: true
 
   ElsePlacement:
     enabled: false
@@ -48,7 +48,7 @@ linters:
     ignore_single_line_blocks: true
 
   EmptyRule:
-    enabled: false
+    enabled: true
 
   ExtendDirective:
     enabled: false
@@ -72,21 +72,21 @@ linters:
     enabled: true
 
   ImportantRule:
-    enabled: false
+    enabled: true
 
   ImportPath:
-    enabled: false
+    enabled: true
     leading_underscore: false
     filename_extension: false
 
   Indentation:
-    enabled: false
+    enabled: true
     allow_non_nested_indentation: false
     character: space # or 'tab'
     width: 2
 
   LeadingZero:
-    enabled: false
+    enabled: true
     style: exclude_zero # or 'include_zero'
 
   MergeableSelector:
@@ -99,7 +99,7 @@ linters:
     convention: hyphenated_lowercase # or 'camel_case', or 'snake_case', or a regex pattern
 
   NestingDepth:
-    enabled: false
+    enabled: true
     max_depth: 3
     ignore_parent_selectors: false
 
@@ -122,7 +122,7 @@ linters:
     separate_groups: false
 
   PropertySpelling:
-    enabled: false
+    enabled: true
     extra_properties: []
     disabled_properties: []
 
@@ -149,7 +149,7 @@ linters:
     allow_element_with_id: false
 
   SelectorDepth:
-    enabled: false
+    enabled: true
     max_depth: 3
 
   SelectorFormat:
@@ -157,7 +157,7 @@ linters:
     convention: hyphenated_lowercase # or 'strict_BEM', or 'hyphenated_BEM', or 'snake_case', or 'camel_case', or a regex pattern
 
   Shorthand:
-    enabled: false
+    enabled: true
     allowed_shorthands: [1, 2, 3]
 
   SingleLinePerProperty:
