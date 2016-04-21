@@ -228,7 +228,7 @@ end
 # rake lint
 desc "Markdown Lint"
 task :markdown_lint do
-  sh "bundle exec mdl -c ./.mdlrc"
+  sh "bundle exec mdl ./ -c ./.mdlrc"
 end
 
 desc "All lints"
