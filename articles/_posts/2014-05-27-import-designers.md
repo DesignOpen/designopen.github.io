@@ -160,6 +160,6 @@ A lay person is *anyone who doesn’t already work on your project,* even if the
 
 For non-programmers in particular, once you’ve successfully accepted a contribution from one non-programmer, you’ve successfully accepted a contribution from one non-programmer. Just as programmers prefer particular languages and tools, designers, writers and others will all have their own, unique workflows. And, just as you can’t always support every developer’s preferences, it will take time before you determine what is best for both potential contributors and your project.
 
------
+---
 
-*Thanks to Garth Braithwaite, Eileen Webb, Benjamin Jackson, Nick Disabato, and Jason Rutherford for their feedback.*
+Thanks to Garth Braithwaite, Eileen Webb, Benjamin Jackson, Nick Disabato, and Jason Rutherford for their feedback.

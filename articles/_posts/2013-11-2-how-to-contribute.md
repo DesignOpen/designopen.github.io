@@ -8,15 +8,19 @@ date: '2013-11-2 02:10:02'
 excerpt: Step by step instructions for contributing to a Jekyll Blog.
 ---
 ## Installing dependencies
+
 The [opendesign.foundation](http://opendesign.foundation) website is on GitHub pages, which runs atop of [Jekyll](http://jekyllrb.com). Lets install it so we can get this cloned and running locally.
 
 ### Installing Ruby
+
 - Follow the guide over at [InstallRails](http://installrails.com/) to get rails installed on your machine.  Technically this guide will step you through installing Ruby and Rails, but all you really need for Jekyll is Ruby.
 
 #### First time user?
+
   If you are working on Windows, you might need to install update packages beforehand. Be sure to check out the [SSL upgrades on rubygems.org and RubyInstaller versions](https://gist.github.com/luislavena/f064211759ee0f806c88#installing-using-update-packages-new) if you run into trouble.
 
 ### Installing Git:
+
 - Download the installer for your system on the [git-scm website](http://git-scm.com/downloads).
 
 ### Installing Jekyll:
@@ -26,6 +30,7 @@ The [opendesign.foundation](http://opendesign.foundation) website is on GitHub p
 3. After installation, type `jekyll --version` and hit enter. It should spit out the current version of Jekyll, which at the time of writing this is `jekyll 1.0.1`. At this point, you're ready to clone the repo!
 
 ## Setting up your Fork
+
 Now that we're running Jekyll locally, we need to get a copy of the site onto our own account so it's safe to make modifications to it without affecting the main repo.
 
 1. Browse on over to the [GitHub Repo](https://github.com/DesignOpen/designopen.github.io), and click on the "Fork" button at the top right of the page.
@@ -37,6 +42,7 @@ Now that we're running Jekyll locally, we need to get a copy of the site onto ou
 7. From here you can simply run `jekyll serve`, then browse to [http://localhost:4000](http://localhost:4000), and you should see the opendesign.foundation site running locally on your computer.
 
 ### Getting changes from Upstream
+
 Now that you're running a copy of the site on your computer, you want to make sure that you're always getting the latest and greatest version of the site right? Of course you do. When a contributor publishes an article, makes a design change, moves files, & so on, you want to be able to apply these updates without having to completely remove everything you've done and start over.
 
 1. Browse to the directory that you cloned the repo in. In this case it's `~/Documents/Projects/opendesign.foundation`
@@ -46,5 +52,6 @@ Now that you're running a copy of the site on your computer, you want to make su
 5. Type in `git merge upstream/master`. You've got a perfect clone of what is online at opendesign.foundation!
 
 ### The Final bits
-- When developing locally, you have to edit the URL in `_config.yml` from http://opendesign.foundation to http://localhost:4000. If you don't do this, all the links you click will put you on the live site instead of the version you have on your computer.
+
+- When developing locally, you have to edit the URL in `_config.yml` from <http://opendesign.foundation> to `http://localhost:4000`. If you don't do this, all the links you click will put you on the live site instead of the version you have on your computer.
 - If you're making changes to the site locally, and your changes aren't showing up, run jekyll with the watch flag `jekyll serve --watch`. Now you don't have to kill Jekyll every time you make a modification.

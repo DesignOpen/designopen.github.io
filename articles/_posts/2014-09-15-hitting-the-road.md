@@ -13,7 +13,8 @@ If you are headed to these conferences come out to my session (RSVP for the MAX 
 If there is a conference or meetup you'd like us to speak at, let us know by commenting on [this issue](https://github.com/designopen/designopen.github.io/issues/29) or reach out to me on [twitter](http://twitter.com/garthdb).
 
 ## Collaborative Design in the Open
-**[Adobe MAX](https://www.adobe-max.com/connect/sessionDetail.ww?SESSION_ID=2708) - Los Angeles, CA - Oct 7th**
+
+### [Adobe MAX](https://www.adobe-max.com/connect/sessionDetail.ww?SESSION_ID=2708) - Los Angeles, CA - Oct 7th
 
 <img alt="Adobe MAX" src="https://d13yacurqjgara.cloudfront.net/users/11525/screenshots/1714296/max.png" style="max-width: 400px; width: 100%; height: auto;"/>
 
@@ -22,7 +23,8 @@ It's gonna be an early morning, so I'm bringing donuts for those who [RSVP](http
 ---
 
 ## Designers can Open Source
-**[ConvergeRVA](http://convergerva.com/speakers.php#garth-braithwaite) - Richmond, VA - Oct 10th**
+
+### [ConvergeRVA](http://convergerva.com/speakers.php#garth-braithwaite) - Richmond, VA - Oct 10th
 
 <img alt="Adobe MAX" src="https://d13yacurqjgara.cloudfront.net/users/11525/screenshots/1714298/convergerva.png" style="max-width: 400px; width: 100%; height: auto;"/>
 
@@ -31,7 +33,8 @@ ConvergeRVA is a smaller converge, but it has a great lineup, [go buy a ticket](
 ---
 
 ## Open Source Needs Design
-**[All Things Open](http://allthingsopen.org/speakers/garth-braithwaite/) - Raleigh, NC - Oct 22-23th**
+
+### [All Things Open](http://allthingsopen.org/speakers/garth-braithwaite/) - Raleigh, NC - Oct 22-23th
 
 <img alt="Adobe MAX" src="https://d13yacurqjgara.cloudfront.net/users/11525/screenshots/1721840/all-things-open.png" style="max-width: 400px; width: 100%; height: auto;"/>
 

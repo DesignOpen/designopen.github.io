@@ -12,7 +12,6 @@ require 'guard'
 
 # Set "rake watch" as default task
 task :default => :watch
-task :lint => :scss_lint
 
 # Load the configuration file
 CONFIG = YAML.load_file("_config.yml")
@@ -221,13 +220,25 @@ task :html_proofer do
 end
 
 
-# rake lint
+# rake scss_lint
 desc "Lint SCSS"
 SCSSLint::RakeTask.new do |t|
 end
 
+# rake lint
+desc "Markdown Lint"
+task :markdown_lint do
+  sh "bundle exec mdl ./ -r ~MD002,~MD013,~MD026,~MD028,~MD029,~MD033,~MD034"
+end
+
+desc "All lints"
+task :lint do
+  Rake::Task["markdown_lint"].invoke
+  Rake::Task["scss_lint"].invoke
+end
+
 desc "Run HTML Proofer and Lint Tasks"
 task :test do
-  Rake::Task["html_proofer"].invoke
   Rake::Task["lint"].invoke
+  Rake::Task["html_proofer"].invoke
 end
