@@ -96,8 +96,8 @@ article ul {
 article ul li { margin: 0 0 .5rem;
 
   &:before {
-    color: rgb(49,107,158);
-    content: "\25ca";
+    color: rgb(49, 107, 158);
+    content: '\25ca';
     display: inline-block;
     margin: 0 .2rem 0 -1rem;
   }
@@ -114,8 +114,8 @@ article ol li {
   margin: 0 0 .5rem;
 
   &:before {
-    color: rgb(49,107,158);
-    content: counter(o) ".";
+    color: rgb(49, 107, 158);
+    content: counter(o) '.';
     display: inline-block;
     margin: 0 .2rem 0 -1rem;
   }
@@ -132,12 +132,9 @@ article ol li {
   margin: 0 0 .5rem;
 
   &:before {
-    color: rgb(49,107,158);
-    content: counter(o) ".";
+    color: rgb(49, 107, 158);
+    content: counter(o) '.';
     display: inline-block;
     margin: 0 .2rem 0 -1rem;
   }
 }
-
-
-

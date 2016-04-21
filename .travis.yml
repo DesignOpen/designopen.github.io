@@ -3,7 +3,6 @@ rvm:
 - 2.1
 script:
   - bundle exec rake test
-  - bundle exec rake lint
 sudo: false
 env:
   global:

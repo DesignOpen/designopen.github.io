@@ -15,7 +15,7 @@ body {
   position: relative;
 }
 
-:not(p)>a{ color: rgb(49,107,158);
+:not(p)>a{ color: rgb(49, 107, 158);
 
   &:hover,
   a:focus { text-decoration: underline; }

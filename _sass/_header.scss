@@ -25,7 +25,8 @@
       background: transparent;
       color: #f5f58f;
 
-      path{ fill: currentColor; }
+      // Simplest way to change property of a sub node on focus/hover
+      path{ fill: currentColor; }// scss-lint:disable NestingDepth
     }
   }
 
@@ -64,7 +65,7 @@
 
   h1 {
     font-size: 2rem;
-    margin-top: 0.5rem;
+    margin-top: .5rem;
   }
 
   @media (min-width: 800px) { height: 20rem; }
