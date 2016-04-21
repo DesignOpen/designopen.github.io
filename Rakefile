@@ -228,7 +228,7 @@ end
 # rake lint
 desc "Markdown Lint"
 task :markdown_lint do
-  sh "bundle exec mdl ./ -r ~MD002,~MD013,~MD034,~MD033,~MD029,~MD026,~MD028"
+  sh "bundle exec mdl -c ./.mdlrc"
 end
 
 desc "All lints"
@@ -239,6 +239,6 @@ end
 
 desc "Run HTML Proofer and Lint Tasks"
 task :test do
-  Rake::Task["html_proofer"].invoke
   Rake::Task["lint"].invoke
+  Rake::Task["html_proofer"].invoke
 end
