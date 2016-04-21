@@ -23,4 +23,8 @@ guard :shell, :cli => "-c" do
   watch /.scss-lint.yml|_sass\/.*/ do |m|
     system('bundle exec rake scss_lint')
   end
+  system('bundle exec rake markdown_lint')
+  watch /.*\.(?!(md|markdown)$)|Rakefile/ do |m|
+    system('bundle exec rake markdown_lint')
+  end
 end

@@ -33,7 +33,6 @@ A list of requirements was drawn up for the default design of the site:
 - The site should be responsive and device agnostic.
 - The CSS of the styles should be simply written, to encourage collaboration.
 
-
 This current iteration meets all of those requirements, but in the spirit of Open Source, we believe it can be better still.
 
 ## Moving forward

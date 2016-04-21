@@ -1,6 +1,6 @@
-# Welcome
+# Welcome to The Open Design Foundation
 
-Thanks for wanting to contribute to [Open Design](http://opendesign.foundation). This is not the typical open source project— we do need code contributions, but we are also looking for UX Design, UI Design, Information Architecture, and Content Strategy contributions. More than anything, we want to help more people recognize the benefits of collaborating in the open. We recognize there are barriers to entry for these less common open source contributors, so in addition to working with experienced contributors, we want to help people with their first contributions and [pull requests](https://help.github.com/articles/using-pull-requests/). If at any point you have any questions, or need some help, please don't hesitate to contact us.
+Thanks for wanting to contribute to [The Open Design Foundation](http://opendesign.foundation). This is not the typical open source project— we do need code contributions, but we are also looking for UX Design, UI Design, Information Architecture, and Content Strategy contributions. More than anything, we want to help more people recognize the benefits of collaborating in the open. We recognize there are barriers to entry for these less common open source contributors, so in addition to working with experienced contributors, we want to help people with their first contributions and [pull requests](https://help.github.com/articles/using-pull-requests/). If at any point you have any questions, or need some help, please don't hesitate to contact us.
 
 ## How to Contact Us
 
@@ -26,13 +26,13 @@ If you want to start on a big feature, consider breaking it up into smaller GitH
 
 Let us know when you're done and post something about the final version in the issue. Close the issue, if you can, or ask a core contributor to close it out.
 
-# Code Contributions (or any pull request)
+## Code Contributions (or any pull request)
 
 The easiest way to contribute is to fork the repo to your personal account, and finish with a [pull requests](https://help.github.com/articles/using-pull-requests/). Feel free to check in along the way, before the pull request. If you're going to make a couple contributions we're happy to give you commit access to the repo. In our contributor team we work on branches for each feature/issues and make pull requests to master; branches are easier for collaboration than forks. We like to have all contributions reviewed by a core contributor before being accepted; no one should commit directly to `master` nor accept their own pull request.
 
 We try to have automated tests on all our projects. Before making a pull request, verify that your tests are passing locally first. For the [main project](https://github.com/DesignOpen/designopen.github.io) you run the tests locally by running the command `$ bundle exec rake test` in the project. If you've hit an issues with the tests, let us know.
 
-# Design Contributions
+## Design Contributions
 
 There isn't a perfect way to contribute design. We are not exclusive on file format or design tool. Work with whatever you want. We've found success using [Pixelapse](https://www.pixelapse.com/GarthDB/projects/designopen/) for collaborating; we can add you to the project if that helps. If you prefer something else, we are open. Whatever you do, post screenshots and ideas often.
 
@@ -40,7 +40,7 @@ A good place to start designing (low hanging fruit), is to make a custom design 
 
 If you have more big picture ideas, get us in the loop early and we can talk it out.
 
-# Content Contributions
+## Content Contributions
 
 To be honest, we don't have a great collaborative workflow for writing articles/content. We have used [Google Docs](https://www.google.com/docs/about/), [Draft](https://draftin.com/), etc. but we aren't fully committed to any one solution.
 
@@ -50,7 +50,7 @@ Like any other contribution, every article is reviewed/edited by a core contribu
 
 Ultimately the article will be formatted using [markdown](http://daringfireball.net/projects/markdown/syntax), so it's the preferred format, but we'll accept anything we can convert.
 
-# Final Thoughts
+## Final Thoughts
 
 We love you for wanting to help out. Use Open Design as an excuse to try something new and add some new skills and tools to your toolbelt.
 

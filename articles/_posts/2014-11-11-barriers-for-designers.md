@@ -3,7 +3,7 @@ title: "The Intimidation Barrier"
 layout: post
 category: articles
 author: una
-tags: 
+tags:
 excerpt: At SassConf this year, there was a lot of talk about why designers don't contribute to open source, and how we can start to influence change.
 ---
 
@@ -12,6 +12,7 @@ The open source development community is a wonderful place where multiple eyes a
 Increasingly, more and more resources are becoming open sourced, including books, demos and tutorials. Education is increasingly accesible, and thus, the overall code standard of the web improves. It's a huge win. But the next step will be adding designers into this mix.
 
 ## Developers + Designers = Winners
+
 I've gone to a lot of hackathons in my time and find that the teams which incorporate both developers and designers really tend to stand out. They produce products that are not only technically unique, but also have much more user-friendly interfaces and product flows. When designers [get](https://www.youtube.com/watch?v=TkpjDOlB17E) [involved](http://beautifulopen.com), they bring in a new perspective with new priroties. It's pretty clear that developers and designers both have different strengths and weaknesses, so why not combine the strengths?
 
 > Right now, the open source world isn't very designer-friendly.
