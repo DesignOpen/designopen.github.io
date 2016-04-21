@@ -19,7 +19,8 @@
 #   watch(%r{file/path}) { `command(s)` }
 #
 guard :shell, :cli => "-c" do
-  watch '.scss-lint.yml' do |m|
+  system('bundle exec rake scss_lint')
+  watch /.scss-lint.yml|_sass\/.*/ do |m|
     system('bundle exec rake scss_lint')
   end
 end

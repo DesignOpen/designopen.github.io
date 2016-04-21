@@ -94,7 +94,7 @@ linters:
     force_nesting: true
 
   NameFormat:
-    enabled: false
+    enabled: true
     allow_leading_underscore: true
     convention: hyphenated_lowercase # or 'camel_case', or 'snake_case', or a regex pattern
 
@@ -161,14 +161,14 @@ linters:
     allowed_shorthands: [1, 2, 3]
 
   SingleLinePerProperty:
-    enabled: false
+    enabled: true
     allow_single_line_rule_sets: true
 
   SingleLinePerSelector:
     enabled: false
 
   SpaceAfterComma:
-    enabled: false
+    enabled: true
     style: one_space # or 'no_space', or 'at_least_one_space'
 
   SpaceAfterPropertyColon:
@@ -199,32 +199,32 @@ linters:
     spaces: 0
 
   StringQuotes:
-    enabled: false
+    enabled: true
     style: single_quotes # or double_quotes
 
   TrailingSemicolon:
-    enabled: false
+    enabled: true
 
   TrailingWhitespace:
     enabled: false
 
   TrailingZero:
-    enabled: false
+    enabled: true
 
   TransitionAll:
     enabled: false
 
   UnnecessaryMantissa:
-    enabled: false
+    enabled: true
 
   UnnecessaryParentReference:
-    enabled: false
+    enabled: true
 
   UrlFormat:
-    enabled: false
+    enabled: true
 
   UrlQuotes:
-    enabled: false
+    enabled: true
 
   VariableForProperty:
     enabled: false
@@ -237,7 +237,7 @@ linters:
     excluded_identifiers: []
 
   ZeroUnit:
-    enabled: false
+    enabled: true
 
   Compass::*:
     enabled: false

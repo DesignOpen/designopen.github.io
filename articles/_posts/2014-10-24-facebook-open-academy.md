@@ -20,11 +20,11 @@ I'm pleased to introduce [David Wei](http://www.linkedin.com/pub/david-yuxuan-we
 </div>
 <div class="guys">
     <img src="/img/fboa-guy2.jpg" width="200" height="200" alt="Kevin Ngo"/>
-    <a href="https://www.linkedin.com/in/ngovkevin"><h3>Kevin Ngo</h3></a>
+    <a href="https://www.linkedin.com/in/ngovkevin" data-proofer-ignore><h3>Kevin Ngo</h3></a>
 </div>
 <div class="guys">
     <img src="/img/fboa-guy3.jpg" width="200" height="200" alt="David Wei"/>
-    <a href="http://www.linkedin.com/pub/david-yuxuan-wei/95/488/77/"><h3>David Wei</h3></a>
+    <a href="http://www.linkedin.com/pub/david-yuxuan-wei/95/488/77/" data-proofer-ignore><h3>David Wei</h3></a>
 </div>
 <div class="clear"></div>
 <div class="guys">
@@ -33,7 +33,7 @@ I'm pleased to introduce [David Wei](http://www.linkedin.com/pub/david-yuxuan-we
 </div>
 <div class="guys">
     <img src="/img/fboa-guy5.jpg" width="200" height="200" alt="Sacha Best"/>
-    <a href="http://linkedin.com/in/sachabest"><h3>Sacha Best</h3></a>
+    <a href="http://linkedin.com/in/sachabest" data-proofer-ignore><h3>Sacha Best</h3></a>
 </div>
 <div class="guys">
     <img src="/img/fboa-guy6.jpg" width="200" height="200" alt="Becca Hallac"/>
