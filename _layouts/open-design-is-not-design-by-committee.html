@@ -11,16 +11,25 @@ layout: compress
   <link rel="shortcut icon" href="/favicon.ico">
   <style>
     @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
-    #sitebar{background:#000;padding-top:5px;height:36px;text-align:center;-moz-box-sizing:border-box;box-sizing:border-box;position:fixed;width:100%;top:0;z-index:10;}
-    #sitebar a:hover{background:transparent;}
-    #sitebar a:hover path{fill:#f5f58f}
-    *{
+    {% capture include_to_scssify %}{% include header.scss %}{% endcapture %}
+    {{ include_to_scssify | scssify }}
+
+    * {
       border:0;
       outline:0;
       padding:0;
       margin:0;
       box-sizing: border-box;
       font-family: "Open Sans", sans-serif;
+    }
+
+    a {
+      text-decoration: none;
+      color: #924e1f;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
 
     section{
@@ -31,23 +40,19 @@ layout: compress
       line-height: 180%;
     }
 
-    h2{
+    h2 {
       padding-top: 1rem;
     }
 
-    p{
+    p {
       padding-bottom:1rem;
     }
 
-    a{
-      color:#5000B4;
-    }
-
-    ol{
+    ol {
       margin-left:2rem;
     }
 
-    blockquote{
+    blockquote {
       font-size: 240%;
       font-style: italic;
       line-height: 130%;
@@ -59,7 +64,7 @@ layout: compress
        top: -0.4rem;
     }
 
-    sup a{
+    sup a {
       font-family: "Courier New", serif;
       text-decoration: none;
       font-weight: bold;
@@ -132,10 +137,7 @@ layout: compress
   <body itemscope itemtype="http://schema.org/WebPage">
     <meta itemscope itemprop="url" content="{{ site.url }}{{ page.url }}">
     {% if page.title %}<meta itemscope itemprop="name" content="{{ page.title }}">{% endif %}
-    <div id="sitebar"><a href="/">
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="25px" height="25px" viewBox="0 0 25 25" xml:space="preserve">
-          <path fill="#FFF" d="M12.5,10.521c-1.093,0-1.979,0.886-1.979,1.979c0,0.953,0.673,1.747,1.57,1.936V24.99C12.227,24.994,12.363,25,12.5,25 s0.273-0.006,0.409-0.01V14.436c0.896-0.189,1.57-0.984,1.57-1.936C14.479,11.407,13.593,10.521,12.5,10.521z M25,12.5 C25,5.596,19.403,0,12.5,0S0,5.596,0,12.5c0,6.489,4.944,11.821,11.271,12.439l0,0l0-0.002l0,0 c-0.031-5.08-3.094-9.005-4.364-10.415v0c0,0-0.522-0.626-0.226-1.376l2.314-5.869c0,0,0.428-1.085,1.379-1.085H12.5h2.127 c0.951,0,1.379,1.085,1.379,1.085l2.314,5.869c0.296,0.75-0.226,1.376-0.226,1.376v0c-1.271,1.411-4.333,5.335-4.364,10.415l0,0.002 C20.056,24.321,25,18.989,25,12.5z"></path>
-        </svg></a></div>
+    {% include global-header.html %}
     <div id="site">
       <div id="image">
         <svg xmlns="http://www.w3.org/2000/svg" width="216" height="216" viewBox="0 0 216 216" preserveAspectRatio="none">
@@ -150,17 +152,11 @@ layout: compress
         <section itemprop="articleBody">
           {{ content }}
         </section>
-        <div id="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          {% assign author = site.authors[page.author] %}
-          <header>About the author</header>
-          <section>
-            <div id="avatar"><a href="{{author.web}}"><img itemprop="image" src="http://www.gravatar.com/avatar/{{author.gravatar}}?s=160.jpg" alt="{{author.display_name}}" width="80" height="80"></a></div>
-            <h3><a href="{{author.web}}" itemprop="url"><span itemprop="name">{{author.display_name}}</span></a></h3>
-            <p class="author_bio">{{author.bio}}</p>
-          </section>
-        </div>
-        {% include post_footer.html %}
-        {% include comments.html %}
+        <section>
+          {% include author.html %}
+          {% include post-footer-nav.html %}
+          {% include comments.html %}
+        </section>
       </article>
     </div>
     <footer></footer>

@@ -1,5 +1,5 @@
 ---
-url: "/categories.js"
+permalink: /categories.js
 ---
 functionCall(
 [{% for categ in site.resourceCategories %}

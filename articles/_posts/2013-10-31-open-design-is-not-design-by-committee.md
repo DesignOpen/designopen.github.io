@@ -14,7 +14,7 @@ For those who are unfamiliar with the term Design By Committee, it is a special 
 
 ## Misunderstanding of the Term Open Source
 
-I think some designers have the mistaken idea that open source projects are lawless anarchies, where random contributors haphazardly throw bits and pieces together; forming a version of Frankenstein's monster that hopefully can perform basic tasks. In reality a healthy open source project needs to have an owner, or small group of owners[^1], with a strong sense of where the project is heading. With a core team in place, outside contributors can file issues, submit contributions, and just complain about things they don't like. The core team of owners can then accept or reject the contributions from the community (hopefully in a way that encourages growth and future contributions).
+I think some designers have the mistaken idea that open source projects are lawless anarchies, where random contributors haphazardly throw bits and pieces together; forming a version of Frankenstein's monster that hopefully can perform basic tasks. In reality a healthy open source project needs to have an owner, or small group of owners[^footnote], with a strong sense of where the project is heading. With a core team in place, outside contributors can file issues, submit contributions, and just complain about things they don't like. The core team of owners can then accept or reject the contributions from the community (hopefully in a way that encourages growth and future contributions).
 
 > Instead of being an expert consultant, the designer becomes the tool of the committee members who often have very little design experience
 
@@ -38,4 +38,4 @@ It can happen. As ideas collide in a discussion, it is possible that contributor
 
 When implemented correctly, the Open Source workflow benefits all parties involved. Contributors get a chance to collaborate with designers in a more autonomous capacity than most work environments allow, and still receive feedback and encouragement from the project owners. The owners get outside opinions to challenge their assumptions and sometimes they get fantastic contributions worth all the hassle. Most importantly, all the designers involved have the privilege of improving the design community and building something they care about.
 
-[^1]:Eric S. Raymond has an [excellent article](http://catb.org/esr/writings/homesteading/homesteading/ar01s04.html) on the subject of Open Source Ownership.
+[^footnote]: Eric S. Raymond has an [excellent article](http://catb.org/esr/writings/homesteading/homesteading/ar01s04.html) on the subject of Open Source Ownership.

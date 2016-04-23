@@ -1,0 +1,6 @@
+{% assign author = site.data.authors[page.author] %}
+<div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <a href="{{author.web}}"><img itemprop="image" src="http://www.gravatar.com/avatar/{{author.gravatar}}" alt="{{author.display_name}}" width="30" height="30"></a>
+  <h3>About the author: <a href="{{site.authors[page.author].web}}" itemprop="url"><span itemprop="name">{{author.display_name}}</span></a></h3>
+  <p class="author_bio">{{author.bio}}</p>
+</div>
