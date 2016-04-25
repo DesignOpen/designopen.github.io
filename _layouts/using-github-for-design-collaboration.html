@@ -26,8 +26,8 @@ h1{font-style:italic}
 #author section{-moz-box-sizing:border-box;border-box:box-sizing;padding:0 0 0 95px;position:relative}
 #author h3{margin:15px 0 2px 0}
 #author p{margin-top:0}
-#avatar{position:absolute;left:0;top:0;}
-#avatar a:hover{background:transparent;}
+#avatar {position:absolute;left:0;top:0;}
+#avatar a:hover {background:transparent;}
 #avatar a:hover img{box-shadow:0 0 0 5px #f5f58f}
 #avatar img{border-radius:40px;box-shadow:0 0 0 5px #fff}
 @media screen and (max-width: 700px){#image{width:100%;height:0;padding-bottom:62%;position:relative;}
@@ -78,7 +78,7 @@ h2{font-size:72px;line-height:72px;margin-bottom:30px}
           {{ content }}
         </section>
         <div id="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          {% assign author = site.authors[page.author] %}
+          {% assign author = site.data.authors[page.author] %}
           <header>About the author</header>
           <section>
             <div id="avatar"><a href="{{author.web}}"><img itemprop="image" src="http://www.gravatar.com/avatar/{{author.gravatar}}?s=160.jpg" alt="{{author.display_name}}" width="80" height="80"></a></div>
@@ -86,7 +86,7 @@ h2{font-size:72px;line-height:72px;margin-bottom:30px}
             <p class="author_bio">{{author.bio}}</p>
           </section>
         </div>
-        {% include post-footer.html %}
+        {% include post-footer-nav.html %}
         {% include comments.html %}
       </article>
     </div>

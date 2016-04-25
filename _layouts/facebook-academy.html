@@ -42,7 +42,7 @@ padding-top:20px;
     <div id="content">
       <article itemscope itemtype="http://schema.org/BlogPosting" class="post">
           <meta itemprop="description" content="{{ page.excerpt | strip_html}}">
-          {% assign author = site.authors[page.author] %}
+          {% assign author = site.data.authors[page.author] %}
           <div id="banner"><img src="/img/fboa_banner_v2.png" width="100%" height="auto" alt="Facebook Open Academy"/></div>
       <header class="article-header">
           <h1 itemprop="name">{{ page.title }}</h1>

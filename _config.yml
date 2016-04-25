@@ -7,7 +7,6 @@ excerpt_separator: <!--more-->
 markdown: kramdown
 gems:
   - jekyll-sitemap
-  - jekyll-feed
 exclude:
   - vendor
   - Gemfile
