@@ -1,7 +1,6 @@
 ---
 title:
 layout: post
-category: articles
 author:
 editor:
 priority:

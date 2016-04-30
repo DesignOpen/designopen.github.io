@@ -1,10 +1,12 @@
 ---
 title: "Designers Can Open Source Session Video"
 layout: post
-category: articles
 author: garthdb
 date: '2014-01-17 06:15:00'
-tags: video, conference, session
+tags:
+  - video
+  - conference
+  - session
 excerpt: A session given on open source design given at Blend Conf 2013.
 ---
 

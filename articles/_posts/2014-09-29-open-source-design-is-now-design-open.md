@@ -5,7 +5,10 @@ author: garthdb
 editor: mrondina
 priority: 0.9
 excerpt: Open Source Design has been renamed to Design Open, let's talk about why.
-tags: annoucement featured news
+tags:
+  - announcement
+  - featured
+  - news
 ---
 **Update:** Design Open has been renamed again to the Open Design Foundation.
 

@@ -1,8 +1,10 @@
 ---
 title: "How to get designers (or anyone) to work on your open source project"
 layout: post
-category: articles
-tags: news featured improvement
+tags:
+  - news
+  - featured
+  - improvement
 author: vitorio
 date: '2014-05-27 21:33:00'
 excerpt: Vitorio gives a breakdown of how open source project maintainers can attract and work with designers, or any non developers.

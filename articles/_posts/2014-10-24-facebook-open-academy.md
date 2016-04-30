@@ -1,7 +1,6 @@
 ---
 title: "Facebook Open Academy"
 layout: facebook-academy
-category: articles
 author: garthdb
 priority: 0.9
 tags: featured

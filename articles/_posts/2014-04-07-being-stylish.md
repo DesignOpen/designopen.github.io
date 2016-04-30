@@ -1,7 +1,6 @@
 ---
 title: "Styling Open Source"
 layout: post
-category: articles
 tags: improvement
 author: terracomma
 date: '2014-04-07 10:16:00'

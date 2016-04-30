@@ -1,8 +1,9 @@
 ---
 title: "Using GitHub for Design Collaboration"
 layout: using-github-for-design-collaboration
-category: articles
-tags: GitHub collaboration
+tags:
+  - GitHub
+  - collaboration
 author: ttimsmith
 date: '2013-10-09 13:39:07'
 excerpt: GitHub ends up being a great tool for design collaboration.

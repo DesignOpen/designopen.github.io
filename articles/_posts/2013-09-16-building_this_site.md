@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Building this Site
-tags: design design update
+tags:
+  - design
+  - update
 author: garthdb
 priority: 0.9
 excerpt: The catalyst for this site was a number of conversations I've had with some smart designers and developers and my personal interest in Free and Open Source software (F/OSS). I think the design community could benefit from the lessons learned by F/OSS development.
