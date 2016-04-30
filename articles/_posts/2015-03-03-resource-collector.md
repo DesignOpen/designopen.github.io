@@ -1,7 +1,6 @@
 ---
 title: "Introducing Our New Resource Collector"
 layout: post
-category: articles
 author: jonlau
 editor: mrondina
 priority: 1

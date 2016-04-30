@@ -1,7 +1,6 @@
 ---
 title: "My Favorite Restaurant"
 layout: post
-category: articles
 author: terracomma
 priority: 0.9
 tags: featured

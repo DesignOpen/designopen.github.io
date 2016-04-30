@@ -1,7 +1,6 @@
 ---
 title: "Open Design is not Design by Committee"
 layout: open-design-is-not-design-by-committee
-category: articles
 tags: faq
 author: garthdb
 priority: 0.9
@@ -14,15 +13,15 @@ For those who are unfamiliar with the term Design By Committee, it is a special 
 
 ## Misunderstanding of the Term Open Source
 
-I think some designers have the mistaken idea that open source projects are lawless anarchies, where random contributors haphazardly throw bits and pieces together; forming a version of Frankenstein's monster that hopefully can perform basic tasks. In reality a healthy open source project needs to have an owner, or small group of owners[^1], with a strong sense of where the project is heading. With a core team in place, outside contributors can file issues, submit contributions, and just complain about things they don't like. The core team of owners can then accept or reject the contributions from the community (hopefully in a way that encourages growth and future contributions).
+I think some designers have the mistaken idea that open source projects are lawless anarchies, where random contributors haphazardly throw bits and pieces together; forming a version of Frankenstein's monster that hopefully can perform basic tasks. In reality a healthy open source project needs to have an owner, or small group of owners[^footnote], with a strong sense of where the project is heading. With a core team in place, outside contributors can file issues, submit contributions, and just complain about things they don't like. The core team of owners can then accept or reject the contributions from the community (hopefully in a way that encourages growth and future contributions).
 
 > Instead of being an expert consultant, the designer becomes the tool of the committee members who often have very little design experience
 
 ## Ownership is key
 
-The most important difference between Open Source Design and Design by Committee is this concept of ownership. In the context of Design by Committee, usually the designer is a contractor or agency hired by the committee, or underling that is far below the committee members on the org chart. This is the heart of the problem with designing by committee; instead of being an expert consultant, the designer becomes the tool of the committee members who often have very little design experience. It is not unlike giving a formula one racecar to someone without a driver's license; regardless of how well the car can perform, the result will most likely be unremarkable or even disastrous.
+The most important difference between The Open Design Foundation and Design by Committee is this concept of ownership. In the context of Design by Committee, usually the designer is a contractor or agency hired by the committee, or underling that is far below the committee members on the org chart. This is the heart of the problem with designing by committee; instead of being an expert consultant, the designer becomes the tool of the committee members who often have very little design experience. It is not unlike giving a formula one racecar to someone without a driver's license; regardless of how well the car can perform, the result will most likely be unremarkable or even disastrous.
 
-In the case of Open Source Design, not all contributors and community members are equal, but all involved should be designers. The owner of the project is the lead designer the majority of the time, and when contributions come in, switches to role of creative director. They should help to shape contributions to fit into the overall purpose of the project, or reject them outright with clear reasoning.
+In the case of The Open Design Foundation, not all contributors and community members are equal, but all involved should be designers. The owner of the project is the lead designer the majority of the time, and when contributions come in, switches to role of creative director. They should help to shape contributions to fit into the overall purpose of the project, or reject them outright with clear reasoning.
 
 ## That Sounds Like a Lot of Work
 
@@ -38,4 +37,4 @@ It can happen. As ideas collide in a discussion, it is possible that contributor
 
 When implemented correctly, the Open Source workflow benefits all parties involved. Contributors get a chance to collaborate with designers in a more autonomous capacity than most work environments allow, and still receive feedback and encouragement from the project owners. The owners get outside opinions to challenge their assumptions and sometimes they get fantastic contributions worth all the hassle. Most importantly, all the designers involved have the privilege of improving the design community and building something they care about.
 
-[^1]:Eric S. Raymond has an [excellent article](http://catb.org/esr/writings/homesteading/homesteading/ar01s04.html) on the subject of Open Source Ownership.
+[^footnote]: Eric S. Raymond has an [excellent article](http://catb.org/esr/writings/homesteading/homesteading/ar01s04.html) on the subject of Open Source Ownership.

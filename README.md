@@ -8,7 +8,7 @@ It is a work in progress for sure.  Right now we are working the kicking off the
 
 ## Contribute to the Discussion
 
-Join us in the [Open Source Design Gitter channel](https://gitter.im/DesignOpen/OpenSourceDesign) and make some comments in the [GitHub issues](https://github.com/DesignOpen/designopen.github.io/issues).
+Join us in the [The Open Design Foundation Gitter channel](https://gitter.im/DesignOpen/OpenSourceDesign) and make some comments in the [GitHub issues](https://github.com/DesignOpen/designopen.github.io/issues).
 
 We do have a [Slack Team](http://osd.slack.com), but is not going to be useful/interesting to everyone; it is where we do some initial thinking around ideas before the discussion gets serious. As soon as it does we move it to [GitHub issues](https://github.com/DesignOpen/designopen.github.io/issues) which is a better place for meaningful discussion.
 

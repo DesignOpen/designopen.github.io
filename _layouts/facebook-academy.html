@@ -7,7 +7,7 @@ layout: compress
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Open Source Design{% if page.title %} | {{ page.title }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}The Open Design Foundation</title>
     <link rel="shortcut icon" href="/favicon.ico">
     <style>
       .guys{
@@ -37,37 +37,24 @@ padding-top:20px;
     <![endif]-->
   </head>
   <body itemscope itemtype="http://schema.org/WebPage">
-      {% include head.html %}
-    <div id="globalheadplaceholder"></div>
-      <div id="globalhead">
-        <a href="/">
-            {% include logo.svg %}
-        </a>
-      </div>
-      <div id="content">
-        <article itemscope itemtype="http://schema.org/BlogPosting" class="post">
-            <meta itemprop="description" content="{{ page.excerpt | strip_html}}">
-            {% assign author = site.authors[page.author] %}
-            <div id="banner"><img src="/img/fboa_banner_v2.png" width="100%" height="auto" alt="Facebook Open Academy"/></div>
-        <header class="article-header">
-            <h1 itemprop="name">{{ page.title }}</h1>
-            <p>Published on <time itemprop="datePublished" datetime="{{page.date | date: "%Y-%m-%d" }}">{{page.date | date: "%b %e, %Y" }}</time></p>
-        </header>
-        <section itemprop="articleBody" class="article-body">
-            {{ content }}
-        </section>
-        <footer class="article-footer">
-            <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <a href="{{author.web}}"><img itemprop="image" src="http://www.gravatar.com/avatar/{{author.gravatar}}" alt="{{author.display_name}}" width="30" height="30"></a>
-            <h3>About the author: <a href="{{site.authors[page.author].web}}" itemprop="url"><span itemprop="name">{{author.display_name}}</span></a></h3>
-            <p class="author_bio">{{author.bio}}</p>
-            </div>
-            {% include post_footer.html %}
-            {% include comments.html %}
-        </footer>
-        <meta itemprop="url" content="{{ site.url }}{{ page.url }}">
-        </article>
-      </div>
+    {% include head.html %}
+    {% include global-header.html %}
+    <div id="content">
+      <article itemscope itemtype="http://schema.org/BlogPosting" class="post">
+          <meta itemprop="description" content="{{ page.excerpt | strip_html}}">
+          {% assign author = site.data.authors[page.author] %}
+          <div id="banner"><img src="/img/fboa_banner_v2.png" width="100%" height="auto" alt="Facebook Open Academy"/></div>
+      <header class="article-header">
+          <h1 itemprop="name">{{ page.title }}</h1>
+          <p>Published on <time itemprop="datePublished" datetime="{{page.date | date: "%Y-%m-%d" }}">{{page.date | date: "%b %e, %Y" }}</time></p>
+      </header>
+      <section itemprop="articleBody" class="article-body">
+          {{ content }}
+      </section>
+      {% include post-footer.html %}
+      <meta itemprop="url" content="{{ site.url }}{{ page.url }}">
+      </article>
+    </div>
   </body>
   {% include analytics.html %}
 </html>

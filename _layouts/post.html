@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-{% assign author = site.authors[page.author] %}
 <div id="content">
   <article itemscope itemtype="http://schema.org/BlogPosting" class="post">
     <meta itemprop="description" content="{{ page.excerpt | strip_html}}">
@@ -14,15 +13,7 @@ layout: default
     <section itemprop="articleBody" class="article-body">
       {{ content }}
     </section>
-    <footer class="article-footer">
-      <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <a href="{{author.web}}"><img itemprop="image" src="http://www.gravatar.com/avatar/{{author.gravatar}}" alt="{{author.display_name}}" width="30" height="30"></a>
-        <h3>About the author: <a href="{{site.authors[page.author].web}}" itemprop="url"><span itemprop="name">{{author.display_name}}</span></a></h3>
-        <p class="author_bio">{{author.bio}}</p>
-      </div>
-      {% include post_footer.html %}
-      {% include comments.html %}
-    </footer>
+    {% include post-footer.html %}
     <meta itemprop="url" content="{{ site.url }}{{ page.url }}">
   </article>
 </div>

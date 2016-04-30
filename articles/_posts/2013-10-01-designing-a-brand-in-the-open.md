@@ -1,8 +1,6 @@
 ---
 title: Designing a Brand in the Open
 layout: post
-category: articles
-tags:
 author: garthdb
 priority: 0.6
 excerpt: We have already started some open design discussion for this site in GitHub Issues (IA and UI).  This discussion will lead to some loose design prototypes in a new repo that the community can fork and contribute to, but for the project branding we've decided to try LayerVault and Creative Cloud. You do not need to sign up for an account on Creative Cloud to comment there.

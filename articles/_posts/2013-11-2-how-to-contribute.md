@@ -1,8 +1,9 @@
 ---
 title: "How To Contribute to a Jekyll Blog on Github"
 layout: post
-category: articles
-tags: GitHub collaboration
+tags:
+  - GitHub
+  - collaboration
 author: areus
 date: '2013-11-2 02:10:02'
 excerpt: Step by step instructions for contributing to a Jekyll Blog.

@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Articles
+permalink: articles/
 ---
 <ul class="bloglist">
   {% for post in site.categories.articles %}
-    {% assign author = site.authors[post.author] %}
+    {% assign author = site.data.authors[post.author] %}
     <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
       <h3 class="title" itemscope itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h3>
       <div class="meta">

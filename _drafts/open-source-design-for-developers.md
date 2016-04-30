@@ -1,7 +1,6 @@
 ---
 title: "Open Source Design for Developers"
 layout: post
-category: articles
 tags:
 ---
 In addition to pushing designers toward open collaboration, I've also begun speaking at open source development conferences with 2 goals in mind:

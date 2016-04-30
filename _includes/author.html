@@ -1,0 +1,14 @@
+{% assign author = site.data.authors[page.author] %}
+<div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <div clas="avatar">
+    <a href="{{author.web}}">
+      {% if avatar.width and avatar.height %}
+      <img itemprop="image" class= src="http://www.gravatar.com/avatar/{{author.gravatar}}" alt="{{author.display_name}}" width="{{ avatar.width }}" height="{{ avatar.height }}">
+      {% else %}
+      <img itemprop="image" class= src="http://www.gravatar.com/avatar/{{author.gravatar}}" alt="{{author.display_name}}" width="30" height="30">
+      {% endif %}
+    </a>
+  </div>
+  <h3>About the author: <a href="{{author.web}}" itemprop="url"><span itemprop="name">{{author.display_name}}</span></a></h3>
+  <p class="author_bio">{{author.bio}}</p>
+</div>

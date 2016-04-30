@@ -1,15 +1,16 @@
 ---
-title: "Open Source Design is now Design Open"
+title: "Open Source Design is now The Open Design Foundation"
 layout: post
 author: garthdb
 editor: mrondina
 priority: 0.9
-excerpt: Open Source Design has been renamed to Design Open, let's talk about why.
-tags: annoucement featured news
+excerpt: Open Source Design has been renamed to The Open Design Foundation, let's talk about why.
+tags:
+  - announcement
+  - featured
+  - news
 ---
-**Update:** Design Open has been renamed again to the Open Design Foundation.
-
-Thanks to some timely posts to our [GitHub issue on branding](https://github.com/DesignOpen/designopen.github.io/issues/33#issuecomment-56763448) we decided to rethink the name of this project. Originally I planned for the site to be a definitive guide on what open source design is, hence the original domain name, opensourcedesign.is, but that has become too limiting for the direction this project is heading. Instead we are moving to a call for action: *Design Open!*
+Thanks to some timely posts to our [GitHub issue on branding](https://github.com/DesignOpen/designopen.github.io/issues/33#issuecomment-56763448) we decided to rethink the name of this project. Originally I planned for the site to be a definitive guide on what open source design is, hence the original domain name, opensourcedesign.is, but that has become too limiting for the direction this project is heading.
 
 ## The Difference between Open Design and Open Source Design
 
@@ -23,4 +24,4 @@ The removal of the term open source from the name of this project does not signi
 
 ## The Call
 
-A while ago this site hit the front page of [Designer News](https://www.designernews.co/stories/8313-open-source-design-using-layervault) and the traffic spiked dramatically. It was wonderful to get the exposure, but ultimately I found it a little disappointing that it didn't lead to any significant, trackable increase in discussion. This is not merely a nice idea, it is a clarion call to shed our insecurities, pride, and paralyzing perfectionism; to dedicate effort to helping worthy causes; and to raise the quality of design and design education on the web. A call to design open.
+A while ago this site hit the front page of [Designer News](https://www.designernews.co/stories/8313-open-source-design-using-layervault) and the traffic spiked dramatically. It was wonderful to get the exposure, but ultimately I found it a little disappointing that it didn't lead to any significant, trackable increase in discussion. This is not merely a nice idea, it is a clarion call to shed our insecurities, pride, and paralyzing perfectionism; to dedicate effort to helping worthy causes; and to raise the quality of design and design education on the web. A call to be open in our design practices.

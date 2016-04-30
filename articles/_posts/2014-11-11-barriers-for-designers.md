@@ -1,9 +1,7 @@
 ---
 title: "The Intimidation Barrier"
 layout: post
-category: articles
 author: una
-tags:
 excerpt: At SassConf this year, there was a lot of talk about why designers don't contribute to open source, and how we can start to influence change.
 ---
 
