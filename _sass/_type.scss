@@ -57,11 +57,9 @@ p {
 
 // LINKS
 p > a {
-  transition: 300ms ease;
-
+  background: lighten(rgb(49, 107, 158), 53%);
   &:hover,
   &:focus {
-    background: lighten(rgb(49, 107, 158), 53%);
     border-bottom: 1px solid rgb(49, 107, 158);
     text-decoration: none;
   }
