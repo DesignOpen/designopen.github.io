@@ -57,11 +57,14 @@ p {
 
 // LINKS
 p > a {
-  // color: inherit;
-  // background: rgb(255, 255, 0);
+  transition: 300ms ease;
 
-  // &:hover,
-  // &:focus { border-bottom: 1px solid; }
+  &:hover,
+  &:focus {
+    background: lighten(rgb(49, 107, 158), 53%);
+    border-bottom: 1px solid rgb(49, 107, 158);
+    text-decoration: none;
+  }
 }
 
 a { text-decoration: none; }
