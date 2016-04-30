@@ -228,7 +228,7 @@ end
 # rake lint
 desc "Markdown Lint"
 task :markdown_lint do
-  sh "bundle exec mdl ./ -r ~MD002,~MD013,~MD026,~MD028,~MD029,~MD033,~MD034"
+  sh "bundle exec mdl ./ -r ~MD002,~MD013,~MD026,~MD028,~MD029,~MD032,~MD033,~MD034"
 end
 
 desc "All lints"
