@@ -7,6 +7,7 @@ excerpt_separator: <!--more-->
 markdown: kramdown
 gems:
   - jekyll-sitemap
+  - jekyll-feed
 exclude:
   - vendor
   - Gemfile
@@ -16,6 +17,7 @@ exclude:
   - README.md
   - CONTRIBUTING.md
   - LICENSE
+  - CNAME
 sass:
   sass_dir: _sass
   style: compressed

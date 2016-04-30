@@ -1,22 +1,25 @@
-una:
-  display_name: Una Kravets
-  gravatar: 732b3562b0496389b40e548918c38f98
-  email: una.kravets@gmail.com
-  web: http://unakravets.com/
-  twitter: una
-  github: una
-  bio: 'UI engineer <a href="http://do.co/welcome">DigitalOcean</a>. Community builder, technical writer, & cohost of <a href="http://toolsday.io">Toolsday</a>.'
 garthdb:
   display_name: Garth Braithwaite
   gravatar: b5cf6e112eeee572d722743dea924487
+  picture: http://gravatar.com/avatar/b5cf6e112eeee572d722743dea924487?s=200
   email: garthdb@gmail.com
   web: http://www.garthdb.com/
   twitter: garthdb
   github: garthdb
   bio: 'Product Designer? and Front End Developer on <a href="http://phonegap.com">PhoneGap</a> at <a href="http://adobe.com">Adobe</a>. <a href="http://opendesign.foundation">The Open Design Foundation</a> Founder.'
+una:
+  display_name: Una Kravets
+  gravatar: 732b3562b0496389b40e548918c38f98
+  picture: http://gravatar.com/avatar/b5cf6e112eeee572d722743dea924487?s=200
+  email: una.kravets@gmail.com
+  web: http://unakravets.com/
+  twitter: una
+  github: una
+  bio: 'UI engineer <a href="http://do.co/welcome">DigitalOcean</a>. Community builder, technical writer, & cohost of <a href="http://toolsday.io">Toolsday</a>.'
 ttimsmith:
   display_name: Tim Smith
   gravatar: febbffcb54abe1be1435720fc2268237
+  picture: http://gravatar.com/avatar/febbffcb54abe1be1435720fc2268237?s=200
   email: smith@ttimsmith.com
   web: http://theboldreport.net
   twitter: ttimsmith
@@ -25,6 +28,7 @@ ttimsmith:
 areus:
   display_name: Areus Wade
   gravatar: 3a88629dd9417c822b68af4af685b782
+  picture: http://gravatar.com/avatar/3a88629dd9417c822b68af4af685b782?s=200
   email: hi@areuswade.com
   web: http://areuswade.com
   twitter: areus
@@ -33,6 +37,7 @@ areus:
 terracomma:
   display_name: Christopher Moody
   gravatar: 80d7c270dfac1d947d2b3fd39bf70b6a
+  picture: http://gravatar.com/avatar/80d7c270dfac1d947d2b3fd39bf70b6a?s=200
   email: terracomma@gmail.com
   web: http://moody.coffee/
   twitter: terracomma
@@ -41,6 +46,7 @@ terracomma:
 vitorio:
   display_name: Vitorio Miliano
   gravatar: 1b2ea3fc983558c15216a609af35f709
+  picture: http://gravatar.com/avatar/1b2ea3fc983558c15216a609af35f709?s=200
   email: email_re_designers_opensource@vitor.io
   web: http://vitor.io
   twitter: vitor_io
@@ -49,6 +55,7 @@ vitorio:
 mrondina:
   display_name: Mark Rondina
   gravatar: 48f5bbc2752b434e2b6d0ec263da193e
+  picture: http://gravatar.com/avatar/48f5bbc2752b434e2b6d0ec263da193e?s=200
   email: mark@rondina.net
   web: http://www.markrondina.com/
   twitter: mrondina
@@ -57,6 +64,7 @@ mrondina:
 jonlau:
   display_name: Jonathan Lau
   gravatar: 0bed1d08d62923272cb9786f375edcc8
+  picture: http://gravatar.com/avatar/0bed1d08d62923272cb9786f375edcc8?s=200
   email: jon@jon.sg
   web: http://jon.sg
   github: lauweijie
