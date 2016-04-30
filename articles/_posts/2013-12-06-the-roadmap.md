@@ -57,7 +57,7 @@ If you need a place to start we have a running list of topics in the [github iss
 
 ## Designers Wanted
 
-This is a site about open source design, and has a definite lack of design going on here.  The easiest way to jump in is to comment in the [design discussions](https://github.com/designopen/designopen.github.io/issues?direction=desc&labels=design+discussion&page=1&sort=updated&state=open):
+This is a site about open design, and has a definite lack of design going on here.  The easiest way to jump in is to comment in the [design discussions](https://github.com/designopen/designopen.github.io/issues?direction=desc&labels=design+discussion&page=1&sort=updated&state=open):
 
 <ul id="design-discussions"></ul>
 
@@ -71,6 +71,6 @@ The idea is each post should be unique, so there is no style guide to follow; ma
 
 ## Resource Seekers Wanted
 
-Sorry, resource seeker sounds lame, but I couldn't think of a more elegant want to put it.  We have a running list of resources and examples of open source design.  Feel free to tweet [@designopen](http://www.twitter.com/designopen) if you have anything you'd like to add.
+Sorry, resource seeker sounds lame, but I couldn't think of a more elegant want to put it.  We have a running list of resources and examples of open design.  Feel free to tweet [@designopen](http://www.twitter.com/designopen) if you have anything you'd like to add.
 
 [^1]: Our IRC channel is #opensourcedesign on Freenode

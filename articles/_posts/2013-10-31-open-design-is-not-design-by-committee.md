@@ -19,9 +19,9 @@ I think some designers have the mistaken idea that open source projects are lawl
 
 ## Ownership is key
 
-The most important difference between Open Source Design and Design by Committee is this concept of ownership. In the context of Design by Committee, usually the designer is a contractor or agency hired by the committee, or underling that is far below the committee members on the org chart. This is the heart of the problem with designing by committee; instead of being an expert consultant, the designer becomes the tool of the committee members who often have very little design experience. It is not unlike giving a formula one racecar to someone without a driver's license; regardless of how well the car can perform, the result will most likely be unremarkable or even disastrous.
+The most important difference between The Open Design Foundation and Design by Committee is this concept of ownership. In the context of Design by Committee, usually the designer is a contractor or agency hired by the committee, or underling that is far below the committee members on the org chart. This is the heart of the problem with designing by committee; instead of being an expert consultant, the designer becomes the tool of the committee members who often have very little design experience. It is not unlike giving a formula one racecar to someone without a driver's license; regardless of how well the car can perform, the result will most likely be unremarkable or even disastrous.
 
-In the case of Open Source Design, not all contributors and community members are equal, but all involved should be designers. The owner of the project is the lead designer the majority of the time, and when contributions come in, switches to role of creative director. They should help to shape contributions to fit into the overall purpose of the project, or reject them outright with clear reasoning.
+In the case of The Open Design Foundation, not all contributors and community members are equal, but all involved should be designers. The owner of the project is the lead designer the majority of the time, and when contributions come in, switches to role of creative director. They should help to shape contributions to fit into the overall purpose of the project, or reject them outright with clear reasoning.
 
 ## That Sounds Like a Lot of Work
 
