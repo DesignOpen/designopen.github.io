@@ -3,9 +3,9 @@
   <div clas="avatar">
     <a href="{{author.web}}">
       {% if avatar.width and avatar.height %}
-      <img itemprop="image" class= src="http://www.gravatar.com/avatar/{{author.gravatar}}" alt="{{author.display_name}}" width="{{ avatar.width }}" height="{{ avatar.height }}">
+      <img itemprop="image" class="avatar__image" src="http://www.gravatar.com/avatar/{{author.gravatar}}" alt="{{author.display_name}}" width="{{ avatar.width }}" height="{{ avatar.height }}">
       {% else %}
-      <img itemprop="image" class= src="http://www.gravatar.com/avatar/{{author.gravatar}}" alt="{{author.display_name}}" width="30" height="30">
+      <img itemprop="image" class="avatar__image" src="http://www.gravatar.com/avatar/{{author.gravatar}}" alt="{{author.display_name}}" width="30" height="30">
       {% endif %}
     </a>
   </div>
