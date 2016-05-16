@@ -2,11 +2,12 @@
 <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <div clas="avatar">
     <a href="{{author.web}}">
-      {% if avatar.width and avatar.height %}
-      <img itemprop="image" class="avatar__image" src="http://www.gravatar.com/avatar/{{author.gravatar}}" alt="{{author.display_name}}" width="{{ avatar.width }}" height="{{ avatar.height }}">
+      {% if avatar.size %}
+        {% assign avatar_size = avatar.size %}
       {% else %}
-      <img itemprop="image" class="avatar__image" src="http://www.gravatar.com/avatar/{{author.gravatar}}" alt="{{author.display_name}}" width="30" height="30">
+        {% assign avatar_size = 80 %}
       {% endif %}
+      <img itemprop="image" class="avatar__image" src="http://www.gravatar.com/avatar/{{author.gravatar}}?s={{ avatar_size }}" alt="{{author.display_name}}" width="{{ avatar_size }}" height="{{ avatar_size }}">
     </a>
   </div>
   <h3>About the author: <a href="{{author.web}}" itemprop="url"><span itemprop="name">{{author.display_name}}</span></a></h3>
